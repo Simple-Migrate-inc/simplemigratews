@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-basic-elaboration-message-plus_svg"],{
+
+/***/ "./src/assets/svgs/linea-basic-elaboration-message-plus.svg":
+/*!******************************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-elaboration-message-plus.svg ***!
+  \******************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaBasicElaborationMessagePlus (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"32\",\"y1\":\"17\",\"x2\":\"32\",\"y2\":\"35\",\"key\":0}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"41\",\"y1\":\"26\",\"x2\":\"23\",\"y2\":\"26\",\"key\":1}),React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"32,47 63,47 63,5 1,5 1,47 18,47 18,59 \",\"key\":2})]);\n}\n\nLineaBasicElaborationMessagePlus.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicElaborationMessagePlus;\n\nLineaBasicElaborationMessagePlus.default = LineaBasicElaborationMessagePlus;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tbWVzc2FnZS1wbHVzLnN2Zy5qcyIsIm1hcHBpbmdzIjoiQUFBQSxZQUFZLG1CQUFPLENBQUMsNENBQU87O0FBRTNCO0FBQ0Esd0VBQXdFLDJIQUEySCw4QkFBOEIsMkhBQTJILGlDQUFpQyxxSUFBcUk7QUFDbGdCOztBQUVBLGlEQUFpRDs7QUFFakQ7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2Fzc2V0cy9zdmdzL2xpbmVhLWJhc2ljLWVsYWJvcmF0aW9uLW1lc3NhZ2UtcGx1cy5zdmc/Mjg0NyJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5mdW5jdGlvbiBMaW5lYUJhc2ljRWxhYm9yYXRpb25NZXNzYWdlUGx1cyAocHJvcHMpIHtcbiAgICByZXR1cm4gUmVhY3QuY3JlYXRlRWxlbWVudChcInN2Z1wiLHByb3BzLFtSZWFjdC5jcmVhdGVFbGVtZW50KFwibGluZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ4MVwiOlwiMzJcIixcInkxXCI6XCIxN1wiLFwieDJcIjpcIjMyXCIsXCJ5MlwiOlwiMzVcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwibGluZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ4MVwiOlwiNDFcIixcInkxXCI6XCIyNlwiLFwieDJcIjpcIjIzXCIsXCJ5MlwiOlwiMjZcIixcImtleVwiOjF9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWdvblwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJwb2ludHNcIjpcIjMyLDQ3IDYzLDQ3IDYzLDUgMSw1IDEsNDcgMTgsNDcgMTgsNTkgXCIsXCJrZXlcIjoyfSldKTtcbn1cblxuTGluZWFCYXNpY0VsYWJvcmF0aW9uTWVzc2FnZVBsdXMuZGVmYXVsdFByb3BzID0ge1widmVyc2lvblwiOlwiMS4xXCIsXCJpZFwiOlwiTGF5ZXJfMVwiLFwieFwiOlwiMHB4XCIsXCJ5XCI6XCIwcHhcIixcIndpZHRoXCI6XCI2NHB4XCIsXCJoZWlnaHRcIjpcIjY0cHhcIixcInZpZXdCb3hcIjpcIjAgMCA2NCA2NFwiLFwiZW5hYmxlQmFja2dyb3VuZFwiOlwibmV3IDAgMCA2NCA2NFwiLFwieG1sU3BhY2VcIjpcInByZXNlcnZlXCJ9O1xuXG5tb2R1bGUuZXhwb3J0cyA9IExpbmVhQmFzaWNFbGFib3JhdGlvbk1lc3NhZ2VQbHVzO1xuXG5MaW5lYUJhc2ljRWxhYm9yYXRpb25NZXNzYWdlUGx1cy5kZWZhdWx0ID0gTGluZWFCYXNpY0VsYWJvcmF0aW9uTWVzc2FnZVBsdXM7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-elaboration-message-plus.svg\n"));
+
+/***/ })
+
+}]);

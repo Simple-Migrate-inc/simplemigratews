@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-ecommerce-bag-minus_svg"],{
+
+/***/ "./src/assets/svgs/linea-ecommerce-bag-minus.svg":
+/*!*******************************************************!*\
+  !*** ./src/assets/svgs/linea-ecommerce-bag-minus.svg ***!
+  \*******************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaEcommerceBagMinus (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"44,18 54,18 54,63 10,63 10,18 20,18 \",\"key\":0}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"41\",\"y1\":\"42\",\"x2\":\"23\",\"y2\":\"42\",\"key\":1}),React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M22,24V11c0-5.523,4.477-10,10-10s10,4.477,10,10v13\\r\\n\\t\",\"key\":2})]);\n}\n\nLineaEcommerceBagMinus.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaEcommerceBagMinus;\n\nLineaEcommerceBagMinus.default = LineaEcommerceBagMinus;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtZWNvbW1lcmNlLWJhZy1taW51cy5zdmcuanMiLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxtQkFBTyxDQUFDLDRDQUFPOztBQUUzQjtBQUNBLDJFQUEyRSxtSUFBbUksOEJBQThCLDJIQUEySCw4QkFBOEIsa0pBQWtKO0FBQ3ZoQjs7QUFFQSx1Q0FBdUM7O0FBRXZDOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1lY29tbWVyY2UtYmFnLW1pbnVzLnN2Zz9mNTJhIl0sInNvdXJjZXNDb250ZW50IjpbInZhciBSZWFjdCA9IHJlcXVpcmUoJ3JlYWN0Jyk7XG5cbmZ1bmN0aW9uIExpbmVhRWNvbW1lcmNlQmFnTWludXMgKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxbUmVhY3QuY3JlYXRlRWxlbWVudChcInBvbHlnb25cIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwicG9pbnRzXCI6XCI0NCwxOCA1NCwxOCA1NCw2MyAxMCw2MyAxMCwxOCAyMCwxOCBcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwibGluZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ4MVwiOlwiNDFcIixcInkxXCI6XCI0MlwiLFwieDJcIjpcIjIzXCIsXCJ5MlwiOlwiNDJcIixcImtleVwiOjF9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicGF0aFwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJkXCI6XCJNMjIsMjRWMTFjMC01LjUyMyw0LjQ3Ny0xMCwxMC0xMHMxMCw0LjQ3NywxMCwxMHYxM1xcclxcblxcdFwiLFwia2V5XCI6Mn0pXSk7XG59XG5cbkxpbmVhRWNvbW1lcmNlQmFnTWludXMuZGVmYXVsdFByb3BzID0ge1widmVyc2lvblwiOlwiMS4wXCIsXCJpZFwiOlwiTGF5ZXJfMVwiLFwieFwiOlwiMHB4XCIsXCJ5XCI6XCIwcHhcIixcIndpZHRoXCI6XCI2NHB4XCIsXCJoZWlnaHRcIjpcIjY0cHhcIixcInZpZXdCb3hcIjpcIjAgMCA2NCA2NFwiLFwiZW5hYmxlQmFja2dyb3VuZFwiOlwibmV3IDAgMCA2NCA2NFwiLFwieG1sU3BhY2VcIjpcInByZXNlcnZlXCJ9O1xuXG5tb2R1bGUuZXhwb3J0cyA9IExpbmVhRWNvbW1lcmNlQmFnTWludXM7XG5cbkxpbmVhRWNvbW1lcmNlQmFnTWludXMuZGVmYXVsdCA9IExpbmVhRWNvbW1lcmNlQmFnTWludXM7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-ecommerce-bag-minus.svg\n"));
+
+/***/ })
+
+}]);

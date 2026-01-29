@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-basic-sheet-multiple_svg"],{
+
+/***/ "./src/assets/svgs/linea-basic-sheet-multiple.svg":
+/*!********************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-sheet-multiple.svg ***!
+  \********************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaBasicSheetMultiple (props) {\n    return React.createElement(\"svg\",props,React.createElement(\"g\",null,[React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"20,9 47,9 47,63 8,63 8,21 \\t\",\"key\":0}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"24,6 29,1 56,1 56,55 49,55 \\t\",\"key\":1}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"8,21 20,21 20,9 \\t\",\"key\":2})]));\n}\n\nLineaBasicSheetMultiple.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicSheetMultiple;\n\nLineaBasicSheetMultiple.default = LineaBasicSheetMultiple;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtc2hlZXQtbXVsdGlwbGUuc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyw0Q0FBTzs7QUFFM0I7QUFDQSx3R0FBd0csMkhBQTJILGtDQUFrQyw0SEFBNEgsa0NBQWtDLGlIQUFpSDtBQUNwaEI7O0FBRUEsd0NBQXdDOztBQUV4Qzs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtc2hlZXQtbXVsdGlwbGUuc3ZnPzZkOGMiXSwic291cmNlc0NvbnRlbnQiOlsidmFyIFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuZnVuY3Rpb24gTGluZWFCYXNpY1NoZWV0TXVsdGlwbGUgKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxSZWFjdC5jcmVhdGVFbGVtZW50KFwiZ1wiLG51bGwsW1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwb2x5Z29uXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiMjAsOSA0Nyw5IDQ3LDYzIDgsNjMgOCwyMSBcXHRcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwicG9pbnRzXCI6XCIyNCw2IDI5LDEgNTYsMSA1Niw1NSA0OSw1NSBcXHRcIixcImtleVwiOjF9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwicG9pbnRzXCI6XCI4LDIxIDIwLDIxIDIwLDkgXFx0XCIsXCJrZXlcIjoyfSldKSk7XG59XG5cbkxpbmVhQmFzaWNTaGVldE11bHRpcGxlLmRlZmF1bHRQcm9wcyA9IHtcInZlcnNpb25cIjpcIjEuMVwiLFwiaWRcIjpcIkxheWVyXzFcIixcInhcIjpcIjBweFwiLFwieVwiOlwiMHB4XCIsXCJ3aWR0aFwiOlwiNjRweFwiLFwiaGVpZ2h0XCI6XCI2NHB4XCIsXCJ2aWV3Qm94XCI6XCIwIDAgNjQgNjRcIixcImVuYWJsZUJhY2tncm91bmRcIjpcIm5ldyAwIDAgNjQgNjRcIixcInhtbFNwYWNlXCI6XCJwcmVzZXJ2ZVwifTtcblxubW9kdWxlLmV4cG9ydHMgPSBMaW5lYUJhc2ljU2hlZXRNdWx0aXBsZTtcblxuTGluZWFCYXNpY1NoZWV0TXVsdGlwbGUuZGVmYXVsdCA9IExpbmVhQmFzaWNTaGVldE11bHRpcGxlO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-sheet-multiple.svg\n"));
+
+/***/ })
+
+}]);

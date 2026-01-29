@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-basic-elaboration-todolist-flagged_svg";
+exports.ids = ["src_assets_svgs_linea-basic-elaboration-todolist-flagged_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-basic-elaboration-todolist-flagged.svg":
+/*!**********************************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-elaboration-todolist-flagged.svg ***!
+  \**********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaBasicElaborationTodolistFlagged (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"23,8 10,8 10,63 54,63 54,8 41,8 \",\"key\":0}),React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"36,5 36,1 28,1 28,5 24,5 22,13 42,13 40,5 \\r\\n\\t\",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"27\",\"y1\":\"23\",\"x2\":\"27\",\"y2\":\"46\",\"key\":2}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"27,26 42,26 39.484,30 42,34 27,34 \",\"key\":3})]);\n}\n\nLineaBasicElaborationTodolistFlagged.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicElaborationTodolistFlagged;\n\nLineaBasicElaborationTodolistFlagged.default = LineaBasicElaborationTodolistFlagged;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tdG9kb2xpc3QtZmxhZ2dlZC5zdmcuanMiLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxtQkFBTyxDQUFDLG9CQUFPOztBQUUzQjtBQUNBLDRFQUE0RSwrSEFBK0gsaUNBQWlDLCtJQUErSSw4QkFBOEIsMkhBQTJILGtDQUFrQyxpSUFBaUk7QUFDdnJCOztBQUVBLHFEQUFxRDs7QUFFckQ7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXhjb2FjaC1yZWFjdC8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1iYXNpYy1lbGFib3JhdGlvbi10b2RvbGlzdC1mbGFnZ2VkLnN2Zz8wY2E0Il0sInNvdXJjZXNDb250ZW50IjpbInZhciBSZWFjdCA9IHJlcXVpcmUoJ3JlYWN0Jyk7XG5cbmZ1bmN0aW9uIExpbmVhQmFzaWNFbGFib3JhdGlvblRvZG9saXN0RmxhZ2dlZCAocHJvcHMpIHtcbiAgICByZXR1cm4gUmVhY3QuY3JlYXRlRWxlbWVudChcInN2Z1wiLHByb3BzLFtSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwicG9pbnRzXCI6XCIyMyw4IDEwLDggMTAsNjMgNTQsNjMgNTQsOCA0MSw4IFwiLFwia2V5XCI6MH0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwb2x5Z29uXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiMzYsNSAzNiwxIDI4LDEgMjgsNSAyNCw1IDIyLDEzIDQyLDEzIDQwLDUgXFxyXFxuXFx0XCIsXCJrZXlcIjoxfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjI3XCIsXCJ5MVwiOlwiMjNcIixcIngyXCI6XCIyN1wiLFwieTJcIjpcIjQ2XCIsXCJrZXlcIjoyfSksUmVhY3QuY3JlYXRlRWxlbWVudChcInBvbHlsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiMjcsMjYgNDIsMjYgMzkuNDg0LDMwIDQyLDM0IDI3LDM0IFwiLFwia2V5XCI6M30pXSk7XG59XG5cbkxpbmVhQmFzaWNFbGFib3JhdGlvblRvZG9saXN0RmxhZ2dlZC5kZWZhdWx0UHJvcHMgPSB7XCJ2ZXJzaW9uXCI6XCIxLjFcIixcImlkXCI6XCJMYXllcl8xXCIsXCJ4XCI6XCIwcHhcIixcInlcIjpcIjBweFwiLFwid2lkdGhcIjpcIjY0cHhcIixcImhlaWdodFwiOlwiNjRweFwiLFwidmlld0JveFwiOlwiMCAwIDY0IDY0XCIsXCJlbmFibGVCYWNrZ3JvdW5kXCI6XCJuZXcgMCAwIDY0IDY0XCIsXCJ4bWxTcGFjZVwiOlwicHJlc2VydmVcIn07XG5cbm1vZHVsZS5leHBvcnRzID0gTGluZWFCYXNpY0VsYWJvcmF0aW9uVG9kb2xpc3RGbGFnZ2VkO1xuXG5MaW5lYUJhc2ljRWxhYm9yYXRpb25Ub2RvbGlzdEZsYWdnZWQuZGVmYXVsdCA9IExpbmVhQmFzaWNFbGFib3JhdGlvblRvZG9saXN0RmxhZ2dlZDtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-elaboration-todolist-flagged.svg\n");
+
+/***/ })
+
+};
+;

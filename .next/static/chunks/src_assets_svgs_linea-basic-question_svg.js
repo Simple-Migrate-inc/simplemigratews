@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-basic-question_svg"],{
+
+/***/ "./src/assets/svgs/linea-basic-question.svg":
+/*!**************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-question.svg ***!
+  \**************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaBasicQuestion (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\\r\\n\\tc-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\",\"key\":0}),React.createElement(\"line\",{\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"30\",\"y1\":\"43\",\"x2\":\"30\",\"y2\":\"47\",\"key\":1}),React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M24,21c0-3,2-5,8-5c5,0,8,3,8,7s-6,7-6,7s-4,2-4,8v1\\r\\n\\t\",\"key\":2})]);\n}\n\nLineaBasicQuestion.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicQuestion;\n\nLineaBasicQuestion.default = LineaBasicQuestion;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtcXVlc3Rpb24uc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyw0Q0FBTzs7QUFFM0I7QUFDQSx3RUFBd0UscVFBQXFRLDhCQUE4Qiw2R0FBNkcsOEJBQThCLGtKQUFrSjtBQUN4b0I7O0FBRUEsbUNBQW1DOztBQUVuQzs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtcXVlc3Rpb24uc3ZnPzdkYzciXSwic291cmNlc0NvbnRlbnQiOlsidmFyIFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuZnVuY3Rpb24gTGluZWFCYXNpY1F1ZXN0aW9uIChwcm9wcykge1xuICAgIHJldHVybiBSZWFjdC5jcmVhdGVFbGVtZW50KFwic3ZnXCIscHJvcHMsW1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwYXRoXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcImRcIjpcIk01My45MiwxMC4wODFjMTIuMTA3LDEyLjEwNSwxMi4xMDcsMzEuNzMyLDAsNDMuODM4XFxyXFxuXFx0Yy0xMi4xMDYsMTIuMTA4LTMxLjczNCwxMi4xMDgtNDMuODQsMGMtMTIuMTA3LTEyLjEwNS0xMi4xMDctMzEuNzMyLDAtNDMuODM4QzIyLjE4Ni0yLjAyNyw0MS44MTMtMi4wMjcsNTMuOTIsMTAuMDgxelwiLFwia2V5XCI6MH0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJsaW5lXCIse1wic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcIngxXCI6XCIzMFwiLFwieTFcIjpcIjQzXCIsXCJ4MlwiOlwiMzBcIixcInkyXCI6XCI0N1wiLFwia2V5XCI6MX0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwYXRoXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcImRcIjpcIk0yNCwyMWMwLTMsMi01LDgtNWM1LDAsOCwzLDgsN3MtNiw3LTYsN3MtNCwyLTQsOHYxXFxyXFxuXFx0XCIsXCJrZXlcIjoyfSldKTtcbn1cblxuTGluZWFCYXNpY1F1ZXN0aW9uLmRlZmF1bHRQcm9wcyA9IHtcInZlcnNpb25cIjpcIjEuMVwiLFwiaWRcIjpcIkxheWVyXzFcIixcInhcIjpcIjBweFwiLFwieVwiOlwiMHB4XCIsXCJ3aWR0aFwiOlwiNjRweFwiLFwiaGVpZ2h0XCI6XCI2NHB4XCIsXCJ2aWV3Qm94XCI6XCIwIDAgNjQgNjRcIixcImVuYWJsZUJhY2tncm91bmRcIjpcIm5ldyAwIDAgNjQgNjRcIixcInhtbFNwYWNlXCI6XCJwcmVzZXJ2ZVwifTtcblxubW9kdWxlLmV4cG9ydHMgPSBMaW5lYUJhc2ljUXVlc3Rpb247XG5cbkxpbmVhQmFzaWNRdWVzdGlvbi5kZWZhdWx0ID0gTGluZWFCYXNpY1F1ZXN0aW9uO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-question.svg\n"));
+
+/***/ })
+
+}]);

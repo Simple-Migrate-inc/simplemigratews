@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-basic-mail-open_svg"],{
+
+/***/ "./src/assets/svgs/linea-basic-mail-open.svg":
+/*!***************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-mail-open.svg ***!
+  \***************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaBasicMailOpen (props) {\n    return React.createElement(\"svg\",props,React.createElement(\"g\",null,[React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"1,26 32,45.434 63,26 \\t\",\"key\":0}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"11.334,21.667 1,26 1,63 63,63 63,26 \\r\\n\\t\\t63,26 52.666,21.667 \\t\",\"key\":1}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"11,32 11,1 53,1 53,32 \\t\",\"key\":2})]));\n}\n\nLineaBasicMailOpen.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicMailOpen;\n\nLineaBasicMailOpen.default = LineaBasicMailOpen;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtbWFpbC1vcGVuLnN2Zy5qcyIsIm1hcHBpbmdzIjoiQUFBQSxZQUFZLG1CQUFPLENBQUMsNENBQU87O0FBRTNCO0FBQ0EseUdBQXlHLHNIQUFzSCxrQ0FBa0MsaUtBQWlLLGtDQUFrQyx1SEFBdUg7QUFDM2pCOztBQUVBLG1DQUFtQzs7QUFFbkM7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2Fzc2V0cy9zdmdzL2xpbmVhLWJhc2ljLW1haWwtb3Blbi5zdmc/NmRmMSJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5mdW5jdGlvbiBMaW5lYUJhc2ljTWFpbE9wZW4gKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxSZWFjdC5jcmVhdGVFbGVtZW50KFwiZ1wiLG51bGwsW1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwb2x5bGluZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJwb2ludHNcIjpcIjEsMjYgMzIsNDUuNDM0IDYzLDI2IFxcdFwiLFwia2V5XCI6MH0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwb2x5bGluZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJwb2ludHNcIjpcIjExLjMzNCwyMS42NjcgMSwyNiAxLDYzIDYzLDYzIDYzLDI2IFxcclxcblxcdFxcdDYzLDI2IDUyLjY2NiwyMS42NjcgXFx0XCIsXCJrZXlcIjoxfSksUmVhY3QuY3JlYXRlRWxlbWVudChcInBvbHlsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiMTEsMzIgMTEsMSA1MywxIDUzLDMyIFxcdFwiLFwia2V5XCI6Mn0pXSkpO1xufVxuXG5MaW5lYUJhc2ljTWFpbE9wZW4uZGVmYXVsdFByb3BzID0ge1widmVyc2lvblwiOlwiMS4xXCIsXCJpZFwiOlwiTGF5ZXJfMVwiLFwieFwiOlwiMHB4XCIsXCJ5XCI6XCIwcHhcIixcIndpZHRoXCI6XCI2NHB4XCIsXCJoZWlnaHRcIjpcIjY0cHhcIixcInZpZXdCb3hcIjpcIjAgMCA2NCA2NFwiLFwiZW5hYmxlQmFja2dyb3VuZFwiOlwibmV3IDAgMCA2NCA2NFwiLFwieG1sU3BhY2VcIjpcInByZXNlcnZlXCJ9O1xuXG5tb2R1bGUuZXhwb3J0cyA9IExpbmVhQmFzaWNNYWlsT3BlbjtcblxuTGluZWFCYXNpY01haWxPcGVuLmRlZmF1bHQgPSBMaW5lYUJhc2ljTWFpbE9wZW47XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-mail-open.svg\n"));
+
+/***/ })
+
+}]);

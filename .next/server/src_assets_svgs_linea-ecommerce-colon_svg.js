@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-ecommerce-colon_svg";
+exports.ids = ["src_assets_svgs_linea-ecommerce-colon_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-ecommerce-colon.svg":
+/*!***************************************************!*\
+  !*** ./src/assets/svgs/linea-ecommerce-colon.svg ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaEcommerceColon (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838\\r\\n\\tc-12.106,12.108-31.734,12.108-43.839,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z\",\"key\":0}),React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M42,43c0,0-1,4-10,4s-12-7-12-15s3-15,12-15\\r\\n\\ts10,4,10,4\",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"36\",\"y1\":\"14\",\"x2\":\"21\",\"y2\":\"49\",\"key\":2}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"41\",\"y1\":\"14\",\"x2\":\"26\",\"y2\":\"49\",\"key\":3})]);\n}\n\nLineaEcommerceColon.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaEcommerceColon;\n\nLineaEcommerceColon.default = LineaEcommerceColon;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtZWNvbW1lcmNlLWNvbG9uLnN2Zy5qcyIsIm1hcHBpbmdzIjoiQUFBQSxZQUFZLG1CQUFPLENBQUMsb0JBQU87O0FBRTNCO0FBQ0Esd0VBQXdFLHNRQUFzUSw4QkFBOEIsb0pBQW9KLDhCQUE4QiwySEFBMkgsOEJBQThCLDJIQUEySDtBQUNsekI7O0FBRUEsb0NBQW9DOztBQUVwQzs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL21heGNvYWNoLXJlYWN0Ly4vc3JjL2Fzc2V0cy9zdmdzL2xpbmVhLWVjb21tZXJjZS1jb2xvbi5zdmc/YmIyNCJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5mdW5jdGlvbiBMaW5lYUVjb21tZXJjZUNvbG9uIChwcm9wcykge1xuICAgIHJldHVybiBSZWFjdC5jcmVhdGVFbGVtZW50KFwic3ZnXCIscHJvcHMsW1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwYXRoXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcImRcIjpcIk01My45MiwxMC4wODFjMTIuMTA3LDEyLjEwNSwxMi4xMDcsMzEuNzMyLDAsNDMuODM4XFxyXFxuXFx0Yy0xMi4xMDYsMTIuMTA4LTMxLjczNCwxMi4xMDgtNDMuODM5LDBjLTEyLjEwNy0xMi4xMDUtMTIuMTA3LTMxLjczMiwwLTQzLjgzOEMyMi4xODYtMi4wMjcsNDEuODEzLTIuMDI3LDUzLjkyLDEwLjA4MXpcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicGF0aFwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJkXCI6XCJNNDIsNDNjMCwwLTEsNC0xMCw0cy0xMi03LTEyLTE1czMtMTUsMTItMTVcXHJcXG5cXHRzMTAsNCwxMCw0XCIsXCJrZXlcIjoxfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjM2XCIsXCJ5MVwiOlwiMTRcIixcIngyXCI6XCIyMVwiLFwieTJcIjpcIjQ5XCIsXCJrZXlcIjoyfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjQxXCIsXCJ5MVwiOlwiMTRcIixcIngyXCI6XCIyNlwiLFwieTJcIjpcIjQ5XCIsXCJrZXlcIjozfSldKTtcbn1cblxuTGluZWFFY29tbWVyY2VDb2xvbi5kZWZhdWx0UHJvcHMgPSB7XCJ2ZXJzaW9uXCI6XCIxLjBcIixcImlkXCI6XCJMYXllcl8xXCIsXCJ4XCI6XCIwcHhcIixcInlcIjpcIjBweFwiLFwid2lkdGhcIjpcIjY0cHhcIixcImhlaWdodFwiOlwiNjRweFwiLFwidmlld0JveFwiOlwiMCAwIDY0IDY0XCIsXCJlbmFibGVCYWNrZ3JvdW5kXCI6XCJuZXcgMCAwIDY0IDY0XCIsXCJ4bWxTcGFjZVwiOlwicHJlc2VydmVcIn07XG5cbm1vZHVsZS5leHBvcnRzID0gTGluZWFFY29tbWVyY2VDb2xvbjtcblxuTGluZWFFY29tbWVyY2VDb2xvbi5kZWZhdWx0ID0gTGluZWFFY29tbWVyY2VDb2xvbjtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-ecommerce-colon.svg\n");
+
+/***/ })
+
+};
+;

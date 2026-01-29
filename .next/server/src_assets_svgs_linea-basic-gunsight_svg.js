@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-basic-gunsight_svg";
+exports.ids = ["src_assets_svgs_linea-basic-gunsight_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-basic-gunsight.svg":
+/*!**************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-gunsight.svg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaBasicGunsight (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"32\",\"y1\":\"48\",\"x2\":\"32\",\"y2\":\"64\",\"key\":0}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"32\",\"y1\":\"0\",\"x2\":\"32\",\"y2\":\"16\",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"16\",\"y1\":\"32\",\"x2\":\"0\",\"y2\":\"32\",\"key\":2}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"64\",\"y1\":\"32\",\"x2\":\"48\",\"y2\":\"32\",\"key\":3}),React.createElement(\"circle\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"cx\":\"32\",\"cy\":\"32\",\"r\":\"24\",\"key\":4})]);\n}\n\nLineaBasicGunsight.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicGunsight;\n\nLineaBasicGunsight.default = LineaBasicGunsight;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZ3Vuc2lnaHQuc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyxvQkFBTzs7QUFFM0I7QUFDQSx3RUFBd0UsMkhBQTJILDhCQUE4QiwwSEFBMEgsOEJBQThCLDBIQUEwSCw4QkFBOEIsMkhBQTJILGdDQUFnQyxnSEFBZ0g7QUFDNXhCOztBQUVBLG1DQUFtQzs7QUFFbkM7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXhjb2FjaC1yZWFjdC8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1iYXNpYy1ndW5zaWdodC5zdmc/MjkxOCJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5mdW5jdGlvbiBMaW5lYUJhc2ljR3Vuc2lnaHQgKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxbUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjMyXCIsXCJ5MVwiOlwiNDhcIixcIngyXCI6XCIzMlwiLFwieTJcIjpcIjY0XCIsXCJrZXlcIjowfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjMyXCIsXCJ5MVwiOlwiMFwiLFwieDJcIjpcIjMyXCIsXCJ5MlwiOlwiMTZcIixcImtleVwiOjF9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwibGluZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ4MVwiOlwiMTZcIixcInkxXCI6XCIzMlwiLFwieDJcIjpcIjBcIixcInkyXCI6XCIzMlwiLFwia2V5XCI6Mn0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcIngxXCI6XCI2NFwiLFwieTFcIjpcIjMyXCIsXCJ4MlwiOlwiNDhcIixcInkyXCI6XCIzMlwiLFwia2V5XCI6M30pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJjaXJjbGVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwiY3hcIjpcIjMyXCIsXCJjeVwiOlwiMzJcIixcInJcIjpcIjI0XCIsXCJrZXlcIjo0fSldKTtcbn1cblxuTGluZWFCYXNpY0d1bnNpZ2h0LmRlZmF1bHRQcm9wcyA9IHtcInZlcnNpb25cIjpcIjEuMVwiLFwiaWRcIjpcIkxheWVyXzFcIixcInhcIjpcIjBweFwiLFwieVwiOlwiMHB4XCIsXCJ3aWR0aFwiOlwiNjRweFwiLFwiaGVpZ2h0XCI6XCI2NHB4XCIsXCJ2aWV3Qm94XCI6XCIwIDAgNjQgNjRcIixcImVuYWJsZUJhY2tncm91bmRcIjpcIm5ldyAwIDAgNjQgNjRcIixcInhtbFNwYWNlXCI6XCJwcmVzZXJ2ZVwifTtcblxubW9kdWxlLmV4cG9ydHMgPSBMaW5lYUJhc2ljR3Vuc2lnaHQ7XG5cbkxpbmVhQmFzaWNHdW5zaWdodC5kZWZhdWx0ID0gTGluZWFCYXNpY0d1bnNpZ2h0O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-gunsight.svg\n");
+
+/***/ })
+
+};
+;

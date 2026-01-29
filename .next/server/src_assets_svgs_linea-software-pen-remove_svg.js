@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-software-pen-remove_svg";
+exports.ids = ["src_assets_svgs_linea-software-pen-remove_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-software-pen-remove.svg":
+/*!*******************************************************!*\
+  !*** ./src/assets/svgs/linea-software-pen-remove.svg ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaSoftwarePenRemove (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"rect\",{\"x\":\"23\",\"y\":\"57\",\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"width\":\"18\",\"height\":\"6\",\"key\":0}),React.createElement(\"rect\",{\"x\":\"19\",\"y\":\"47\",\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"width\":\"26\",\"height\":\"10\",\"key\":1}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"41,47 41,43 48,30 32,1 16,30 23,43 23,47 \\r\\n\\t\",\"key\":2}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"39\",\"y1\":\"30\",\"x2\":\"25\",\"y2\":\"30\",\"key\":3})]);\n}\n\nLineaSoftwarePenRemove.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaSoftwarePenRemove;\n\nLineaSoftwarePenRemove.default = LineaSoftwarePenRemove;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtc29mdHdhcmUtcGVuLXJlbW92ZS5zdmcuanMiLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxtQkFBTyxDQUFDLG9CQUFPOztBQUUzQjtBQUNBLHdFQUF3RSwrSEFBK0gsOEJBQThCLGdJQUFnSSxrQ0FBa0MsOElBQThJLDhCQUE4QiwySEFBMkg7QUFDOXFCOztBQUVBLHVDQUF1Qzs7QUFFdkM7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXhjb2FjaC1yZWFjdC8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1zb2Z0d2FyZS1wZW4tcmVtb3ZlLnN2Zz80NDFiIl0sInNvdXJjZXNDb250ZW50IjpbInZhciBSZWFjdCA9IHJlcXVpcmUoJ3JlYWN0Jyk7XG5cbmZ1bmN0aW9uIExpbmVhU29mdHdhcmVQZW5SZW1vdmUgKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxbUmVhY3QuY3JlYXRlRWxlbWVudChcInJlY3RcIix7XCJ4XCI6XCIyM1wiLFwieVwiOlwiNTdcIixcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ3aWR0aFwiOlwiMThcIixcImhlaWdodFwiOlwiNlwiLFwia2V5XCI6MH0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJyZWN0XCIse1wieFwiOlwiMTlcIixcInlcIjpcIjQ3XCIsXCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwid2lkdGhcIjpcIjI2XCIsXCJoZWlnaHRcIjpcIjEwXCIsXCJrZXlcIjoxfSksUmVhY3QuY3JlYXRlRWxlbWVudChcInBvbHlsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiNDEsNDcgNDEsNDMgNDgsMzAgMzIsMSAxNiwzMCAyMyw0MyAyMyw0NyBcXHJcXG5cXHRcIixcImtleVwiOjJ9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwibGluZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ4MVwiOlwiMzlcIixcInkxXCI6XCIzMFwiLFwieDJcIjpcIjI1XCIsXCJ5MlwiOlwiMzBcIixcImtleVwiOjN9KV0pO1xufVxuXG5MaW5lYVNvZnR3YXJlUGVuUmVtb3ZlLmRlZmF1bHRQcm9wcyA9IHtcInZlcnNpb25cIjpcIjEuMFwiLFwiaWRcIjpcIkxheWVyXzFcIixcInhcIjpcIjBweFwiLFwieVwiOlwiMHB4XCIsXCJ3aWR0aFwiOlwiNjRweFwiLFwiaGVpZ2h0XCI6XCI2NHB4XCIsXCJ2aWV3Qm94XCI6XCIwIDAgNjQgNjRcIixcImVuYWJsZUJhY2tncm91bmRcIjpcIm5ldyAwIDAgNjQgNjRcIixcInhtbFNwYWNlXCI6XCJwcmVzZXJ2ZVwifTtcblxubW9kdWxlLmV4cG9ydHMgPSBMaW5lYVNvZnR3YXJlUGVuUmVtb3ZlO1xuXG5MaW5lYVNvZnR3YXJlUGVuUmVtb3ZlLmRlZmF1bHQgPSBMaW5lYVNvZnR3YXJlUGVuUmVtb3ZlO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-software-pen-remove.svg\n");
+
+/***/ })
+
+};
+;

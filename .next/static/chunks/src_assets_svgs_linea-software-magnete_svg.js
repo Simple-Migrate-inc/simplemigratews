@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-software-magnete_svg"],{
+
+/***/ "./src/assets/svgs/linea-software-magnete.svg":
+/*!****************************************************!*\
+  !*** ./src/assets/svgs/linea-software-magnete.svg ***!
+  \****************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaSoftwareMagnete (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M24,42c0,4.418,3.582,8,8,8s8-3.582,8-8V1h13v41\\r\\n\\tc0,11.598-9.402,21-21,21s-21-9.402-21-21V1h13V42z\",\"key\":0}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"11\",\"y1\":\"10\",\"x2\":\"24\",\"y2\":\"10\",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"40\",\"y1\":\"10\",\"x2\":\"53\",\"y2\":\"10\",\"key\":2})]);\n}\n\nLineaSoftwareMagnete.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaSoftwareMagnete;\n\nLineaSoftwareMagnete.default = LineaSoftwareMagnete;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtc29mdHdhcmUtbWFnbmV0ZS5zdmcuanMiLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxtQkFBTyxDQUFDLDRDQUFPOztBQUUzQjtBQUNBLHdFQUF3RSwrTEFBK0wsOEJBQThCLDJIQUEySCw4QkFBOEIsMkhBQTJIO0FBQ3pqQjs7QUFFQSxxQ0FBcUM7O0FBRXJDOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1zb2Z0d2FyZS1tYWduZXRlLnN2Zz82ZGE1Il0sInNvdXJjZXNDb250ZW50IjpbInZhciBSZWFjdCA9IHJlcXVpcmUoJ3JlYWN0Jyk7XG5cbmZ1bmN0aW9uIExpbmVhU29mdHdhcmVNYWduZXRlIChwcm9wcykge1xuICAgIHJldHVybiBSZWFjdC5jcmVhdGVFbGVtZW50KFwic3ZnXCIscHJvcHMsW1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwYXRoXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcImRcIjpcIk0yNCw0MmMwLDQuNDE4LDMuNTgyLDgsOCw4czgtMy41ODIsOC04VjFoMTN2NDFcXHJcXG5cXHRjMCwxMS41OTgtOS40MDIsMjEtMjEsMjFzLTIxLTkuNDAyLTIxLTIxVjFoMTNWNDJ6XCIsXCJrZXlcIjowfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjExXCIsXCJ5MVwiOlwiMTBcIixcIngyXCI6XCIyNFwiLFwieTJcIjpcIjEwXCIsXCJrZXlcIjoxfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjQwXCIsXCJ5MVwiOlwiMTBcIixcIngyXCI6XCI1M1wiLFwieTJcIjpcIjEwXCIsXCJrZXlcIjoyfSldKTtcbn1cblxuTGluZWFTb2Z0d2FyZU1hZ25ldGUuZGVmYXVsdFByb3BzID0ge1widmVyc2lvblwiOlwiMS4wXCIsXCJpZFwiOlwiTGF5ZXJfMVwiLFwieFwiOlwiMHB4XCIsXCJ5XCI6XCIwcHhcIixcIndpZHRoXCI6XCI2NHB4XCIsXCJoZWlnaHRcIjpcIjY0cHhcIixcInZpZXdCb3hcIjpcIjAgMCA2NCA2NFwiLFwiZW5hYmxlQmFja2dyb3VuZFwiOlwibmV3IDAgMCA2NCA2NFwiLFwieG1sU3BhY2VcIjpcInByZXNlcnZlXCJ9O1xuXG5tb2R1bGUuZXhwb3J0cyA9IExpbmVhU29mdHdhcmVNYWduZXRlO1xuXG5MaW5lYVNvZnR3YXJlTWFnbmV0ZS5kZWZhdWx0ID0gTGluZWFTb2Z0d2FyZU1hZ25ldGU7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-software-magnete.svg\n"));
+
+/***/ })
+
+}]);

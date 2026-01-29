@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-basic-elaboration-cloud-upload_svg";
+exports.ids = ["src_assets_svgs_linea-basic-elaboration-cloud-upload_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-basic-elaboration-cloud-upload.svg":
+/*!******************************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-elaboration-cloud-upload.svg ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaBasicElaborationCloudUpload (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M41,50h14c4.565,0,8-3.582,8-8s-3.435-8-8-8\\r\\n\\tc0-11.046-9.52-20-20.934-20C23.966,14,14.8,20.732,13,30c0,0-0.831,0-1.667,0C5.626,30,1,34.477,1,40s4.293,10,10,10H41\",\"key\":0}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeLinejoin\":\"bevel\",\"strokeMiterlimit\":\"10\",\"points\":\"23.998,34 \\r\\n\\t31.998,26 39.998,34 \",\"key\":1}),React.createElement(\"g\",{\"key\":2},React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"31.998\",\"y1\":\"26\",\"x2\":\"31.998\",\"y2\":\"46\"}))]);\n}\n\nLineaBasicElaborationCloudUpload.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicElaborationCloudUpload;\n\nLineaBasicElaborationCloudUpload.default = LineaBasicElaborationCloudUpload;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tY2xvdWQtdXBsb2FkLnN2Zy5qcyIsIm1hcHBpbmdzIjoiQUFBQSxZQUFZLG1CQUFPLENBQUMsb0JBQU87O0FBRTNCO0FBQ0Esd0VBQXdFLDhQQUE4UCxrQ0FBa0MsNEpBQTRKLDJCQUEyQixRQUFRLDZCQUE2QiwySEFBMkg7QUFDL3JCOztBQUVBLGlEQUFpRDs7QUFFakQ7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXhjb2FjaC1yZWFjdC8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1iYXNpYy1lbGFib3JhdGlvbi1jbG91ZC11cGxvYWQuc3ZnPzBlODUiXSwic291cmNlc0NvbnRlbnQiOlsidmFyIFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuZnVuY3Rpb24gTGluZWFCYXNpY0VsYWJvcmF0aW9uQ2xvdWRVcGxvYWQgKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxbUmVhY3QuY3JlYXRlRWxlbWVudChcInBhdGhcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwiZFwiOlwiTTQxLDUwaDE0YzQuNTY1LDAsOC0zLjU4Miw4LThzLTMuNDM1LTgtOC04XFxyXFxuXFx0YzAtMTEuMDQ2LTkuNTItMjAtMjAuOTM0LTIwQzIzLjk2NiwxNCwxNC44LDIwLjczMiwxMywzMGMwLDAtMC44MzEsMC0xLjY2NywwQzUuNjI2LDMwLDEsMzQuNDc3LDEsNDBzNC4yOTMsMTAsMTAsMTBINDFcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VMaW5lam9pblwiOlwiYmV2ZWxcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJwb2ludHNcIjpcIjIzLjk5OCwzNCBcXHJcXG5cXHQzMS45OTgsMjYgMzkuOTk4LDM0IFwiLFwia2V5XCI6MX0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJnXCIse1wia2V5XCI6Mn0sUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjMxLjk5OFwiLFwieTFcIjpcIjI2XCIsXCJ4MlwiOlwiMzEuOTk4XCIsXCJ5MlwiOlwiNDZcIn0pKV0pO1xufVxuXG5MaW5lYUJhc2ljRWxhYm9yYXRpb25DbG91ZFVwbG9hZC5kZWZhdWx0UHJvcHMgPSB7XCJ2ZXJzaW9uXCI6XCIxLjFcIixcImlkXCI6XCJMYXllcl8xXCIsXCJ4XCI6XCIwcHhcIixcInlcIjpcIjBweFwiLFwid2lkdGhcIjpcIjY0cHhcIixcImhlaWdodFwiOlwiNjRweFwiLFwidmlld0JveFwiOlwiMCAwIDY0IDY0XCIsXCJlbmFibGVCYWNrZ3JvdW5kXCI6XCJuZXcgMCAwIDY0IDY0XCIsXCJ4bWxTcGFjZVwiOlwicHJlc2VydmVcIn07XG5cbm1vZHVsZS5leHBvcnRzID0gTGluZWFCYXNpY0VsYWJvcmF0aW9uQ2xvdWRVcGxvYWQ7XG5cbkxpbmVhQmFzaWNFbGFib3JhdGlvbkNsb3VkVXBsb2FkLmRlZmF1bHQgPSBMaW5lYUJhc2ljRWxhYm9yYXRpb25DbG91ZFVwbG9hZDtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-elaboration-cloud-upload.svg\n");
+
+/***/ })
+
+};
+;

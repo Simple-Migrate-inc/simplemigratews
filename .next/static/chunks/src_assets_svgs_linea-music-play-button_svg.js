@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-music-play-button_svg"],{
+
+/***/ "./src/assets/svgs/linea-music-play-button.svg":
+/*!*****************************************************!*\
+  !*** ./src/assets/svgs/linea-music-play-button.svg ***!
+  \*****************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaMusicPlayButton (props) {\n    return React.createElement(\"svg\",props,React.createElement(\"g\",null,[React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeLinejoin\":\"bevel\",\"strokeMiterlimit\":\"10\",\"points\":\"27,21 41,32 \\r\\n\\t\\t27,43 \\t\",\"key\":0}),React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M53.92,10.081\\r\\n\\t\\tc12.107,12.105,12.107,31.732,0,43.838c-12.106,12.108-31.734,12.108-43.839,0c-12.107-12.105-12.107-31.732,0-43.838\\r\\n\\t\\tC22.186-2.027,41.813-2.027,53.92,10.081z\",\"key\":1})]));\n}\n\nLineaMusicPlayButton.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaMusicPlayButton;\n\nLineaMusicPlayButton.default = LineaMusicPlayButton;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtbXVzaWMtcGxheS1idXR0b24uc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyw0Q0FBTzs7QUFFM0I7QUFDQSx3R0FBd0csb0pBQW9KLDhCQUE4QixnUkFBZ1I7QUFDMWlCOztBQUVBLHFDQUFxQzs7QUFFckM7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2Fzc2V0cy9zdmdzL2xpbmVhLW11c2ljLXBsYXktYnV0dG9uLnN2Zz85NGVlIl0sInNvdXJjZXNDb250ZW50IjpbInZhciBSZWFjdCA9IHJlcXVpcmUoJ3JlYWN0Jyk7XG5cbmZ1bmN0aW9uIExpbmVhTXVzaWNQbGF5QnV0dG9uIChwcm9wcykge1xuICAgIHJldHVybiBSZWFjdC5jcmVhdGVFbGVtZW50KFwic3ZnXCIscHJvcHMsUmVhY3QuY3JlYXRlRWxlbWVudChcImdcIixudWxsLFtSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWdvblwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZUxpbmVqb2luXCI6XCJiZXZlbFwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiMjcsMjEgNDEsMzIgXFxyXFxuXFx0XFx0MjcsNDMgXFx0XCIsXCJrZXlcIjowfSksUmVhY3QuY3JlYXRlRWxlbWVudChcInBhdGhcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwiZFwiOlwiTTUzLjkyLDEwLjA4MVxcclxcblxcdFxcdGMxMi4xMDcsMTIuMTA1LDEyLjEwNywzMS43MzIsMCw0My44MzhjLTEyLjEwNiwxMi4xMDgtMzEuNzM0LDEyLjEwOC00My44MzksMGMtMTIuMTA3LTEyLjEwNS0xMi4xMDctMzEuNzMyLDAtNDMuODM4XFxyXFxuXFx0XFx0QzIyLjE4Ni0yLjAyNyw0MS44MTMtMi4wMjcsNTMuOTIsMTAuMDgxelwiLFwia2V5XCI6MX0pXSkpO1xufVxuXG5MaW5lYU11c2ljUGxheUJ1dHRvbi5kZWZhdWx0UHJvcHMgPSB7XCJ2ZXJzaW9uXCI6XCIxLjFcIixcImlkXCI6XCJMYXllcl8xXCIsXCJ4XCI6XCIwcHhcIixcInlcIjpcIjBweFwiLFwid2lkdGhcIjpcIjY0cHhcIixcImhlaWdodFwiOlwiNjRweFwiLFwidmlld0JveFwiOlwiMCAwIDY0IDY0XCIsXCJlbmFibGVCYWNrZ3JvdW5kXCI6XCJuZXcgMCAwIDY0IDY0XCIsXCJ4bWxTcGFjZVwiOlwicHJlc2VydmVcIn07XG5cbm1vZHVsZS5leHBvcnRzID0gTGluZWFNdXNpY1BsYXlCdXR0b247XG5cbkxpbmVhTXVzaWNQbGF5QnV0dG9uLmRlZmF1bHQgPSBMaW5lYU11c2ljUGxheUJ1dHRvbjtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-music-play-button.svg\n"));
+
+/***/ })
+
+}]);

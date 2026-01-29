@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-ecommerce-banknote_svg"],{
+
+/***/ "./src/assets/svgs/linea-ecommerce-banknote.svg":
+/*!******************************************************!*\
+  !*** ./src/assets/svgs/linea-ecommerce-banknote.svg ***!
+  \******************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaEcommerceBanknote (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"rect\",{\"x\":\"1\",\"y\":\"16\",\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"width\":\"62\",\"height\":\"32\",\"key\":0}),React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M10,44c0-2.762-2.238-5-5-5V25c2.762,0,5-2.238,5-5\\r\\n\\th44c0,2.762,2.238,5,5,5v14c-2.762,0-5,2.238-5,5H10z\",\"key\":1}),React.createElement(\"circle\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"cx\":\"32\",\"cy\":\"32\",\"r\":\"8\",\"key\":2})]);\n}\n\nLineaEcommerceBanknote.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaEcommerceBanknote;\n\nLineaEcommerceBanknote.default = LineaEcommerceBanknote;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtZWNvbW1lcmNlLWJhbmtub3RlLnN2Zy5qcyIsIm1hcHBpbmdzIjoiQUFBQSxZQUFZLG1CQUFPLENBQUMsNENBQU87O0FBRTNCO0FBQ0Esd0VBQXdFLCtIQUErSCw4QkFBOEIsb01BQW9NLGdDQUFnQywrR0FBK0c7QUFDeGpCOztBQUVBLHVDQUF1Qzs7QUFFdkM7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2Fzc2V0cy9zdmdzL2xpbmVhLWVjb21tZXJjZS1iYW5rbm90ZS5zdmc/YzJiMCJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5mdW5jdGlvbiBMaW5lYUVjb21tZXJjZUJhbmtub3RlIChwcm9wcykge1xuICAgIHJldHVybiBSZWFjdC5jcmVhdGVFbGVtZW50KFwic3ZnXCIscHJvcHMsW1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJyZWN0XCIse1wieFwiOlwiMVwiLFwieVwiOlwiMTZcIixcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ3aWR0aFwiOlwiNjJcIixcImhlaWdodFwiOlwiMzJcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicGF0aFwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJkXCI6XCJNMTAsNDRjMC0yLjc2Mi0yLjIzOC01LTUtNVYyNWMyLjc2MiwwLDUtMi4yMzgsNS01XFxyXFxuXFx0aDQ0YzAsMi43NjIsMi4yMzgsNSw1LDV2MTRjLTIuNzYyLDAtNSwyLjIzOC01LDVIMTB6XCIsXCJrZXlcIjoxfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImNpcmNsZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJjeFwiOlwiMzJcIixcImN5XCI6XCIzMlwiLFwiclwiOlwiOFwiLFwia2V5XCI6Mn0pXSk7XG59XG5cbkxpbmVhRWNvbW1lcmNlQmFua25vdGUuZGVmYXVsdFByb3BzID0ge1widmVyc2lvblwiOlwiMS4wXCIsXCJpZFwiOlwiTGF5ZXJfMVwiLFwieFwiOlwiMHB4XCIsXCJ5XCI6XCIwcHhcIixcIndpZHRoXCI6XCI2NHB4XCIsXCJoZWlnaHRcIjpcIjY0cHhcIixcInZpZXdCb3hcIjpcIjAgMCA2NCA2NFwiLFwiZW5hYmxlQmFja2dyb3VuZFwiOlwibmV3IDAgMCA2NCA2NFwiLFwieG1sU3BhY2VcIjpcInByZXNlcnZlXCJ9O1xuXG5tb2R1bGUuZXhwb3J0cyA9IExpbmVhRWNvbW1lcmNlQmFua25vdGU7XG5cbkxpbmVhRWNvbW1lcmNlQmFua25vdGUuZGVmYXVsdCA9IExpbmVhRWNvbW1lcmNlQmFua25vdGU7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-ecommerce-banknote.svg\n"));
+
+/***/ })
+
+}]);

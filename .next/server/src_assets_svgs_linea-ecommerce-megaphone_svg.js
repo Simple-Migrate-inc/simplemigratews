@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-ecommerce-megaphone_svg";
+exports.ids = ["src_assets_svgs_linea-ecommerce-megaphone_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-ecommerce-megaphone.svg":
+/*!*******************************************************!*\
+  !*** ./src/assets/svgs/linea-ecommerce-megaphone.svg ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaEcommerceMegaphone (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"1,29 1,35 7,41 45.5,41 61,53 63,53 63,29 \\r\\n\\t63,5 61,5 45.5,17 7,17 1,23 \",\"key\":0}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"19,41 12,59 18,59 28,41 \",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"43\",\"y1\":\"17\",\"x2\":\"43\",\"y2\":\"41\",\"key\":2}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"36\",\"y1\":\"41\",\"x2\":\"36\",\"y2\":\"17\",\"key\":3})]);\n}\n\nLineaEcommerceMegaphone.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaEcommerceMegaphone;\n\nLineaEcommerceMegaphone.default = LineaEcommerceMegaphone;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtZWNvbW1lcmNlLW1lZ2FwaG9uZS5zdmcuanMiLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxtQkFBTyxDQUFDLG9CQUFPOztBQUUzQjtBQUNBLDJFQUEyRSwwS0FBMEssa0NBQWtDLHVIQUF1SCw4QkFBOEIsMkhBQTJILDhCQUE4QiwySEFBMkg7QUFDaHNCOztBQUVBLHdDQUF3Qzs7QUFFeEM7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tYXhjb2FjaC1yZWFjdC8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1lY29tbWVyY2UtbWVnYXBob25lLnN2Zz9mMzcxIl0sInNvdXJjZXNDb250ZW50IjpbInZhciBSZWFjdCA9IHJlcXVpcmUoJ3JlYWN0Jyk7XG5cbmZ1bmN0aW9uIExpbmVhRWNvbW1lcmNlTWVnYXBob25lIChwcm9wcykge1xuICAgIHJldHVybiBSZWFjdC5jcmVhdGVFbGVtZW50KFwic3ZnXCIscHJvcHMsW1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwb2x5Z29uXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiMSwyOSAxLDM1IDcsNDEgNDUuNSw0MSA2MSw1MyA2Myw1MyA2MywyOSBcXHJcXG5cXHQ2Myw1IDYxLDUgNDUuNSwxNyA3LDE3IDEsMjMgXCIsXCJrZXlcIjowfSksUmVhY3QuY3JlYXRlRWxlbWVudChcInBvbHlsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiMTksNDEgMTIsNTkgMTgsNTkgMjgsNDEgXCIsXCJrZXlcIjoxfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjQzXCIsXCJ5MVwiOlwiMTdcIixcIngyXCI6XCI0M1wiLFwieTJcIjpcIjQxXCIsXCJrZXlcIjoyfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjM2XCIsXCJ5MVwiOlwiNDFcIixcIngyXCI6XCIzNlwiLFwieTJcIjpcIjE3XCIsXCJrZXlcIjozfSldKTtcbn1cblxuTGluZWFFY29tbWVyY2VNZWdhcGhvbmUuZGVmYXVsdFByb3BzID0ge1widmVyc2lvblwiOlwiMS4wXCIsXCJpZFwiOlwiTGF5ZXJfMVwiLFwieFwiOlwiMHB4XCIsXCJ5XCI6XCIwcHhcIixcIndpZHRoXCI6XCI2NHB4XCIsXCJoZWlnaHRcIjpcIjY0cHhcIixcInZpZXdCb3hcIjpcIjAgMCA2NCA2NFwiLFwiZW5hYmxlQmFja2dyb3VuZFwiOlwibmV3IDAgMCA2NCA2NFwiLFwieG1sU3BhY2VcIjpcInByZXNlcnZlXCJ9O1xuXG5tb2R1bGUuZXhwb3J0cyA9IExpbmVhRWNvbW1lcmNlTWVnYXBob25lO1xuXG5MaW5lYUVjb21tZXJjZU1lZ2FwaG9uZS5kZWZhdWx0ID0gTGluZWFFY29tbWVyY2VNZWdhcGhvbmU7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-ecommerce-megaphone.svg\n");
+
+/***/ })
+
+};
+;

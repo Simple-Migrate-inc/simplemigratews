@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-software-layout-header-complex_svg";
+exports.ids = ["src_assets_svgs_linea-software-layout-header-complex_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-software-layout-header-complex.svg":
+/*!******************************************************************!*\
+  !*** ./src/assets/svgs/linea-software-layout-header-complex.svg ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaSoftwareLayoutHeaderComplex (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"rect\",{\"x\":\"1\",\"y\":\"1\",\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"width\":\"62\",\"height\":\"14\",\"key\":0}),React.createElement(\"rect\",{\"x\":\"1\",\"y\":\"15\",\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"width\":\"62\",\"height\":\"48\",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"22\",\"y1\":\"15\",\"x2\":\"22\",\"y2\":\"63\",\"key\":2}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"22\",\"y1\":\"38\",\"x2\":\"63\",\"y2\":\"38\",\"key\":3})]);\n}\n\nLineaSoftwareLayoutHeaderComplex.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaSoftwareLayoutHeaderComplex;\n\nLineaSoftwareLayoutHeaderComplex.default = LineaSoftwareLayoutHeaderComplex;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtc29mdHdhcmUtbGF5b3V0LWhlYWRlci1jb21wbGV4LnN2Zy5qcyIsIm1hcHBpbmdzIjoiQUFBQSxZQUFZLG1CQUFPLENBQUMsb0JBQU87O0FBRTNCO0FBQ0Esd0VBQXdFLDhIQUE4SCw4QkFBOEIsK0hBQStILDhCQUE4QiwySEFBMkgsOEJBQThCLDJIQUEySDtBQUNycEI7O0FBRUEsaURBQWlEOztBQUVqRDs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL21heGNvYWNoLXJlYWN0Ly4vc3JjL2Fzc2V0cy9zdmdzL2xpbmVhLXNvZnR3YXJlLWxheW91dC1oZWFkZXItY29tcGxleC5zdmc/N2YzZCJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5mdW5jdGlvbiBMaW5lYVNvZnR3YXJlTGF5b3V0SGVhZGVyQ29tcGxleCAocHJvcHMpIHtcbiAgICByZXR1cm4gUmVhY3QuY3JlYXRlRWxlbWVudChcInN2Z1wiLHByb3BzLFtSZWFjdC5jcmVhdGVFbGVtZW50KFwicmVjdFwiLHtcInhcIjpcIjFcIixcInlcIjpcIjFcIixcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ3aWR0aFwiOlwiNjJcIixcImhlaWdodFwiOlwiMTRcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicmVjdFwiLHtcInhcIjpcIjFcIixcInlcIjpcIjE1XCIsXCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwid2lkdGhcIjpcIjYyXCIsXCJoZWlnaHRcIjpcIjQ4XCIsXCJrZXlcIjoxfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjIyXCIsXCJ5MVwiOlwiMTVcIixcIngyXCI6XCIyMlwiLFwieTJcIjpcIjYzXCIsXCJrZXlcIjoyfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjIyXCIsXCJ5MVwiOlwiMzhcIixcIngyXCI6XCI2M1wiLFwieTJcIjpcIjM4XCIsXCJrZXlcIjozfSldKTtcbn1cblxuTGluZWFTb2Z0d2FyZUxheW91dEhlYWRlckNvbXBsZXguZGVmYXVsdFByb3BzID0ge1widmVyc2lvblwiOlwiMS4wXCIsXCJpZFwiOlwiTGF5ZXJfMVwiLFwieFwiOlwiMHB4XCIsXCJ5XCI6XCIwcHhcIixcIndpZHRoXCI6XCI2NHB4XCIsXCJoZWlnaHRcIjpcIjY0cHhcIixcInZpZXdCb3hcIjpcIjAgMCA2NCA2NFwiLFwiZW5hYmxlQmFja2dyb3VuZFwiOlwibmV3IDAgMCA2NCA2NFwiLFwieG1sU3BhY2VcIjpcInByZXNlcnZlXCJ9O1xuXG5tb2R1bGUuZXhwb3J0cyA9IExpbmVhU29mdHdhcmVMYXlvdXRIZWFkZXJDb21wbGV4O1xuXG5MaW5lYVNvZnR3YXJlTGF5b3V0SGVhZGVyQ29tcGxleC5kZWZhdWx0ID0gTGluZWFTb2Z0d2FyZUxheW91dEhlYWRlckNvbXBsZXg7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-software-layout-header-complex.svg\n");
+
+/***/ })
+
+};
+;

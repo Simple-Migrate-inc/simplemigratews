@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-ecommerce-bag-upload_svg";
+exports.ids = ["src_assets_svgs_linea-ecommerce-bag-upload_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-ecommerce-bag-upload.svg":
+/*!********************************************************!*\
+  !*** ./src/assets/svgs/linea-ecommerce-bag-upload.svg ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaEcommerceBagUpload (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeLinejoin\":\"bevel\",\"strokeMiterlimit\":\"10\",\"points\":\"23.998,40 \\r\\n\\t31.998,32 39.998,40 \",\"key\":0}),React.createElement(\"g\",{\"key\":1},React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"31.998\",\"y1\":\"32\",\"x2\":\"31.998\",\"y2\":\"52\"})),React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"44,18 54,18 54,63 10,63 10,18 20,18 \",\"key\":2}),React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M22,24V11c0-5.523,4.477-10,10-10s10,4.477,10,10v13\\r\\n\\t\",\"key\":3})]);\n}\n\nLineaEcommerceBagUpload.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaEcommerceBagUpload;\n\nLineaEcommerceBagUpload.default = LineaEcommerceBagUpload;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtZWNvbW1lcmNlLWJhZy11cGxvYWQuc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyxvQkFBTzs7QUFFM0I7QUFDQSw0RUFBNEUsNEpBQTRKLDJCQUEyQixRQUFRLDZCQUE2QiwySEFBMkgsa0NBQWtDLG1JQUFtSSw4QkFBOEIsa0pBQWtKO0FBQ3h2Qjs7QUFFQSx3Q0FBd0M7O0FBRXhDOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWF4Y29hY2gtcmVhY3QvLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtZWNvbW1lcmNlLWJhZy11cGxvYWQuc3ZnP2E0OTUiXSwic291cmNlc0NvbnRlbnQiOlsidmFyIFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuZnVuY3Rpb24gTGluZWFFY29tbWVyY2VCYWdVcGxvYWQgKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxbUmVhY3QuY3JlYXRlRWxlbWVudChcInBvbHlsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTGluZWpvaW5cIjpcImJldmVsXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwicG9pbnRzXCI6XCIyMy45OTgsNDAgXFxyXFxuXFx0MzEuOTk4LDMyIDM5Ljk5OCw0MCBcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwiZ1wiLHtcImtleVwiOjF9LFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcIngxXCI6XCIzMS45OThcIixcInkxXCI6XCIzMlwiLFwieDJcIjpcIjMxLjk5OFwiLFwieTJcIjpcIjUyXCJ9KSksUmVhY3QuY3JlYXRlRWxlbWVudChcInBvbHlnb25cIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwicG9pbnRzXCI6XCI0NCwxOCA1NCwxOCA1NCw2MyAxMCw2MyAxMCwxOCAyMCwxOCBcIixcImtleVwiOjJ9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicGF0aFwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJkXCI6XCJNMjIsMjRWMTFjMC01LjUyMyw0LjQ3Ny0xMCwxMC0xMHMxMCw0LjQ3NywxMCwxMHYxM1xcclxcblxcdFwiLFwia2V5XCI6M30pXSk7XG59XG5cbkxpbmVhRWNvbW1lcmNlQmFnVXBsb2FkLmRlZmF1bHRQcm9wcyA9IHtcInZlcnNpb25cIjpcIjEuMFwiLFwiaWRcIjpcIkxheWVyXzFcIixcInhcIjpcIjBweFwiLFwieVwiOlwiMHB4XCIsXCJ3aWR0aFwiOlwiNjRweFwiLFwiaGVpZ2h0XCI6XCI2NHB4XCIsXCJ2aWV3Qm94XCI6XCIwIDAgNjQgNjRcIixcImVuYWJsZUJhY2tncm91bmRcIjpcIm5ldyAwIDAgNjQgNjRcIixcInhtbFNwYWNlXCI6XCJwcmVzZXJ2ZVwifTtcblxubW9kdWxlLmV4cG9ydHMgPSBMaW5lYUVjb21tZXJjZUJhZ1VwbG9hZDtcblxuTGluZWFFY29tbWVyY2VCYWdVcGxvYWQuZGVmYXVsdCA9IExpbmVhRWNvbW1lcmNlQmFnVXBsb2FkO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-ecommerce-bag-upload.svg\n");
+
+/***/ })
+
+};
+;

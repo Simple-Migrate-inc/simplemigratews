@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-basic-elaboration-folder-star_svg"],{
+
+/***/ "./src/assets/svgs/linea-basic-elaboration-folder-star.svg":
+/*!*****************************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-elaboration-folder-star.svg ***!
+  \*****************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaBasicElaborationFolderStar (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"63,18 63,54 1,54 1,10 22,10 30,18 \",\"key\":0}),React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeLinejoin\":\"round\",\"strokeMiterlimit\":\"10\",\"points\":\"32,41 25.875,45 \\r\\n\\t28,38 22,34 29.213,34 32,26 35,34 42,34 36,38 37.938,45 \",\"key\":1})]);\n}\n\nLineaBasicElaborationFolderStar.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicElaborationFolderStar;\n\nLineaBasicElaborationFolderStar.default = LineaBasicElaborationFolderStar;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tZm9sZGVyLXN0YXIuc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyw0Q0FBTzs7QUFFM0I7QUFDQSwyRUFBMkUsaUlBQWlJLGlDQUFpQyxzTUFBc007QUFDbmI7O0FBRUEsZ0RBQWdEOztBQUVoRDs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tZm9sZGVyLXN0YXIuc3ZnP2ZjM2QiXSwic291cmNlc0NvbnRlbnQiOlsidmFyIFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuZnVuY3Rpb24gTGluZWFCYXNpY0VsYWJvcmF0aW9uRm9sZGVyU3RhciAocHJvcHMpIHtcbiAgICByZXR1cm4gUmVhY3QuY3JlYXRlRWxlbWVudChcInN2Z1wiLHByb3BzLFtSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWdvblwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJwb2ludHNcIjpcIjYzLDE4IDYzLDU0IDEsNTQgMSwxMCAyMiwxMCAzMCwxOCBcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWdvblwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZUxpbmVqb2luXCI6XCJyb3VuZFwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcInBvaW50c1wiOlwiMzIsNDEgMjUuODc1LDQ1IFxcclxcblxcdDI4LDM4IDIyLDM0IDI5LjIxMywzNCAzMiwyNiAzNSwzNCA0MiwzNCAzNiwzOCAzNy45MzgsNDUgXCIsXCJrZXlcIjoxfSldKTtcbn1cblxuTGluZWFCYXNpY0VsYWJvcmF0aW9uRm9sZGVyU3Rhci5kZWZhdWx0UHJvcHMgPSB7XCJ2ZXJzaW9uXCI6XCIxLjFcIixcImlkXCI6XCJMYXllcl8xXCIsXCJ4XCI6XCIwcHhcIixcInlcIjpcIjBweFwiLFwid2lkdGhcIjpcIjY0cHhcIixcImhlaWdodFwiOlwiNjRweFwiLFwidmlld0JveFwiOlwiMCAwIDY0IDY0XCIsXCJlbmFibGVCYWNrZ3JvdW5kXCI6XCJuZXcgMCAwIDY0IDY0XCIsXCJ4bWxTcGFjZVwiOlwicHJlc2VydmVcIn07XG5cbm1vZHVsZS5leHBvcnRzID0gTGluZWFCYXNpY0VsYWJvcmF0aW9uRm9sZGVyU3RhcjtcblxuTGluZWFCYXNpY0VsYWJvcmF0aW9uRm9sZGVyU3Rhci5kZWZhdWx0ID0gTGluZWFCYXNpY0VsYWJvcmF0aW9uRm9sZGVyU3RhcjtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-elaboration-folder-star.svg\n"));
+
+/***/ })
+
+}]);

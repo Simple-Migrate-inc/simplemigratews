@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-software-box-oval_svg"],{
+
+/***/ "./src/assets/svgs/linea-software-box-oval.svg":
+/*!*****************************************************!*\
+  !*** ./src/assets/svgs/linea-software-box-oval.svg ***!
+  \*****************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaSoftwareBoxOval (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"ellipse\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"cx\":\"32\",\"cy\":\"32\",\"rx\":\"31\",\"ry\":\"20\",\"key\":0}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"1\",\"y1\":\"32\",\"x2\":\"63\",\"y2\":\"32\",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"32\",\"y1\":\"12\",\"x2\":\"32\",\"y2\":\"52\",\"key\":2})]);\n}\n\nLineaSoftwareBoxOval.defaultProps = {\"version\":\"1.0\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaSoftwareBoxOval;\n\nLineaSoftwareBoxOval.default = LineaSoftwareBoxOval;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtc29mdHdhcmUtYm94LW92YWwuc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyw0Q0FBTzs7QUFFM0I7QUFDQSwyRUFBMkUsMkhBQTJILDhCQUE4QiwwSEFBMEgsOEJBQThCLDJIQUEySDtBQUN2Zjs7QUFFQSxxQ0FBcUM7O0FBRXJDOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1zb2Z0d2FyZS1ib3gtb3ZhbC5zdmc/NzVhNyJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5mdW5jdGlvbiBMaW5lYVNvZnR3YXJlQm94T3ZhbCAocHJvcHMpIHtcbiAgICByZXR1cm4gUmVhY3QuY3JlYXRlRWxlbWVudChcInN2Z1wiLHByb3BzLFtSZWFjdC5jcmVhdGVFbGVtZW50KFwiZWxsaXBzZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJjeFwiOlwiMzJcIixcImN5XCI6XCIzMlwiLFwicnhcIjpcIjMxXCIsXCJyeVwiOlwiMjBcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwibGluZVwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJ4MVwiOlwiMVwiLFwieTFcIjpcIjMyXCIsXCJ4MlwiOlwiNjNcIixcInkyXCI6XCIzMlwiLFwia2V5XCI6MX0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcIngxXCI6XCIzMlwiLFwieTFcIjpcIjEyXCIsXCJ4MlwiOlwiMzJcIixcInkyXCI6XCI1MlwiLFwia2V5XCI6Mn0pXSk7XG59XG5cbkxpbmVhU29mdHdhcmVCb3hPdmFsLmRlZmF1bHRQcm9wcyA9IHtcInZlcnNpb25cIjpcIjEuMFwiLFwiaWRcIjpcIkxheWVyXzFcIixcInhcIjpcIjBweFwiLFwieVwiOlwiMHB4XCIsXCJ3aWR0aFwiOlwiNjRweFwiLFwiaGVpZ2h0XCI6XCI2NHB4XCIsXCJ2aWV3Qm94XCI6XCIwIDAgNjQgNjRcIixcImVuYWJsZUJhY2tncm91bmRcIjpcIm5ldyAwIDAgNjQgNjRcIixcInhtbFNwYWNlXCI6XCJwcmVzZXJ2ZVwifTtcblxubW9kdWxlLmV4cG9ydHMgPSBMaW5lYVNvZnR3YXJlQm94T3ZhbDtcblxuTGluZWFTb2Z0d2FyZUJveE92YWwuZGVmYXVsdCA9IExpbmVhU29mdHdhcmVCb3hPdmFsO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-software-box-oval.svg\n"));
+
+/***/ })
+
+}]);

@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-arrows-shrink-diagonal2_svg";
+exports.ids = ["src_assets_svgs_linea-arrows-shrink-diagonal2_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-arrows-shrink-diagonal2.svg":
+/*!***********************************************************!*\
+  !*** ./src/assets/svgs/linea-arrows-shrink-diagonal2.svg ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaArrowsShrinkDiagonal2 (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeLinejoin\":\"bevel\",\"strokeMiterlimit\":\"10\",\"points\":\"35,18 35,29 \\r\\n\\t46,29 \",\"key\":0}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeLinejoin\":\"bevel\",\"strokeMiterlimit\":\"10\",\"points\":\"28.771,45.771 \\r\\n\\t28.771,34.771 17.771,34.771 \",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"1\",\"y1\":\"63\",\"x2\":\"29\",\"y2\":\"35\",\"key\":2}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"35\",\"y1\":\"29\",\"x2\":\"63\",\"y2\":\"1\",\"key\":3})]);\n}\n\nLineaArrowsShrinkDiagonal2.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaArrowsShrinkDiagonal2;\n\nLineaArrowsShrinkDiagonal2.default = LineaArrowsShrinkDiagonal2;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYXJyb3dzLXNocmluay1kaWFnb25hbDIuc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyxvQkFBTzs7QUFFM0I7QUFDQSw0RUFBNEUsZ0pBQWdKLGtDQUFrQyx3S0FBd0ssOEJBQThCLDBIQUEwSCw4QkFBOEIsMEhBQTBIO0FBQ3R0Qjs7QUFFQSwyQ0FBMkM7O0FBRTNDOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWF4Y29hY2gtcmVhY3QvLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYXJyb3dzLXNocmluay1kaWFnb25hbDIuc3ZnP2Q2ZjciXSwic291cmNlc0NvbnRlbnQiOlsidmFyIFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuZnVuY3Rpb24gTGluZWFBcnJvd3NTaHJpbmtEaWFnb25hbDIgKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxbUmVhY3QuY3JlYXRlRWxlbWVudChcInBvbHlsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTGluZWpvaW5cIjpcImJldmVsXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwicG9pbnRzXCI6XCIzNSwxOCAzNSwyOSBcXHJcXG5cXHQ0NiwyOSBcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VMaW5lam9pblwiOlwiYmV2ZWxcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJwb2ludHNcIjpcIjI4Ljc3MSw0NS43NzEgXFxyXFxuXFx0MjguNzcxLDM0Ljc3MSAxNy43NzEsMzQuNzcxIFwiLFwia2V5XCI6MX0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcIngxXCI6XCIxXCIsXCJ5MVwiOlwiNjNcIixcIngyXCI6XCIyOVwiLFwieTJcIjpcIjM1XCIsXCJrZXlcIjoyfSksUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjM1XCIsXCJ5MVwiOlwiMjlcIixcIngyXCI6XCI2M1wiLFwieTJcIjpcIjFcIixcImtleVwiOjN9KV0pO1xufVxuXG5MaW5lYUFycm93c1Nocmlua0RpYWdvbmFsMi5kZWZhdWx0UHJvcHMgPSB7XCJ2ZXJzaW9uXCI6XCIxLjFcIixcImlkXCI6XCJMYXllcl8xXCIsXCJ4XCI6XCIwcHhcIixcInlcIjpcIjBweFwiLFwid2lkdGhcIjpcIjY0cHhcIixcImhlaWdodFwiOlwiNjRweFwiLFwidmlld0JveFwiOlwiMCAwIDY0IDY0XCIsXCJlbmFibGVCYWNrZ3JvdW5kXCI6XCJuZXcgMCAwIDY0IDY0XCIsXCJ4bWxTcGFjZVwiOlwicHJlc2VydmVcIn07XG5cbm1vZHVsZS5leHBvcnRzID0gTGluZWFBcnJvd3NTaHJpbmtEaWFnb25hbDI7XG5cbkxpbmVhQXJyb3dzU2hyaW5rRGlhZ29uYWwyLmRlZmF1bHQgPSBMaW5lYUFycm93c1Nocmlua0RpYWdvbmFsMjtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-arrows-shrink-diagonal2.svg\n");
+
+/***/ })
+
+};
+;

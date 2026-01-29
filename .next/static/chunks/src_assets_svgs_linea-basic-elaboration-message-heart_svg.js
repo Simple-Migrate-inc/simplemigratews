@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_assets_svgs_linea-basic-elaboration-message-heart_svg"],{
+
+/***/ "./src/assets/svgs/linea-basic-elaboration-message-heart.svg":
+/*!*******************************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-elaboration-message-heart.svg ***!
+  \*******************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("var React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction LineaBasicElaborationMessageHeart (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"polygon\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"32,47 63,47 63,5 1,5 1,47 18,47 18,59 \",\"key\":0}),React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M22,23c0,6.666,10,12,10,12s10-5.334,10-12\\r\\n\\tc0-2.762-2-5-5-5c-2.762,0-5,2.238-5,5c0-2.762-2.238-5-5-5C24,18,22,20.238,22,23z\",\"key\":1})]);\n}\n\nLineaBasicElaborationMessageHeart.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicElaborationMessageHeart;\n\nLineaBasicElaborationMessageHeart.default = LineaBasicElaborationMessageHeart;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tbWVzc2FnZS1oZWFydC5zdmcuanMiLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxtQkFBTyxDQUFDLDRDQUFPOztBQUUzQjtBQUNBLDJFQUEyRSxxSUFBcUksOEJBQThCLHlOQUF5TjtBQUN2Yzs7QUFFQSxrREFBa0Q7O0FBRWxEOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3NyYy9hc3NldHMvc3Zncy9saW5lYS1iYXNpYy1lbGFib3JhdGlvbi1tZXNzYWdlLWhlYXJ0LnN2Zz9iMzliIl0sInNvdXJjZXNDb250ZW50IjpbInZhciBSZWFjdCA9IHJlcXVpcmUoJ3JlYWN0Jyk7XG5cbmZ1bmN0aW9uIExpbmVhQmFzaWNFbGFib3JhdGlvbk1lc3NhZ2VIZWFydCAocHJvcHMpIHtcbiAgICByZXR1cm4gUmVhY3QuY3JlYXRlRWxlbWVudChcInN2Z1wiLHByb3BzLFtSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWdvblwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJwb2ludHNcIjpcIjMyLDQ3IDYzLDQ3IDYzLDUgMSw1IDEsNDcgMTgsNDcgMTgsNTkgXCIsXCJrZXlcIjowfSksUmVhY3QuY3JlYXRlRWxlbWVudChcInBhdGhcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwiZFwiOlwiTTIyLDIzYzAsNi42NjYsMTAsMTIsMTAsMTJzMTAtNS4zMzQsMTAtMTJcXHJcXG5cXHRjMC0yLjc2Mi0yLTUtNS01Yy0yLjc2MiwwLTUsMi4yMzgtNSw1YzAtMi43NjItMi4yMzgtNS01LTVDMjQsMTgsMjIsMjAuMjM4LDIyLDIzelwiLFwia2V5XCI6MX0pXSk7XG59XG5cbkxpbmVhQmFzaWNFbGFib3JhdGlvbk1lc3NhZ2VIZWFydC5kZWZhdWx0UHJvcHMgPSB7XCJ2ZXJzaW9uXCI6XCIxLjFcIixcImlkXCI6XCJMYXllcl8xXCIsXCJ4XCI6XCIwcHhcIixcInlcIjpcIjBweFwiLFwid2lkdGhcIjpcIjY0cHhcIixcImhlaWdodFwiOlwiNjRweFwiLFwidmlld0JveFwiOlwiMCAwIDY0IDY0XCIsXCJlbmFibGVCYWNrZ3JvdW5kXCI6XCJuZXcgMCAwIDY0IDY0XCIsXCJ4bWxTcGFjZVwiOlwicHJlc2VydmVcIn07XG5cbm1vZHVsZS5leHBvcnRzID0gTGluZWFCYXNpY0VsYWJvcmF0aW9uTWVzc2FnZUhlYXJ0O1xuXG5MaW5lYUJhc2ljRWxhYm9yYXRpb25NZXNzYWdlSGVhcnQuZGVmYXVsdCA9IExpbmVhQmFzaWNFbGFib3JhdGlvbk1lc3NhZ2VIZWFydDtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-elaboration-message-heart.svg\n"));
+
+/***/ })
+
+}]);

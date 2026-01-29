@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* Poppins Fonts */
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/fonts/poppins/Poppins-Light.ttf");
+    src: local(""), url("/fonts/poppins/Poppins-Light.ttf") format("woff2"),
+        url("/fonts/poppins/Poppins-Light.ttf") format("woff");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/poppins/Poppins-Regular.ttf");
+    src: local(""), url("/fonts/poppins/Poppins-Regular.ttf") format("woff2"),
+        url("/fonts/poppins/Poppins-Regular.ttf") format("woff");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("/fonts/poppins/Poppins-Medium.ttf");
+    src: local(""), url("/fonts/poppins/Poppins-Medium.ttf") format("woff2"),
+        url("/fonts/poppins/Poppins-Medium.ttf") format("woff");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/fonts/poppins/Poppins-SemiBold.ttf");
+    src: local(""), url("/fonts/poppins/Poppins-SemiBold.ttf") format("woff2"),
+        url("/fonts/poppins/Poppins-SemiBold.ttf") format("woff");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/poppins/Poppins-Bold.ttf");
+    src: local(""), url("/fonts/poppins/Poppins-Bold.ttf") format("woff2"),
+        url("/fonts/poppins/Poppins-Bold.ttf") format("woff");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("/fonts/poppins/Poppins-ExtraBold.ttf");
+    src: local(""), url("/fonts/poppins/Poppins-ExtraBold.ttf") format("woff2"),
+        url("/fonts/poppins/Poppins-ExtraBold.ttf") format("woff");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("/fonts/poppins/Poppins-Black.ttf");
+    src: local(""), url("/fonts/poppins/Poppins-Black.ttf") format("woff2"),
+        url("/fonts/poppins/Poppins-Black.ttf") format("woff");
+}
+
+/* Playfair Display */
+
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/playfair-display/playfair-display-v28-latin-regular.woff2");
+    src: local(""),
+        url("/fonts/playfair-display/playfair-display-v28-latin-regular.woff2")
+            format("woff2"),
+        url("/fonts/playfair-display/playfair-display-v28-latin-regular.woff")
+            format("woff");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/fonts/playfair-display/playfair-display-v28-latin-600.woff2");
+    src: local(""),
+        url("/fonts/playfair-display/playfair-display-v28-latin-600.woff2")
+            format("woff2"),
+        url("/fonts/playfair-display/playfair-display-v28-latin-600.woff")
+            format("woff");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("/fonts/playfair-display/playfair-display-v28-latin-500.woff2");
+    src: local(""),
+        url("/fonts/playfair-display/playfair-display-v28-latin-500.woff2")
+            format("woff2"),
+        url("/fonts/playfair-display/playfair-display-v28-latin-500.woff")
+            format("woff");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/playfair-display/playfair-display-v28-latin-700.woff2");
+    src: local(""),
+        url("/fonts/playfair-display/playfair-display-v28-latin-700.woff2")
+            format("woff2"),
+        url("/fonts/playfair-display/playfair-display-v28-latin-700.woff")
+            format("woff");
+}
+
+/* Rossela Fonts */
+
+@font-face {
+    font-family: "Conv_Rossela-Demo-2";
+    src: url("/fonts/rossela/Rossela-Demo-2.woff2");
+    src: local("☺"), url("/fonts/rossela/Rossela-Demo-2.woff") format("woff"),
+        url("/fonts/rossela/Rossela-Demo-2.woff") format("woff" 2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

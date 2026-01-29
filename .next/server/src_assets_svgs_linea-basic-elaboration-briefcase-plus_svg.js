@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-basic-elaboration-briefcase-plus_svg";
+exports.ids = ["src_assets_svgs_linea-basic-elaboration-briefcase-plus_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-basic-elaboration-briefcase-plus.svg":
+/*!********************************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-elaboration-briefcase-plus.svg ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaBasicElaborationBriefcasePlus (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"points\":\"5,41 11,1 53,1 59,41 \",\"key\":0}),React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22\\r\\n\\tH5V41H21z\",\"key\":1}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"32\",\"y1\":\"15\",\"x2\":\"32\",\"y2\":\"33\",\"key\":2}),React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"41\",\"y1\":\"24\",\"x2\":\"23\",\"y2\":\"24\",\"key\":3})]);\n}\n\nLineaBasicElaborationBriefcasePlus.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicElaborationBriefcasePlus;\n\nLineaBasicElaborationBriefcasePlus.default = LineaBasicElaborationBriefcasePlus;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tYnJpZWZjYXNlLXBsdXMuc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyxvQkFBTzs7QUFFM0I7QUFDQSw0RUFBNEUsb0hBQW9ILDhCQUE4QiwySkFBMkosOEJBQThCLDJIQUEySCw4QkFBOEIsMkhBQTJIO0FBQzNxQjs7QUFFQSxtREFBbUQ7O0FBRW5EOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWF4Y29hY2gtcmVhY3QvLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tYnJpZWZjYXNlLXBsdXMuc3ZnPzBiMmIiXSwic291cmNlc0NvbnRlbnQiOlsidmFyIFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuZnVuY3Rpb24gTGluZWFCYXNpY0VsYWJvcmF0aW9uQnJpZWZjYXNlUGx1cyAocHJvcHMpIHtcbiAgICByZXR1cm4gUmVhY3QuY3JlYXRlRWxlbWVudChcInN2Z1wiLHByb3BzLFtSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwicG9pbnRzXCI6XCI1LDQxIDExLDEgNTMsMSA1OSw0MSBcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicGF0aFwiLHtcImZpbGxcIjpcIm5vbmVcIixcInN0cm9rZVwiOlwiIzAwMDAwMFwiLFwic3Ryb2tlV2lkdGhcIjpcIjJcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJkXCI6XCJNMjEsNDFjMCw2LjA3NSw0LjkyNSwxMSwxMSwxMXMxMS00LjkyNSwxMS0xMWgxNnYyMlxcclxcblxcdEg1VjQxSDIxelwiLFwia2V5XCI6MX0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcIngxXCI6XCIzMlwiLFwieTFcIjpcIjE1XCIsXCJ4MlwiOlwiMzJcIixcInkyXCI6XCIzM1wiLFwia2V5XCI6Mn0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJsaW5lXCIse1wiZmlsbFwiOlwibm9uZVwiLFwic3Ryb2tlXCI6XCIjMDAwMDAwXCIsXCJzdHJva2VXaWR0aFwiOlwiMlwiLFwic3Ryb2tlTWl0ZXJsaW1pdFwiOlwiMTBcIixcIngxXCI6XCI0MVwiLFwieTFcIjpcIjI0XCIsXCJ4MlwiOlwiMjNcIixcInkyXCI6XCIyNFwiLFwia2V5XCI6M30pXSk7XG59XG5cbkxpbmVhQmFzaWNFbGFib3JhdGlvbkJyaWVmY2FzZVBsdXMuZGVmYXVsdFByb3BzID0ge1widmVyc2lvblwiOlwiMS4xXCIsXCJpZFwiOlwiTGF5ZXJfMVwiLFwieFwiOlwiMHB4XCIsXCJ5XCI6XCIwcHhcIixcIndpZHRoXCI6XCI2NHB4XCIsXCJoZWlnaHRcIjpcIjY0cHhcIixcInZpZXdCb3hcIjpcIjAgMCA2NCA2NFwiLFwiZW5hYmxlQmFja2dyb3VuZFwiOlwibmV3IDAgMCA2NCA2NFwiLFwieG1sU3BhY2VcIjpcInByZXNlcnZlXCJ9O1xuXG5tb2R1bGUuZXhwb3J0cyA9IExpbmVhQmFzaWNFbGFib3JhdGlvbkJyaWVmY2FzZVBsdXM7XG5cbkxpbmVhQmFzaWNFbGFib3JhdGlvbkJyaWVmY2FzZVBsdXMuZGVmYXVsdCA9IExpbmVhQmFzaWNFbGFib3JhdGlvbkJyaWVmY2FzZVBsdXM7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-elaboration-briefcase-plus.svg\n");
+
+/***/ })
+
+};
+;

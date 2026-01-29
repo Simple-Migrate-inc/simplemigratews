@@ -1,0 +1,24 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_assets_svgs_linea-basic-elaboration-cloud-download_svg";
+exports.ids = ["src_assets_svgs_linea-basic-elaboration-cloud-download_svg"];
+exports.modules = {
+
+/***/ "./src/assets/svgs/linea-basic-elaboration-cloud-download.svg":
+/*!********************************************************************!*\
+  !*** ./src/assets/svgs/linea-basic-elaboration-cloud-download.svg ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var React = __webpack_require__(/*! react */ \"react\");\n\nfunction LineaBasicElaborationCloudDownload (props) {\n    return React.createElement(\"svg\",props,[React.createElement(\"path\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"d\":\"M41,50h14c4.565,0,8-3.582,8-8s-3.435-8-8-8\\r\\n\\tc0-11.046-9.52-20-20.934-20C23.966,14,14.8,20.732,13,30c0,0-0.831,0-1.667,0C5.626,30,1,34.477,1,40s4.293,10,10,10H41\",\"key\":0}),React.createElement(\"polyline\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeLinejoin\":\"bevel\",\"strokeMiterlimit\":\"10\",\"points\":\"40,37 32,45 \\r\\n\\t24,37 \",\"key\":1}),React.createElement(\"g\",{\"key\":2},React.createElement(\"line\",{\"fill\":\"none\",\"stroke\":\"#000000\",\"strokeWidth\":\"2\",\"strokeMiterlimit\":\"10\",\"x1\":\"32\",\"y1\":\"45\",\"x2\":\"32\",\"y2\":\"25\"}))]);\n}\n\nLineaBasicElaborationCloudDownload.defaultProps = {\"version\":\"1.1\",\"id\":\"Layer_1\",\"x\":\"0px\",\"y\":\"0px\",\"width\":\"64px\",\"height\":\"64px\",\"viewBox\":\"0 0 64 64\",\"enableBackground\":\"new 0 0 64 64\",\"xmlSpace\":\"preserve\"};\n\nmodule.exports = LineaBasicElaborationCloudDownload;\n\nLineaBasicElaborationCloudDownload.default = LineaBasicElaborationCloudDownload;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYXNzZXRzL3N2Z3MvbGluZWEtYmFzaWMtZWxhYm9yYXRpb24tY2xvdWQtZG93bmxvYWQuc3ZnLmpzIiwibWFwcGluZ3MiOiJBQUFBLFlBQVksbUJBQU8sQ0FBQyxvQkFBTzs7QUFFM0I7QUFDQSx3RUFBd0UsOFBBQThQLGtDQUFrQyxnSkFBZ0osMkJBQTJCLFFBQVEsNkJBQTZCLG1IQUFtSDtBQUMzcUI7O0FBRUEsbURBQW1EOztBQUVuRDs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL21heGNvYWNoLXJlYWN0Ly4vc3JjL2Fzc2V0cy9zdmdzL2xpbmVhLWJhc2ljLWVsYWJvcmF0aW9uLWNsb3VkLWRvd25sb2FkLnN2Zz85OGYyIl0sInNvdXJjZXNDb250ZW50IjpbInZhciBSZWFjdCA9IHJlcXVpcmUoJ3JlYWN0Jyk7XG5cbmZ1bmN0aW9uIExpbmVhQmFzaWNFbGFib3JhdGlvbkNsb3VkRG93bmxvYWQgKHByb3BzKSB7XG4gICAgcmV0dXJuIFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJzdmdcIixwcm9wcyxbUmVhY3QuY3JlYXRlRWxlbWVudChcInBhdGhcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwiZFwiOlwiTTQxLDUwaDE0YzQuNTY1LDAsOC0zLjU4Miw4LThzLTMuNDM1LTgtOC04XFxyXFxuXFx0YzAtMTEuMDQ2LTkuNTItMjAtMjAuOTM0LTIwQzIzLjk2NiwxNCwxNC44LDIwLjczMiwxMywzMGMwLDAtMC44MzEsMC0xLjY2NywwQzUuNjI2LDMwLDEsMzQuNDc3LDEsNDBzNC4yOTMsMTAsMTAsMTBINDFcIixcImtleVwiOjB9KSxSZWFjdC5jcmVhdGVFbGVtZW50KFwicG9seWxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VMaW5lam9pblwiOlwiYmV2ZWxcIixcInN0cm9rZU1pdGVybGltaXRcIjpcIjEwXCIsXCJwb2ludHNcIjpcIjQwLDM3IDMyLDQ1IFxcclxcblxcdDI0LDM3IFwiLFwia2V5XCI6MX0pLFJlYWN0LmNyZWF0ZUVsZW1lbnQoXCJnXCIse1wia2V5XCI6Mn0sUmVhY3QuY3JlYXRlRWxlbWVudChcImxpbmVcIix7XCJmaWxsXCI6XCJub25lXCIsXCJzdHJva2VcIjpcIiMwMDAwMDBcIixcInN0cm9rZVdpZHRoXCI6XCIyXCIsXCJzdHJva2VNaXRlcmxpbWl0XCI6XCIxMFwiLFwieDFcIjpcIjMyXCIsXCJ5MVwiOlwiNDVcIixcIngyXCI6XCIzMlwiLFwieTJcIjpcIjI1XCJ9KSldKTtcbn1cblxuTGluZWFCYXNpY0VsYWJvcmF0aW9uQ2xvdWREb3dubG9hZC5kZWZhdWx0UHJvcHMgPSB7XCJ2ZXJzaW9uXCI6XCIxLjFcIixcImlkXCI6XCJMYXllcl8xXCIsXCJ4XCI6XCIwcHhcIixcInlcIjpcIjBweFwiLFwid2lkdGhcIjpcIjY0cHhcIixcImhlaWdodFwiOlwiNjRweFwiLFwidmlld0JveFwiOlwiMCAwIDY0IDY0XCIsXCJlbmFibGVCYWNrZ3JvdW5kXCI6XCJuZXcgMCAwIDY0IDY0XCIsXCJ4bWxTcGFjZVwiOlwicHJlc2VydmVcIn07XG5cbm1vZHVsZS5leHBvcnRzID0gTGluZWFCYXNpY0VsYWJvcmF0aW9uQ2xvdWREb3dubG9hZDtcblxuTGluZWFCYXNpY0VsYWJvcmF0aW9uQ2xvdWREb3dubG9hZC5kZWZhdWx0ID0gTGluZWFCYXNpY0VsYWJvcmF0aW9uQ2xvdWREb3dubG9hZDtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/assets/svgs/linea-basic-elaboration-cloud-download.svg\n");
+
+/***/ })
+
+};
+;
