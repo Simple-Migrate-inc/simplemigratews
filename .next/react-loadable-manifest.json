@@ -1,10 +1,4 @@
 {
-  "../components/ui/countdown-timer/layout-03/index.tsx -> ./date-time-display": {
-    "id": "../components/ui/countdown-timer/layout-03/index.tsx -> ./date-time-display",
-    "files": [
-      "static/chunks/src_components_ui_countdown-timer_layout-03_date-time-display_tsx.js"
-    ]
-  },
   "../components/ui/offcanvas/index.tsx -> ../../portal": {
     "id": "../components/ui/offcanvas/index.tsx -> ../../portal",
     "files": [
