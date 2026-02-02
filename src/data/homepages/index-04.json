@@ -216,8 +216,8 @@
         {
             "section": "event-area",
             "section_title": {
-                "title": "Upcoming <span>Events</span>",
-                "subtitle": "Stimulated to take part in?"
+                "title": "Business Delegations <span>& Global Events </span>",
+                "subtitle": "Join and participate in high-impact global business events"
             },
             "motto": {
                 "text": "We love to see you at our events.​",
@@ -289,7 +289,7 @@
             "section": "newsletter-area",
             "section_title": {
                 "title": "Subscribe <span>Newsletters</span>",
-                "description":"Enter your email address to register to our newsletter subscription <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
+                "description":"Where Business Meets Global Mobility <br class='tw-hidden md:tw-block'>delivered on a regular basis!"
             }
         }
     ]

@@ -62,7 +62,7 @@ const CourseInfo = ({
                 <div className="course-price tw-flex tw-items-center tw-justify-between tw-mb-[7px]">
                     <h6 className="tw-mb-0">
                         <i className="far fa-money-bill-wave tw-text-body tw-min-w-[28px] tw-text-center" />{" "}
-                        Price
+                       Asking Price
                     </h6>
                     <span className="tw-text-right">
                         <span className="tw-text-2xl tw-text-primary tw-font-extrabold">
@@ -75,27 +75,27 @@ const CourseInfo = ({
                 <div className="course-meta tw-mb-10">
                     <CourseInfoItem
                         icon="far fa-chalkboard-teacher"
-                        label="Instructor"
+                        label="Contact"
                         value={instructor}
                     />
                     <CourseInfoItem
                         icon="far fa-clock"
-                        label="Duration"
+                        label="Category"
                         value={duration}
                     />
                     <CourseInfoItem
                         icon="far fa-user"
-                        label="Lectures"
+                        label="Gross Revenue Annual"
                         value={lectures}
                     />
                     <CourseInfoItem
                         icon="far fa-user"
-                        label="Enrolled"
+                        label="EBITDA / Net Profit"
                         value={`${students} Students`}
                     />
                     <CourseInfoItem
                         icon="far fa-language"
-                        label="Language"
+                        label="Real Estate"
                         value={language}
                     />
                     <CourseInfoItem

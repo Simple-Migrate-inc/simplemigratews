@@ -62,7 +62,7 @@ const CourseArea = ({
                     variants={scrollUpVariants}
                 >
                     <Button path="/courses/grid-03" className="tw-mt-[50px]">
-                        View all courses{" "}
+                        View all businesses{" "}
                         <i className="fas fa-arrow-right tw-ml-3" />
                     </Button>
                 </motion.div>
