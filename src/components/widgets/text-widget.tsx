@@ -38,18 +38,24 @@ const TextWidget = ({ className, mode }: TProps) => {
             <Social
                 color={mode === "dark" ? "white" : "light"}
                 className="tw-gap-6.1 tw-mt-6.1"
-            >
-                <SocialLink href="https://facebook.com" label="Facebook lnik">
+            >   
+                <SocialLink href="https://www.facebook.com/profile.php?id=100086938543826" label="Facebook lnik">
                     <i className="fab fa-facebook-square" />
                 </SocialLink>
-                <SocialLink href="https://twitter.com" label="twitter lnik">
-                    <i className="fab fa-twitter" />
+                <SocialLink href="http://x.com/SimpleMigrate" label="X link">
+                    <i className="fa-brands fa-x-twitter" />
                 </SocialLink>
-                <SocialLink href="https://instagram.com" label="instagram lnik">
+                <SocialLink href="https://www.instagram.com/simplemigrate" label="instagram lnik">
                     <i className="fab fa-instagram" />
                 </SocialLink>
-                <SocialLink href="https://linkedin.com" label="linkedin lnik">
+                <SocialLink href="https://www.linkedin.com/company/simplemigrate" label="linkedin lnik">
                     <i className="fab fa-linkedin" />
+                </SocialLink>
+                <SocialLink
+                    href="https://www.tiktok.com/@simplemigrate"
+                    label="TikTok link"
+                >
+                    <i className="fa-brands fa-tiktok" />
                 </SocialLink>
             </Social>
         </div>

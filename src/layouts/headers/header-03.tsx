@@ -72,7 +72,7 @@ const Header = ({ shadow, fluid }: TProps) => {
                         >
                             <Logo
                                 variant="dark"
-                                className="tw-max-w-[120px] sm:tw-max-w-[158px]"
+                                className="tw-max-w-[120px] sm:tw-max-w-[170px]"
                             />
                             <MainMenu
                                 className="tw-hidden xl:tw-block"

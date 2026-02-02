@@ -6,19 +6,26 @@
             "headings": [
                 {
                     "id":1,
-                    "content":"Expand Your Possibilities"
+                    "content":"Expand Your Possibilities by"
                 },
                 {
                     "id":2,
-                    "content":"Intensively"
+                    "content":" Relocation"
                 },
                 {
                     "id":3,
-                    "content":"Extensively"
+                    "content":"Business"
                 },
                 {
                     "id":4,
-                    "content":"Positively"
+                    "content":"Immigration"
+                },
+                {
+                    "id":5,
+                    "content":"Investing"
+                },                {
+                    "id":6,
+                    "content":"Partnerships"
                 }
             ],
             "texts": [
@@ -31,12 +38,12 @@
                 {
                     "id":1,
                     "path": "/start-here",
-                    "content":"Free consultation",
+                    "content":"Book a Private Strategy Call",
                     "color": "light"
                 },
                 {
                     "id": 2,
-                    "content":"How we work",
+                    "content":"Ask a Question",
                     "icon": "fas fa-play",
                     "variant": "outlined",
                     "color": "light"
@@ -63,8 +70,8 @@
                             "src": "/images/learner/h2-learner-01.png"
                         }
                     ],
-                    "title": "Customize Preferences",
-                    "description": "Learners are given the right to arrange and customize their study schedule and timetable based on preferences.",
+                    "title": "Buy a Business → Move with Confidence",
+                    "description": "Own a profitable business and secure your future.We connect you with carefully vetted businesses and franchises that align with immigration pathways.",
                     "path": "/start-here",
                     "pathText": "Start here"
                 },
@@ -75,8 +82,8 @@
                             "src": "/images/learner/learner-02.png"
                         }
                     ],
-                    "title": "Cloud Storage",
-                    "description": "You can store online lessons via online cloud or download to your device and revise lessons on the way.",
+                    "title": "Immigration Pathways That Actually Work",
+                    "description": "Immigration is not paperwork. It’s a strategy. We have a Business-first approach (not forms-first) Immigration + business + funding under one roof.",
                     "path": "/start-here",
                     "pathText": "Start here"
                 },
@@ -87,8 +94,8 @@
                             "src": "/images/learner/h2-learner-02.png"
                         }
                     ],
-                    "title": "Multimedia Channels",
-                    "description": "We provide study materials with various formats: video, audio, slides, doc, prints, books and applications.",
+                    "title": "Global Delegations, Events & Real Access",
+                    "description": "Discover and then Decide global opportunities through our worldwide delegations, events, webinars and expos.",
                     "path": "/start-here",
                     "pathText": "Start here"
                 }
@@ -102,9 +109,9 @@
         {
             "section": "funfact-area",
             "section_title": {
-                "title": "We prioritize & embrace the power of <span>Cooperation</span>",
+                "title": "Move Smarter. Invest with <span>Confidence.</span>",
                 "subtitle": "Everything starts with <strong>MaxCoach</strong>",
-                "description": "Get better choice of course, lessons, duration and tutors from our catalog. Free consultation sessions available."
+                "description": "Real businesses. Real pathways. Proven outcomes."
             },
             "motto": {
                 "text": "Have questions?​",
@@ -114,25 +121,28 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Finished Sessions",
-                    "counter": 1.926
+                    "title": "Qualified Businesses Evaluated",
+                     "suffix": "+",
+                    "counter": 150
                 },
                 {
                     "id": 2,
-                    "title": "Online Enrollment",
+                    "title": "Immigration & Business Pathways Supported",
                     "suffix": "+",
-                    "counter": 3.092
+                    "counter": 8
                 },
                 {
                     "id": 3,
-                    "title": "Subjects Taught",
-                    "counter": 200
+                    "title": "Client Success Rate from Assessment to Execution",
+                    "suffix": "%",
+                    "counter": 90
                 },
                 {
                     "id": 4,
-                    "title": "Satisfaction rate",
-                    "suffix": "%",
-                    "counter": 100
+                    "title": "Business Value Reviewed & Facilitated",
+                    "prefix": "$",
+                    "suffix": "M",
+                    "counter": 65
                 }
             ]
         }, 
