@@ -66,7 +66,7 @@ const Header = ({ shadow, fluid, transparent, mode }: TProps) => {
                 >
                     <div
                         className={clsx(
-                            "tw-container tw-grid tw-grid-flow-col xl:tw-grid-cols-[22%_minmax(56%,_1fr)_22%] tw-items-center",
+                            "tw-container tw-grid tw-grid-flow-col xl:tw-grid-cols-[22%_minmax(80%,_1fr)] tw-items-center",
                             fluid && "tw-max-w-full tw-px-3.8 3xl:tw-px-37"
                         )}
                     >
@@ -81,7 +81,7 @@ const Header = ({ shadow, fluid, transparent, mode }: TProps) => {
                             menu={menu}
                             color={mode}
                         />
-                        <div className="tw-flex tw-justify-end tw-items-center">
+                        {/* <div className="tw-flex tw-justify-end tw-items-center">
                             <Anchor
                                 path="/profile"
                                 className={clsx(
@@ -125,7 +125,7 @@ const Header = ({ shadow, fluid, transparent, mode }: TProps) => {
                                 color={mode}
                                 label="Toggle Menu"
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="tw-h-20" />

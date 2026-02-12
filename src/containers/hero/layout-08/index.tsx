@@ -7,9 +7,10 @@ type TProps = {
         images?: ImageType[];
         headings?: HeadingType[];
     };
+    headingClassName?: string;
 };
 
-const HeroArea = ({ data: { images, headings } }: TProps) => {
+const HeroArea = ({ data: { images, headings }, headingClassName }: TProps) => {
     return (
         <section className="hero-area tw-relative tw-py-15 md:tw-py-20 lg:tw-py-[100px] xl:tw-py-[200px]">
             {images?.[0]?.src && (
@@ -31,7 +32,12 @@ const HeroArea = ({ data: { images, headings } }: TProps) => {
                 variants={scrollUpVariants}
             >
                 {headings?.[0]?.content && (
-                    <h1 className="tw-max-w-[700px] lg:tw-max-w-[770px] tw-mx-auto tw-text-center tw-text-h3 tw-leading-normal md:tw-text-[32px] lg:tw-text-[34px] lg:tw-leading-[1.4] tw-text-white tw-mb-0">
+                    <h1
+                        className={
+                            headingClassName ??
+                            "tw-max-w-[700px] lg:tw-max-w-[770px] tw-mx-auto tw-text-center tw-text-h3 tw-leading-normal md:tw-text-[32px] lg:tw-text-[34px] lg:tw-leading-[1.4] tw-text-white tw-mb-0"
+                        }
+                    >
                         {headings?.[0]?.content}
                     </h1>
                 )}

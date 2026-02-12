@@ -1,0 +1,78 @@
+{
+    "id": 104,
+    "title": "Parent Communication & Daily Reporting",
+    "thumbnail": {
+        "src": "/images/courses/370/course-4.jpg"
+    },
+    "published_at": "2023-09-10T00:00:00.000Z",
+    "category": "Day Care",
+    "price": 39.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "16 hours",
+    "total_lectures": 12,
+    "total_students": 70,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Improve parent communication with structured updates and reporting best practices.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": {
+        "average": 4.5,
+        "count": 2,
+        "rating_details": {
+            "5": 1,
+            "4": 1,
+            "3": 0,
+            "2": 0,
+            "1": 0
+        },
+        "items": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Edna Watson",
+                    "avatar": {
+                        "src": "/images/review-author/author1.jpeg"
+                    }
+                },
+                "rating": 5.0,
+                "title": "Clear guidance",
+                "review": "Templates and tips for consistent parent updates."
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Owen Christ",
+                    "avatar": {
+                        "src": "/images/review-author/author2.jpeg"
+                    }
+                },
+                "rating": 4.0,
+                "title": "Nice templates",
+                "review": "Helped me structure daily communication."
+            }
+        ]
+    },
+    "description": [
+        {
+            "id": 1,
+            "type": "text",
+            "content": "Learn how to keep parents informed with daily reports and updates."
+        },
+        {
+            "id": 2,
+            "type": "text",
+            "content": "Build trust through transparent and consistent communication."
+        },
+        {
+            "id": 3,
+            "type": "heading",
+            "content": "A Short Description"
+        },
+        {
+            "id": 4,
+            "type": "text",
+            "content": "This course provides a framework for parent communication in day care."
+        }
+    ]
+}

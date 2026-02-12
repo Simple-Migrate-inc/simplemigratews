@@ -1,0 +1,78 @@
+{
+    "id": 101,
+    "title": "Day Care Foundations: Safety & Care Basics",
+    "thumbnail": {
+        "src": "/images/courses/370/course-1.jpg"
+    },
+    "published_at": "2023-06-01T00:00:00.000Z",
+    "category": "Day Care",
+    "price": 49.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "24 hours",
+    "total_lectures": 18,
+    "total_students": 120,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Learn essential safety protocols, routines, and care best practices for day care settings.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": {
+        "average": 4.6,
+        "count": 2,
+        "rating_details": {
+            "5": 1,
+            "4": 1,
+            "3": 0,
+            "2": 0,
+            "1": 0
+        },
+        "items": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Edna Watson",
+                    "avatar": {
+                        "src": "/images/review-author/author1.jpeg"
+                    }
+                },
+                "rating": 5.0,
+                "title": "Practical and clear",
+                "review": "Great overview of daily routines and safety requirements."
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Owen Christ",
+                    "avatar": {
+                        "src": "/images/review-author/author2.jpeg"
+                    }
+                },
+                "rating": 4.5,
+                "title": "Helpful",
+                "review": "Clear steps and actionable guidance for new caregivers."
+            }
+        ]
+    },
+    "description": [
+        {
+            "id": 1,
+            "type": "text",
+            "content": "Build a strong foundation in child care safety, routines, and communication."
+        },
+        {
+            "id": 2,
+            "type": "text",
+            "content": "Learn how to create a structured, nurturing environment for children."
+        },
+        {
+            "id": 3,
+            "type": "heading",
+            "content": "A Short Description"
+        },
+        {
+            "id": 4,
+            "type": "text",
+            "content": "This course provides a practical starting point for day care professionals."
+        }
+    ]
+}

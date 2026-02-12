@@ -5,6 +5,8 @@ import Router from "next/router";
 import Button from "@ui/button";
 import SocialShare from "@components/social-share/layout-01";
 import EnrollModal from "@components/modals/enroll-modal";
+import ScheduleCallModal from "@components/modals/schedule-call-modal";
+import EnquiryModal from "@components/modals/enquiry-modal";
 import { useUser } from "@contexts/user-context";
 import { useMount } from "@hooks";
 import CourseInfoItem from "./item";
@@ -34,7 +36,9 @@ const CourseInfo = ({
     language,
     published_at,
 }: TProps) => {
-    const [show, setShow] = useState(false);
+    const [showEnrollModal, setShowEnrollModal] = useState(false);
+    const [showScheduleModal, setShowScheduleModal] = useState(false);
+    const [showEnquiryModal, setShowEnquiryModal] = useState(false);
     const mounted = useMount();
     const { isLoggedIn, enrolCourse, courseProgress } = useUser();
     const enrolledCourse = courseProgress.find((cs) => cs.course === slug);
@@ -119,30 +123,41 @@ const CourseInfo = ({
                             <Button
                                 fullwidth
                                 className="tw-mb-4"
-                                onClick={() => setShow(true)}
+                                onClick={() => setShowScheduleModal(true)}
                             >
-                                Enroll Now
+                                Schedule a call
                             </Button>
                         ) : (
                             <Button
                                 fullwidth
                                 className="tw-mb-4"
-                                onClick={enrollHandler}
+                                onClick={() => setShowEnquiryModal(true)}
                             >
-                                Start Now
+                                Enquire now
                             </Button>
                         )}
                     </>
                 )}
 
-                <Button fullwidth onClick={() => setShow(true)}>
-                    Buy Membership
+                <Button fullwidth onClick={() => setShowEnquiryModal(true)}>
+                    Enquire Now
                 </Button>
                 <div className="tw-mt-5 tw-text-center">
                     <SocialShare />
                 </div>
             </div>
-            <EnrollModal show={show} onClose={() => setShow(false)} />
+            <ScheduleCallModal
+                show={showScheduleModal}
+                onClose={() => setShowScheduleModal(false)}
+            />
+            <EnquiryModal
+                show={showEnquiryModal}
+                onClose={() => setShowEnquiryModal(false)}
+            />
+            <EnrollModal
+                show={showEnrollModal}
+                onClose={() => setShowEnrollModal(false)}
+            />
         </>
     );
 };

@@ -1,61 +1,97 @@
 import type { GetStaticProps, NextPage } from "next";
 import SEO from "@components/seo/page-seo";
-import Layout from "@layout/layout-01";
+import Layout01 from "@layout/layout-01";
 import Breadcrumb from "@components/breadcrumb";
-import PageSidebar from "@containers/page-sidebar";
-import MarkdownRenderer from "@components/markdown-renderer";
-
+import HeroArea from "@containers/hero/layout-08";
+import AboutArea from "@containers/about/layout-02";
+import CourseArea from "@containers/course-full/layout-01";
 import { ICourse } from "@utils/types";
+import { normalizedData } from "@utils/methods";
 
-import { getallCourses } from "../lib/course";
-import { getPageBySlug } from "../lib/mdx-pages";
+import { getFilteredCourses } from "../lib/course";
+import { getPageData } from "../lib/page";
+
+interface PageContent {
+    section: string;
+}
 
 type TProps = {
     data: {
-        page: string;
-        recentCourses: ICourse[];
+        page: {
+            content: PageContent[];
+        };
+        courses: ICourse[];
     };
 };
 
 type PageProps = NextPage<TProps> & {
-    Layout: typeof Layout;
+    Layout: typeof Layout01;
 };
 
 const DayCareServices: PageProps = ({ data }) => {
+    const content = normalizedData<PageContent>(data.page?.content, "section");
+    const courses = data?.courses ?? [];
+    const heroData = {
+        images: [
+            {
+                src: "/images/business-buy/daycare.png",
+                alt: "Day Care Services",
+            },
+        ],
+        headings: [
+            {
+                id: "day-care-services",
+                content: "Day Care Services",
+            },
+        ],
+    };
     return (
         <>
             <SEO title="Day Care Services" />
+            <HeroArea
+                data={heroData}
+                headingClassName="tw-max-w-[700px] lg:tw-max-w-[770px] tw-mx-auto tw-text-center tw-text-h3 tw-leading-normal md:tw-text-[32px] lg:tw-text-[34px] lg:tw-leading-[1.4] tw-text-black tw-mb-0"
+            />
+            <AboutArea
+                data={content?.["about-area"]}
+                bg="tw-bg-white"
+                space="top-bottom-3"
+                titleSize="large"
+            />
             <Breadcrumb
                 pages={[{ path: "/", label: "home" }]}
                 currentPage="Day Care Services"
             />
-            <div className="tw-container tw-pb-15 md:tw-pb-20 lg:tw-pb-[100px] tw-grid tw-grid-cols-3 tw-gap-7.5 lg:tw-gap-15">
-                <aside className="tw-col-span-full tw-order-2 lg:tw-order-1 lg:tw-col-[1/1]">
-                    <PageSidebar recentCourses={data.recentCourses} />
-                </aside>
-                <div className="tw-col-span-full tw-order-1 lg:tw-order-2 lg:tw-col-[2/-1]">
-                    <MarkdownRenderer content={data.page} />
-                </div>
-            </div>
+            <CourseArea data={{ courses }} />
         </>
     );
 };
 
-DayCareServices.Layout = Layout;
+DayCareServices.Layout = Layout01;
 
 export const getStaticProps: GetStaticProps = () => {
-    const page = getPageBySlug("day-care-services");
-    const recentCourses = getallCourses(
-        ["title", "thumbnail", "price", "currency"],
-        0,
-        4
-    );
+    const page = getPageData("inner", "day-care-services");
+    const courses = getFilteredCourses(
+        [
+            "slug",
+            "title",
+            "thumbnail",
+            "price",
+            "currency",
+            "total_lectures",
+            "total_students",
+            "published_at",
+            "category",
+        ],
+        "category",
+        "Day Care"
+    ).slice(0, 4);
 
     return {
         props: {
             data: {
                 page,
-                recentCourses,
+                courses,
             },
             layout: {
                 headerShadow: true,
