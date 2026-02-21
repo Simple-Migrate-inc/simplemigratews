@@ -1,0 +1,19 @@
+{
+    "id": 701,
+    "title": "Holistic Nutrition Coaching Franchise Unit",
+    "thumbnail": { "src": "/images/courses/370/course-20.jpg" },
+    "published_at": "2024-05-15T00:00:00.000Z",
+    "category": "Health Coaching",
+    "price": 159.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "46 hours",
+    "total_lectures": 30,
+    "total_students": 110,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Wellness coaching model with recurring client programs and digital support.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Great retention", "review": "Clients stay on programs for longer cycles." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Strong model", "review": "Clear systems and service packaging." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A recurring-revenue coaching business in the wellness space." }, { "id": 2, "type": "text", "content": "Includes client onboarding and coaching delivery systems." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Suitable for owners focused on service-led growth." } ]
+}

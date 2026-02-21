@@ -1,0 +1,19 @@
+{
+    "id": 501,
+    "title": "Boutique Roadside Hotel with Stable Occupancy",
+    "thumbnail": { "src": "/images/courses/370/course-14.jpg" },
+    "published_at": "2024-02-18T00:00:00.000Z",
+    "category": "Travel & Leisure / RV Parks / Hotels",
+    "price": 349.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "72 hours",
+    "total_lectures": 46,
+    "total_students": 84,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Hospitality asset with repeat seasonal demand and ancillary revenue streams.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Strong occupancy", "review": "Good ADR and repeat traveler base." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Well-positioned", "review": "Location and operations are aligned." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "Travel-leisure business with stable booking dynamics." }, { "id": 2, "type": "text", "content": "Includes property operations, booking channels, and staff structure." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Designed for owners focused on hospitality cash flow." } ]
+}

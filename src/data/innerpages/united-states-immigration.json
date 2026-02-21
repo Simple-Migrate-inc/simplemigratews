@@ -1,0 +1,267 @@
+{
+    "name": "united-states-immigration",
+    "content": [
+        {
+            "section": "hero-area",
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/immigration/US/american-family.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Invest. Expand. Migrate<br> to the U.S."
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Entrepreneur and Investor Immigration Pathways Designed for Growth"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Leverage strategic programs like EB-2 NIW, E-2, and L-1A to build your business in America while securing your immigration future."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "/images/immigration/US/unitedstates-map.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Turn Your Capital into <br>U.S. Opportunity"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Business-Driven Immigration for Serious Investors"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Invest, launch, or expand in the U.S. through proven investor visas built for entrepreneurs ready to scale globally."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "timeline-area",
+            "section_title": {
+                "title": "U.S. Investor & Entrepreneur Immigration",
+                "subtitle": "Build Your Business in America While Securing Your Future"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/immigration/US/los-angeles-1.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "EB-2 NIW"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "EB-2 National Interest Waiver (NIW)"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "The EB-2 NIW (National Interest Waiver) is a premium green card pathway for high-impact entrepreneurs, innovators, and executives whose work benefits the United States. If you have strong qualifications and are building something in technology, healthcare, infrastructure, AI, clean energy, or economic development, you may qualify without needing an employer sponsor. This route leads directly to U.S. permanent residency and positions you as a strategic contributor to the American economy."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "/images/immigration/US/new-york-bridge.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Visas for Entrepreneurs"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "E-2 Treaty Investor Visa"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "The E-2 Treaty Investor Visa is ideal for entrepreneurs who want to buy, start, or expand a business in the United States. With a substantial investment and active ownership, you can live in the U.S. and operate your company long-term. It is one of the fastest and most practical routes for business buyers and franchise investors ready to move quickly and build revenue"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "/images/immigration/US/san-francisco.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Intra-Company Executive or Manager Transfers"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "L-1A Visa"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "The L-1A Visa is designed for established business owners who want to expand their existing company into the U.S. market. If you operate a company abroad, you can open a U.S. branch or subsidiary and transfer yourself as an executive. It offers a powerful expansion strategy and a strong pathway toward a future green card, making it ideal for serious global entrepreneurs scaling into the American market."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "cta-area",
+            "section_title": {
+                "title": "Start Your U.S. Business Immigration Strategy Today",
+                "subtitle":"Book a confidential consultation and discover <br><strong>the fastest, smartest pathway </strong>for your investment and immigration goals."
+            },
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "content": "Get started for free"
+                }
+            ]
+        },
+        {
+            "section": "gallery-area",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Lonnie Marks",
+                    "designation": "Tutor",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-01.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Britney Salker",
+                    "designation": "Educator",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-02.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Bronnies Wallz",
+                    "designation": "Alumnis",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-03.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Mia Paulo",
+                    "designation": "Writer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-04.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Lina Esthers",
+                    "designation": "Author",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-05.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Lorean McPhils",
+                    "designation": "Designer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-06.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "Anna Muray",
+                    "designation": "Writer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-07.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "faq-area",
+            "section_title": {
+                "title": "Frequently Asked Questions About U.S. Investor Immigration",
+                "subtitle":"Clear answers to help you confidently choose the right business and immigration pathway."
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Which U.S. investor visa is right for me — EB-2 NIW, E-2, or L-1A?",
+                    "description": "The right option depends on your profile. If you’re an innovation-driven founder seeking a green card, EB-2 NIW may be ideal. If you want to buy or start a business quickly, E-2 is often faster. If you already own a company abroad and want U.S. expansion, L-1A is a strong strategic route."
+                },
+                {
+                    "id": 2,
+                    "title": " Do I need a minimum investment amount?",
+                    "description": "E-2 and L-1A require sufficient capital to operate a real, active business, while EB-2 NIW does not have a fixed investment requirement. The key factor is demonstrating economic impact, viability, and long-term sustainability."
+                },
+                {
+                    "id": 3,
+                    "title": "Can these visas lead to a U.S. Green Card?",
+                    "description": "Yes. EB-2 NIW leads directly to permanent residency. L-1A can transition to an EB-1C green card. E-2 does not directly provide a green card but can be part of a long-term immigration strategy."
+                },
+                {
+                    "id": 4,
+                    "title": "Can my spouse and children move with me?",
+                    "description": "Yes. All three programs allow your spouse and dependent children to accompany you. In many cases, spouses can legally work in the United States."
+                },
+                {
+                    "id": 5,
+                    "title": "How long does the process take?",
+                    "description": "Processing times vary by visa type and country of residence. Some investor pathways can be structured and filed within months, depending on preparation quality and documentation."
+                },
+                {
+                    "id": 6,
+                    "title": "How does SimpleMigrate support me through this process?",
+                    "description": "We align your business strategy with the right immigration pathway — from business acquisition or expansion planning to documentation preparation and compliance coordination — ensuring your investment and immigration goals move forward together."
+                }
+            ]
+        }
+    ]
+}

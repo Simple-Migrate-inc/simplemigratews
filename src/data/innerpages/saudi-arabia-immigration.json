@@ -1,0 +1,291 @@
+{
+    "name": "saudi-arabia-immigration",
+    "content": [
+        {
+            "section": "hero-area",
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/immigration/saudi/riyadh-heading.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Saudi Arabia <br>Investor & Business Visas"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Live. Invest. Expand."
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Secure long-term residency through business ownership, premium residency, or strategic investment in the Middle East’s largest economy."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "/images/immigration/saudi/palms-saudi.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Build Your Future <br>in Saudi Arabia"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Investor • Entrepreneur • Residency"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Access premium residency and 100% foreign business ownership in one of the world’s fastest-transforming economies."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "timeline-area",
+            "section_title": {
+                "title": "Invest. Establish. Reside in Saudi Arabia.",
+                "subtitle": "Powerful Pathways for Entrepreneurs and Global Investors"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/immigration/saudi/saudi-flag.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": " Permanent & Long-Term Residency for Investors"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Premium Residency Program"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Secure your future in Saudi Arabia without a local sponsor. The Premium Residency Program allows qualified investors, entrepreneurs, and high-net-worth individuals to live, work, and own property in Saudi Arabia with long-term or permanent status. This pathway offers independence, family sponsorship, and full business ownership rights. Ideal for serious investors seeking stability, security, and direct access to the Kingdom’s expanding economy under Vision 2030."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src":"/images/immigration/saudi/saudi-masjid.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "100% Foreign-Owned Business Residency"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Business Investment License (Company Setup Route)"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Establish your company and unlock Saudi residency. Through the Investment License issued by the Ministry of Investment, foreign entrepreneurs can own and operate businesses in most sectors with full foreign ownership. This route provides a structured pathway to residency through company formation, employee sponsorship, and market access in the GCC’s largest economy. Perfect for founders, expansion-stage companies, and international brands entering the Middle East."
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "/images/immigration/saudi/saudi-najran.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Innovation & High-Growth Founder Program"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Entrepreneur & Startup Visa Pathway"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Launch and scale your startup in a rapidly transforming market.Saudi Arabia actively supports technology, fintech, AI, tourism, and clean energy startups through dedicated entrepreneur pathways and accelerator-backed programs. With the right business model and strategic positioning, founders can secure residency while accessing capital networks, mega-project opportunities, and government-backed initiatives designed to fuel innovation and scale."
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "images": [
+                        {
+                            "src": "/images/immigration/saudi/saudi-city.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "100% Foreign-Own"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Business Investment License (Company Setup Route)"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Studying online means that you pay the tuition fee, possibly book supplies, an online application fee, and few other items. You don’t, however, incur the costs of housing (which can range up to $12,000 per year) and transportation, which translates to lower debts and more savings."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "cta-area",
+            "section_title": {
+                "title": "Ready to Establish Yourself in Saudi Arabia?",
+                "subtitle":"Book a private strategy call and secure the right investor or business residency pathway with confidence."
+            },
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "content": "Get started for free"
+                }
+            ]
+        },
+        {
+            "section": "gallery-area",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Lonnie Marks",
+                    "designation": "Tutor",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-01.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Britney Salker",
+                    "designation": "Educator",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-02.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Bronnies Wallz",
+                    "designation": "Alumnis",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-03.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Mia Paulo",
+                    "designation": "Writer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-04.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Lina Esthers",
+                    "designation": "Author",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-05.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Lorean McPhils",
+                    "designation": "Designer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-06.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "Anna Muray",
+                    "designation": "Writer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-07.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "faq-area",
+            "section_title": {
+                "title": "Saudi Immigration Made Clear",
+                "subtitle":"Everything you need to know about Saudi investor, entrepreneur, and residency pathways."
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "What is the best visa option for investors or business owners in Saudi Arabia?",
+                    "description": "Saudi Arabia offers multiple pathways including Premium Residency, business investment licenses, startup routes, and property-based residency. The best option depends on your capital level, business goals, and long-term residency plans. We assess your profile and structure the most strategic pathway for approval and growth."
+                },
+                {
+                    "id": 2,
+                    "title": "Can I own 100% of my business in Saudi Arabia as a foreigner?",
+                    "description": "Yes. Through the Investment License pathway, most sectors allow 100% foreign ownership without a local sponsor. This gives you full operational control while providing a legal route to residency and employee sponsorship."
+                },
+                {
+                    "id": 3,
+                    "title": "Is Saudi residency permanent?",
+                    "description": "YPremium Residency offers both renewable annual and unlimited-duration options. Business-based residency remains valid as long as your company is compliant and operational. We help you structure your setup for long-term stability."
+                },
+                {
+                    "id": 4,
+                    "title": "Can I sponsor my family under these programs?",
+                    "description": "Yes. Investor and Premium Residency holders can sponsor spouses and children, allowing your family to live, study, and access services in Saudi Arabia."
+                },
+                {
+                    "id": 5,
+                    "title": " How long does the process take?",
+                    "description": "Timelines vary depending on the pathway, but most investor and business setups can be structured within a few months when documentation and capital requirements are prepared properly. Strategic planning significantly reduces delays."
+                },
+                {
+                    "id": 6,
+                    "title": " Do I need to be physically present in Saudi Arabia to qualify?",
+                    "description": "Some stages require presence, especially for company formation and residency processing. However, much of the structuring and documentation can be handled remotely before arrival. We guide you through each step efficiently."
+                }
+            ]
+        }
+    ]
+}

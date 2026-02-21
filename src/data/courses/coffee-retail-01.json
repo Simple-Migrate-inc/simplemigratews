@@ -1,0 +1,19 @@
+{
+    "id": 731,
+    "title": "Urban Coffee Bar Franchise with Delivery Upside",
+    "thumbnail": { "src": "/images/courses/370/course-7.jpg" },
+    "published_at": "2024-09-08T00:00:00.000Z",
+    "category": "Coffee & Beverage Retail",
+    "price": 189.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "50 hours",
+    "total_lectures": 34,
+    "total_students": 127,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "High-frequency coffee concept with strong morning demand and digital orders.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Daily demand", "review": "Strong repeat visit cadence." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Great model", "review": "Channel mix supports growth." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A coffee retail business with reliable daypart-driven traffic." }, { "id": 2, "type": "text", "content": "Includes menu systems and staffing model for efficiency." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "A strong fit for operators targeting repeat-purchase categories." } ]
+}

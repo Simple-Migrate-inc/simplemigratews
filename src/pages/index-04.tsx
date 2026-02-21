@@ -6,9 +6,9 @@ import Wrapper from "@ui/wrapper/wrapper-02";
 import HeroArea from "@containers/hero/layout-04";
 import ServiceArea from "@containers/service/layout-03";
 import FunfactArea from "@containers/funfact/layout-04";
-import VideoArea from "@containers/video/layout-04";
+// import VideoArea from "@containers/video/layout-04";
 import CourseArea from "@containers/course/layout-05";
-import TestimonialArea from "@containers/testimonial/layout-04";
+// import TestimonialArea from "@containers/testimonial/layout-04";
 import EventArea from "@containers/event/layout-02";
 import BlogArea from "@containers/blog/layout-03";
 import BrandArea from "@containers/brand/layout-01";
@@ -46,7 +46,7 @@ const Home: PageProps = ({ data }) => {
 
     return (
         <>
-            <SEO title="Multimedia Pedagogy" />
+            <SEO title="Simple Migrate" />
             <HeroArea data={content?.["hero-area"]} />
             <Wrapper className="tw-mb-[140px]">
                 <ServiceArea data={content?.["service-area"]} space="none" />
@@ -54,16 +54,16 @@ const Home: PageProps = ({ data }) => {
                     data={content?.["funfact-area"]}
                     titleSize="large"
                 />
-                <VideoArea data={content?.["video-area"]} space="top" />
+                {/* <VideoArea data={content?.["video-area"]} space="top" /> */}
             </Wrapper>
             <CourseArea
                 data={{ ...content?.["course-area"], courses: data.courses }}
                 titleSize="large"
             />
-            <TestimonialArea
+            {/* <TestimonialArea
                 data={content?.["testimonial-area"]}
                 titleSize="large"
-            />
+            /> */}
             <EventArea
                 data={{ ...content?.["event-area"], events: data.events }}
                 titleSize="large"

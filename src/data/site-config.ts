@@ -1,5 +1,5 @@
 export default {
-    name: "MaxCoach",
-    titleTemplate: "Online Learning React Education Template",
-    description: "Online Learning and Education React NextJS Template",
+    name: "Simple Migrate",
+    titleTemplate: "SimpleMigrate | Global Business Buy & Sell and Immigration Experts",
+    description: "impleMigrate helps entrepreneurs buy, sell, and expand businesses globally while navigating immigration pathways with expert guidance and strategic support."
 };

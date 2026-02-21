@@ -1,0 +1,19 @@
+{
+    "id": 753,
+    "title": "Cloud Migration and Support IT Franchise",
+    "thumbnail": { "src": "/images/courses/370/course-15.jpg" },
+    "published_at": "2024-12-22T00:00:00.000Z",
+    "category": "IT Services",
+    "price": 269.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "67 hours",
+    "total_lectures": 43,
+    "total_students": 97,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Cloud services model with project revenue and ongoing managed support.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Strong demand", "review": "SMB cloud migration pipeline is active." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Reliable growth", "review": "Managed services add stable recurring revenue." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A cloud-focused IT business with project and recurring service revenue." }, { "id": 2, "type": "text", "content": "Includes migration frameworks and support operations." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "A practical fit for operators targeting B2B tech services." } ]
+}

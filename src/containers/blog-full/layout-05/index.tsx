@@ -54,7 +54,7 @@ const BlogArea = ({ data: { blogs } }: TProps) => {
                                     <i className="fas fa-redo tw-ml-4" />
                                 </Button>
                             ) : (
-                                <p>No course to show</p>
+                                <p>No business to show</p>
                             )}
                         </div>
                     </>

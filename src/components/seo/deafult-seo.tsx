@@ -8,23 +8,23 @@ const SEO = () => {
             titleTemplate={`%s - ${siteConfig.titleTemplate}`}
             defaultTitle={siteConfig.name}
             description={siteConfig.description}
-            canonical="https://maxcoach-react.pages.dev/"
+            canonical="https://simplemigrate.com/"
             openGraph={{
                 type: "website",
                 locale: "en_IE",
                 site_name: siteConfig.name,
                 images: [
                     {
-                        url: "https://maxcoach-react.pages.dev/images/about/about-me/about-me-popup-video-poster.jpg",
+                        url: "https://simplemigrate.com/images/seo/simplemigrate.png",
                         width: 800,
                         height: 600,
-                        alt: "Og Image Alt",
+                        alt: "Simple Migrate",
                     },
                     {
-                        url: "https://maxcoach-react.pages.dev/images/about/about-me/about-me-popup-video-poster.jpg",
+                        url: "https://simplemigrate.com/images/seo/simplemigrate.png",
                         width: 900,
                         height: 800,
-                        alt: "Og Image Alt Second",
+                        alt: "Simple Migrate",
                     },
                 ],
             }}

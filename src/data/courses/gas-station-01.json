@@ -1,0 +1,19 @@
+{
+    "id": 301,
+    "title": "Urban Fuel Station with High In-Store Sales",
+    "thumbnail": { "src": "/images/courses/370/course-8.jpg" },
+    "published_at": "2023-11-20T00:00:00.000Z",
+    "category": "Gas Stations & Convenience Stores",
+    "price": 225.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "52 hours",
+    "total_lectures": 36,
+    "total_students": 140,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Established fuel and c-store operation with repeat commuter traffic.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.7, "count": 2, "rating_details": { "5": 1, "4": 1, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Reliable performer", "review": "Consistent traffic and healthy in-store basket size." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.5, "title": "Operationally strong", "review": "Good systems and vendor setup." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A profitable gas station with convenience retail upside." }, { "id": 2, "type": "text", "content": "Includes trained staff and optimized supplier contracts." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Ideal for buyers seeking resilient daily-demand business models." } ]
+}

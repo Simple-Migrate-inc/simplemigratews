@@ -1,0 +1,267 @@
+{
+    "name": "canada-immigration",
+    "content": [
+        {
+            "section": "hero-area",
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/immigration/Canada-Banner-1.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Build a Business in Canada. Secure Permanent Residence."
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Entrepreuneur"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "A proven pathway for entrepreneurs to start or buy a business and move their family to Canada—legally, strategically, and with confidence."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src":"/images/immigration/Canada-Banner.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Not Just Immigration. A Real Business Pathway."
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "immigration"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Canada’s entrepreneur programs reward hands-on owners who invest, create jobs, and actively operate successful businesses."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "timeline-area",
+            "section_title": {
+                "title": "Best chances for expanding your <br> success to the max",
+                "subtitle": "Four major Steps to Success"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/immigration/BC-PNP.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "British Columbia Provincial Nominee Program (BC PNP)"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "BC PNP Entrepreneur"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "The BC PNP Entrepreneur Immigration Program is one of Canada’s most direct and credible pathways for experienced entrepreneurs to obtain permanent residence by starting or acquiring and actively managing a real business in British Columbia. Unlike passive or speculative programs, this pathway rewards hands-on founders who are ready to invest, create jobs, and grow a sustainable operation in one of the world’s most stable and innovation-driven economies. Successful applicants establish or purchase a qualifying business, invest a minimum of CAD $200,000, create at least one full-time Canadian job, and operate the business under a work permit before receiving provincial nomination and applying for permanent residence. This program is ideal for business owners who want control, credibility, and a clear, merit-based route to Canadian PR—backed by a transparent government framework and real economic impact"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "/images/immigration/Alberta-Rural-Entrepreneur.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Alberta PNP"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Alberta Rural Entrepreneur Stream"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Unlock Canadian Permanent Residence by Building a Business in Alberta’s Rural Communities The Alberta Rural Entrepreneur Stream under the Alberta Advantage Immigration Program (AAIP) offers an exciting, strategic pathway for seasoned entrepreneurs and business owners to obtain Canadian permanent residence by starting or buying and operating a business in a rural Alberta community. If you bring solid business experience, a strong personal net worth, and a genuine commitment to actively grow your business while creating jobs for Canadians, this stream connects your entrepreneurial goals with a government-backed immigration pathway. To qualify, you must demonstrate relevant owner/manager experience, language ability, educational equivalency, a minimum investment, and secure a Community Support Letter from a participating rural region—showing local confidence in your plan. This program isn’t just about migration; it’s about building a thriving business foundation in welcoming communities, accessing lower competition, affordable costs, and a high quality of life, while paving the way to settle you and your family permanently in Canada’s fastest-growing province."
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "/images/immigration/Manitoba.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Manitoba Business PNP"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Manitoba Business Investor Stream"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Grow Your Business and Build a Future in Canada with Manitoba’s Business Investor Stream The Manitoba Business Investor Stream offers an accessible and effective pathway for seasoned entrepreneurs and strategic investors to secure Canadian permanent residence by establishing or acquiring and operating a business in Manitoba’s dynamic economy. Designed for people with real business experience and a strong investment ability, this stream connects your entrepreneurial ambitions with a government-supported immigration route that emphasizes economic contribution, job creation, and community impact. To qualify, you submit a detailed business proposal demonstrating your experience, capital, and commitment to active involvement in the business, and if your plan is supported through a Letter of Advice to Apply (LAA), you move forward to negotiate a Performance Agreement and invest in your Manitoba business. This is more than immigration — it’s an opportunity to be part of a thriving, affordable Canadian province, where your business can grow, your family can enjoy a high quality of life, and your long-term Canadian future is backed by a structured, merit-based program that rewards investment and economic leadership."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "cta-area",
+            "section_title": {
+                "title": "Turn Your Business Experience into <br>Canadian Permanent Residence",
+                "subtitle":"One Business Decision Can Change You and <strong>Your Future</strong> ?"
+            },
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "content": "Get started for free"
+                }
+            ]
+        },
+        {
+            "section": "gallery-area",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Lonnie Marks",
+                    "designation": "Tutor",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-01.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Britney Salker",
+                    "designation": "Educator",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-02.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Bronnies Wallz",
+                    "designation": "Alumnis",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-03.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Mia Paulo",
+                    "designation": "Writer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-04.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Lina Esthers",
+                    "designation": "Author",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-05.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Lorean McPhils",
+                    "designation": "Designer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-06.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "Anna Muray",
+                    "designation": "Writer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-07.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "faq-area",
+            "section_title": {
+                "title": "Questions Every Entrepreneur Asks Before<br> Moving to Canada",
+                "subtitle":"Your Business. Your Investment. Your Canadian Future."
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": " Do I need to start a new business, or can I buy an existing one?",
+                    "description": "You can either start a new business or purchase an existing, eligible business, depending on the province and stream. Many applicants choose to acquire an established business because it can reduce risk, speed up operations, and strengthen the overall application—provided the business meets provincial requirements and includes a clear growth or improvement plan."
+                },
+                {
+                    "id": 2,
+                    "title": "Is this a passive investment or do I need to actively run the business?",
+                    "description": "IAll programs require active, hands-on management. You must be directly involved in the day-to-day operations and decision-making of the business while living in the province. These are entrepreneur pathways, not passive investor or “buy-and-wait” programs."
+                },
+                {
+                    "id": 3,
+                    "title": "How much money do I need to invest to qualify?",
+                    "description": "Investment requirements vary by province and stream, but typically range from CAD $100,000 to $200,000+, along with a minimum personal net worth requirement. The investment must be used for legitimate business expenses and aligned with your approved business plan."
+                },
+                {
+                    "id": 4,
+                    "title": "Do I need to create jobs for Canadians?",
+                    "description": "Yes. All entrepreneur streams require you to create at least one full-time job for a Canadian citizen or permanent resident (some streams may require more). Job creation is a core factor in approval and nomination."
+                },
+                {
+                    "id": 5,
+                    "title": " Does this lead to permanent residence for my family as well?",
+                    "description": "Yes. Once you successfully establish and operate your business and meet the program conditions, you can be nominated for Canadian permanent residence, which includes your spouse or partner and dependent children."
+                },
+                {
+                    "id": 6,
+                    "title": " How long does the process usually take?",
+                    "description": "Most applicants first receive a work permit to come to Canada and launch their business. After operating the business for a required period and meeting performance targets, you can apply for provincial nomination and permanent residence. The full process typically takes 18–36 months, depending on the province, preparation quality, and execution."
+                }
+            ]
+        }
+    ]
+}

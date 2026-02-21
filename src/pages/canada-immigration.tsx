@@ -4,7 +4,6 @@ import Layout from "@layout/layout-01";
 import HeroArea from "@containers/hero/layout-07";
 import TimelineArea from "@containers/timeline";
 import CtaArea from "@containers/cta/layout-01";
-import GalleryArea from "@containers/gallery";
 import FaqArea from "@containers/faq/layout-02";
 
 import { normalizedData } from "@utils/methods";
@@ -32,10 +31,13 @@ const CanadaImmigration: PageProps = ({ data }) => {
         <>
             <SEO title="Canada Immigration" />
             <h1 className="tw-sr-only">Canada Immigration</h1>
-            <HeroArea data={content?.["hero-area"]} />
+            <HeroArea data={content?.["hero-area"]} textColor="black" />
             <TimelineArea data={content?.["timeline-area"]} />
-            <CtaArea data={content?.["cta-area"]} space="bottom" />
-            <GalleryArea data={content?.["gallery-area"]} />
+            <CtaArea
+                data={content?.["cta-area"]}
+                space="bottom"
+                showContactButtons
+            />
             <FaqArea data={content?.["faq-area"]} />
         </>
     );
@@ -44,7 +46,7 @@ const CanadaImmigration: PageProps = ({ data }) => {
 CanadaImmigration.Layout = Layout;
 
 export const getStaticProps: GetStaticProps = () => {
-    const page = getPageData("inner", "start-here");
+    const page = getPageData("inner", "canada-immigration");
 
     return {
         props: {

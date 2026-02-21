@@ -1,0 +1,78 @@
+{
+    "id": 203,
+    "title": "Multi-Unit Pizza & Wings Quick-Service Operation",
+    "thumbnail": {
+        "src": "/images/courses/370/course-7.jpg"
+    },
+    "published_at": "2023-11-08T00:00:00.000Z",
+    "category": "Fast Food Restaurants",
+    "price": 199.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "48 hours",
+    "total_lectures": 34,
+    "total_students": 188,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Growing pizza and wings operation with delivery-first model, repeat orders, and expansion potential.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": {
+        "average": 4.9,
+        "count": 2,
+        "rating_details": {
+            "5": 2,
+            "4": 0,
+            "3": 0,
+            "2": 0,
+            "1": 0
+        },
+        "items": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Edna Watson",
+                    "avatar": {
+                        "src": "/images/review-author/author1.jpeg"
+                    }
+                },
+                "rating": 5.0,
+                "title": "Excellent upside",
+                "review": "Healthy recurring order volume and clear growth playbook."
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Owen Christ",
+                    "avatar": {
+                        "src": "/images/review-author/author2.jpeg"
+                    }
+                },
+                "rating": 4.8,
+                "title": "Operationally ready",
+                "review": "Good systems, staff structure, and supplier terms in place."
+            }
+        ]
+    },
+    "description": [
+        {
+            "id": 1,
+            "type": "text",
+            "content": "An established fast food brand focused on pizza, wings, and online delivery demand."
+        },
+        {
+            "id": 2,
+            "type": "text",
+            "content": "Comes with documented procedures, recurring customer base, and growth-ready footprint."
+        },
+        {
+            "id": 3,
+            "type": "heading",
+            "content": "A Short Description"
+        },
+        {
+            "id": 4,
+            "type": "text",
+            "content": "Suitable for buyers aiming to scale within the QSR segment."
+        }
+    ]
+}

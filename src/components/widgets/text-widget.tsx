@@ -18,10 +18,10 @@ const TextWidget = ({ className, mode }: TProps) => {
                 )}
             >
                 <p className="tw-mb-[11px]">
-                    382 NE 191st St # 87394 Miami, FL 33179-3899
+                    3292 Production Way, Burnaby, BC V5A 4W4, Canada
                 </p>
                 <p className="tw-mb-[11px]">
-                    +1 (305) 547-9909 (9am - 5pm EST, Monday - Friday){" "}
+                    RCIC License No: <b>R51025</b>{" "}
                 </p>
                 <p className="tw-mb-[11px]">
                     <a
@@ -31,7 +31,7 @@ const TextWidget = ({ className, mode }: TProps) => {
                             mode === "dark" && "tw-text-gray-400"
                         )}
                     >
-                        info@example.com{" "}
+                        hello@simplemigrate.com{" "}
                     </a>
                 </p>
             </div>

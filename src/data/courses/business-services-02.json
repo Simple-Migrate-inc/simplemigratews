@@ -1,0 +1,19 @@
+{
+    "id": 712,
+    "title": "HR and Payroll Support Services Franchise",
+    "thumbnail": { "src": "/images/courses/370/course-2.jpg" },
+    "published_at": "2024-07-05T00:00:00.000Z",
+    "category": "Business & Professional Services",
+    "price": 199.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "55 hours",
+    "total_lectures": 37,
+    "total_students": 89,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Business services model with recurring payroll and HR administration revenue.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Strong retention", "review": "Clients stay long-term due to mission-critical services." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Scalable", "review": "Recurring contracts and clear upsell opportunities." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A recurring-revenue business in essential administrative services." }, { "id": 2, "type": "text", "content": "Includes client onboarding, service delivery, and reporting systems." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "A practical model for disciplined operators." } ]
+}

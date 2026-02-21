@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Section from "@ui/section";
 import SectionTitle from "@components/section-title";
-import NewsletterForm from "@components/forms/newsletter-form";
 import { SectionTitleType, TSection } from "@utils/types";
 import { scrollUpVariants } from "@utils/variants";
 

@@ -1,0 +1,291 @@
+{
+    "name": "uae-immigration",
+    "content": [
+        {
+            "section": "hero-area",
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/immigration/UAE/dubai-skyline.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "UAE Business & Investor Residency"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Golden • Green • Investor • Entrepreneur Programs"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Start, invest, or scale your business in the UAE while securing long-term, tax-efficient residency in one of the world’s most dynamic economies."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src":  "/images/immigration/UAE/UAE-families.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Live & Invest in the UAE"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "Business & Entrepreneur Visa Pathways"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "From startup founders to high-net-worth investors, secure UAE residency through flexible, business-focused immigration programs."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "timeline-area",
+            "section_title": {
+                "title": "Live, Invest & Establish in the UAE",
+                "subtitle": "Comprehensive residency pathways for entrepreneurs, investors, startup founders, and business owners."
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/timeline/start-here-timeline-photo-01.jpg"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Long-Term Investor & Entrepreneur Residency"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "UAE Golden Visa"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "The UAE Golden Visa offers 10-year renewable residency for investors, business owners, and high-net-worth individuals. With no local sponsor required and full business control, this program provides stability, global mobility, and access to one of the world’s most dynamic tax-efficient economies."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "/images/timeline/start-here-timeline-photo-02.jpg"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Independent 5-Year Residency for Entrepreneurs"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "UAE Green Visa"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "The UAE Green Visa allows entrepreneurs, freelancers, and skilled professionals to secure 5-year residency without an employer sponsor. Ideal for growing businesses and independent founders seeking flexibility and long-term presence in the UAE"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "/images/timeline/start-here-timeline-photo-03.jpg"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Residency Through Business Ownership"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": "UAE Investor Visa"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Who says that having to be more self-disciplined is a disadvantage? It is true that studying online requires more time-management skills, because you will spend a lot of time on your own without someone physically close to keep you focused on deadlines."
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "images": [
+                        {
+                            "src": "/images/timeline/start-here-timeline-photo-03.jpg"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Innovation & Startup Residency"
+                        }, 
+                        {
+                            "id": 2,
+                            "content": " UAE Entrepreneur Visa"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Designed for founders with scalable and innovative business ideas, the UAE Entrepreneur Visa provides long-term residency and access to incubators, funding ecosystems, and global markets — making it an ideal gateway for ambitious startups."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "cta-area",
+            "section_title": {
+                "title":"Start Your <strong>UAE Residency </strong>Journey Today" ,
+                "subtitle":"Book a strategy call and discover the fastest,<br> most secure pathway to live, invest, and build your business in the UAE."
+            },
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/contact-us",
+                    "content": "Get started for free"
+                }
+            ]
+        },
+        {
+            "section": "gallery-area",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Lonnie Marks",
+                    "designation": "Tutor",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-01.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Britney Salker",
+                    "designation": "Educator",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-02.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Bronnies Wallz",
+                    "designation": "Alumnis",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-03.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Mia Paulo",
+                    "designation": "Writer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-04.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Lina Esthers",
+                    "designation": "Author",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-05.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Lorean McPhils",
+                    "designation": "Designer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-06.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "Anna Muray",
+                    "designation": "Writer",
+                    "images": [
+                        {
+                            "src": "/images/gallery/start-here-gallery-image-07.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "faq-area",
+            "section_title": {
+                "title": "UAE Visa FAQs",
+                "subtitle":"Practical guidance on requirements, costs, ownership, and residency benefits for global entrepreneurs."
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": " What is the minimum investment required for UAE residency?",
+                    "description": "Investment requirements depend on the program. The Golden Visa typically requires AED 2M+ in qualifying investments, while Free Zone and Investor Visas may require significantly lower capital depending on the business structure. We assess your profile and recommend the most cost-efficient pathway."
+                },
+                {
+                    "id": 2,
+                    "title": "Can I own 100% of my business in the UAE?",
+                    "description": "Yes. Many Free Zones allow 100% foreign ownership, and recent mainland reforms also permit full ownership in most sectors. We structure your setup to ensure maximum control and flexibility."
+                },
+                {
+                    "id": 3,
+                    "title": "How long does the UAE visa process take?",
+                    "description": "Most business and investor visas can be processed within a few weeks once documentation is complete. Fast-track options may be available depending on the emirate and program selected."
+                },
+                {
+                    "id": 4,
+                    "title": " Can I include my family in my UAE residency?",
+                    "description": "Yes. Most UAE investor and entrepreneur visas allow you to sponsor your spouse and children, and in some cases domestic staff, providing full relocation support for your family."
+                },
+                {
+                    "id": 5,
+                    "title": "Do I need a local sponsor to apply?",
+                    "description": "No. Golden, Green, Investor, and Free Zone visas are generally self-sponsored through your business or investment, giving you independence and control over your residency status."
+                },
+                {
+                    "id": 6,
+                    "title": "Is the UAE tax-free?",
+                    "description": "The UAE offers a highly tax-efficient environment with no personal income tax. Corporate tax may apply depending on business activity and revenue thresholds, but the UAE remains one of the most attractive global jurisdictions for entrepreneurs and investors."
+                }
+            ]
+        }
+    ]
+}

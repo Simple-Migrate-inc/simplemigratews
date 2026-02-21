@@ -25,7 +25,7 @@ type TProps = {
 };
 
 const CourseInfo = ({
-    lessonLink,
+    lessonLink: _lessonLink,
     slug,
     price,
     currency,
@@ -40,17 +40,8 @@ const CourseInfo = ({
     const [showScheduleModal, setShowScheduleModal] = useState(false);
     const [showEnquiryModal, setShowEnquiryModal] = useState(false);
     const mounted = useMount();
-    const { isLoggedIn, enrolCourse, courseProgress } = useUser();
+    const { courseProgress } = useUser();
     const enrolledCourse = courseProgress.find((cs) => cs.course === slug);
-
-    const enrollHandler = () => {
-        if (isLoggedIn) {
-            enrolCourse({ course: slug, lessonLink });
-            void Router.push(lessonLink);
-        } else {
-            void Router.push("/login-register");
-        }
-    };
 
     const continueHandler = () => {
         if (enrolledCourse) {

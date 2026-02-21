@@ -50,13 +50,14 @@ const DayCareServices: PageProps = ({ data }) => {
             <SEO title="Day Care Services" />
             <HeroArea
                 data={heroData}
-                headingClassName="tw-max-w-[700px] lg:tw-max-w-[770px] tw-mx-auto tw-text-center tw-text-h3 tw-leading-normal md:tw-text-[32px] lg:tw-text-[34px] lg:tw-leading-[1.4] tw-text-black tw-mb-0"
+                headingClassName="tw-max-w-[700px] lg:tw-max-w-[770px] tw-mx-auto tw-text-center tw-text-h3 tw-leading-normal md:tw-text-[32px] lg:tw-text-[34px] lg:tw-leading-[1.4] tw-text-black tw-mb-0 tw-inline-block tw-bg-white/50 tw-backdrop-blur-sm tw-px-6 tw-py-3 tw-rounded-lg"
             />
             <AboutArea
                 data={content?.["about-area"]}
                 bg="tw-bg-white"
                 space="top-bottom-3"
                 titleSize="large"
+                showContactButtons
             />
             <Breadcrumb
                 pages={[{ path: "/", label: "home" }]}

@@ -1,0 +1,19 @@
+{
+    "id": 721,
+    "title": "Quick-Service Bowl Concept Franchise",
+    "thumbnail": { "src": "/images/courses/370/course-4.jpg" },
+    "published_at": "2024-08-01T00:00:00.000Z",
+    "category": "Food & Beverage / Restaurant",
+    "price": 219.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "60 hours",
+    "total_lectures": 40,
+    "total_students": 121,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Fast-casual franchise with strong average order values and digital channels.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Great demand", "review": "Menu positioning drives repeat visits." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Scalable unit", "review": "Operations are standardized and efficient." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A food franchise with high-frequency ordering patterns." }, { "id": 2, "type": "text", "content": "Includes recipes, systems, and staffing workflows." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Designed for operators targeting consumer scale." } ]
+}

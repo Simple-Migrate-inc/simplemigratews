@@ -1,0 +1,19 @@
+{
+    "id": 302,
+    "title": "Highway Convenience Store with Fuel Pump Network",
+    "thumbnail": { "src": "/images/courses/370/course-9.jpg" },
+    "published_at": "2023-12-02T00:00:00.000Z",
+    "category": "Gas Stations & Convenience Stores",
+    "price": 239.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "56 hours",
+    "total_lectures": 38,
+    "total_students": 126,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Well-located highway stop with strong fuel and grab-and-go margins.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Great location", "review": "Strong throughput and repeat travelers." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.8, "title": "Profitable mix", "review": "Fuel plus retail gives balanced revenue." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "High-visibility location with stable demand from highway traffic." }, { "id": 2, "type": "text", "content": "Diversified sales mix with strong convenience margins." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "A strong acquisition for operators prioritizing cash flow stability." } ]
+}

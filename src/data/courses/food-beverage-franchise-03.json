@@ -1,0 +1,19 @@
+{
+    "id": 723,
+    "title": "Healthy Meal Prep Franchise Business",
+    "thumbnail": { "src": "/images/courses/370/course-6.jpg" },
+    "published_at": "2024-08-27T00:00:00.000Z",
+    "category": "Food & Beverage / Restaurant",
+    "price": 214.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "58 hours",
+    "total_lectures": 39,
+    "total_students": 108,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Subscription-friendly meal brand with recurring customer demand.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Recurring demand", "review": "Subscriptions drive reliable revenue." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Good positioning", "review": "Consumer trend alignment is strong." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "Food franchise model built around repeat purchase behavior." }, { "id": 2, "type": "text", "content": "Includes prep systems and retention-focused programs." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Suitable for operators seeking subscription-led growth." } ]
+}

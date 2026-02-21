@@ -1,0 +1,19 @@
+{
+    "id": 303,
+    "title": "Neighborhood C-Store and Fuel Business",
+    "thumbnail": { "src": "/images/courses/370/course-10.jpg" },
+    "published_at": "2023-12-16T00:00:00.000Z",
+    "category": "Gas Stations & Convenience Stores",
+    "price": 210.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "50 hours",
+    "total_lectures": 35,
+    "total_students": 118,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Local convenience destination with fuel demand and recurring household purchases.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.6, "count": 2, "rating_details": { "5": 1, "4": 1, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 4.8, "title": "Good base", "review": "Recurring local demand and reliable shifts." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.4, "title": "Steady business", "review": "Predictable sales and manageable operations." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "Community-oriented location with recurring customer behavior." }, { "id": 2, "type": "text", "content": "Balanced fuel and store revenues with expansion options." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Suitable for owner-operators and portfolio buyers alike." } ]
+}

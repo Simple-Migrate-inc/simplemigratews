@@ -1,0 +1,19 @@
+{
+    "id": 743,
+    "title": "Post-Hospital Home Recovery Support Franchise",
+    "thumbnail": { "src": "/images/courses/370/course-12.jpg" },
+    "published_at": "2024-11-12T00:00:00.000Z",
+    "category": "Senior & Home Care Services",
+    "price": 249.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "63 hours",
+    "total_lectures": 41,
+    "total_students": 87,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Recovery support model with referral channels and recurring care cycles.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Referral ready", "review": "Good ecosystem fit with providers." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Strong continuity", "review": "Structured plans and repeat demand." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A care business aligned with ongoing recovery needs." }, { "id": 2, "type": "text", "content": "Includes referral workflow and service-delivery process." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "A good option for healthcare-adjacent service operators." } ]
+}

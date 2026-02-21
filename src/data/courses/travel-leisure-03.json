@@ -1,0 +1,19 @@
+{
+    "id": 503,
+    "title": "Highway Motel and Guest Services Business",
+    "thumbnail": { "src": "/images/courses/370/course-16.jpg" },
+    "published_at": "2024-03-16T00:00:00.000Z",
+    "category": "Travel & Leisure / RV Parks / Hotels",
+    "price": 339.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "71 hours",
+    "total_lectures": 45,
+    "total_students": 81,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Roadside lodging business with repeat traveler demand and improved operating metrics.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Consistent performance", "review": "Reliable occupancy and manageable operations." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Good opportunity", "review": "Strong traffic corridor and recurring demand." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "Hospitality business with durable demand from highway travel patterns." }, { "id": 2, "type": "text", "content": "Operational controls and guest-service process are already in place." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Built for buyers seeking steady lodging revenues." } ]
+}

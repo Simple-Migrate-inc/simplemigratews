@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 
-const siteUrl = "https://www.example.com";
+const siteUrl = "https://simplemigrate.com";
 
 module.exports = {
     siteUrl,

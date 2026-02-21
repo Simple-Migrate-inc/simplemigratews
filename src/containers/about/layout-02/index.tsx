@@ -1,7 +1,11 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Section from "@ui/section";
 import MottoText from "@ui/motto-text";
+import Button from "@ui/button";
 import SectionTitle from "@components/section-title";
+import ScheduleCallModal from "@components/modals/schedule-call-modal";
+import EnquiryModal from "@components/modals/enquiry-modal";
 import { useUI } from "@contexts/ui-context";
 import { ImageType, MottoType, SectionTitleType, TSection } from "@utils/types";
 import { scrollUpVariants } from "@utils/variants";
@@ -12,6 +16,7 @@ type TProps = TSection & {
         motto?: MottoType;
         images?: ImageType[];
     };
+    showContactButtons?: boolean;
 };
 
 const AboutArea = ({
@@ -19,7 +24,10 @@ const AboutArea = ({
     space,
     bg,
     titleSize,
+    showContactButtons,
 }: TProps) => {
+    const [showScheduleModal, setShowScheduleModal] = useState(false);
+    const [showEnquiryModal, setShowEnquiryModal] = useState(false);
     const { trans1 } = useUI();
     return (
         <Section className="about-area" space={space} bg={bg}>
@@ -38,8 +46,19 @@ const AboutArea = ({
                             titleSize={titleSize}
                         />
                     )}
-                    {motto && (
+                    {showContactButtons ? (
+                        <div className="tw-mt-4 tw-flex tw-flex-wrap tw-gap-3">
+                            <Button onClick={() => setShowScheduleModal(true)}>
+                                Schedule a call
+                            </Button>
+                            <Button onClick={() => setShowEnquiryModal(true)}>
+                                Enquire now
+                            </Button>
+                        </div>
+                    ) : (
+                        motto && (
                         <MottoText className="tw-mt-4" size="md" {...motto} />
+                        )
                     )}
                 </motion.div>
                 <div className="tw-relative tw-order-1 lg:tw-order-2">
@@ -120,6 +139,14 @@ const AboutArea = ({
                     </motion.div>
                 </div>
             </div>
+            <ScheduleCallModal
+                show={showScheduleModal}
+                onClose={() => setShowScheduleModal(false)}
+            />
+            <EnquiryModal
+                show={showEnquiryModal}
+                onClose={() => setShowEnquiryModal(false)}
+            />
         </Section>
     );
 };

@@ -1,0 +1,19 @@
+{
+    "id": 401,
+    "title": "Precision Components Manufacturing Unit",
+    "thumbnail": { "src": "/images/courses/370/course-11.jpg" },
+    "published_at": "2024-01-04T00:00:00.000Z",
+    "category": "Manufacturing Businesses",
+    "price": 299.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "64 hours",
+    "total_lectures": 42,
+    "total_students": 96,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Established B2B manufacturing shop with repeat contracts and QA systems.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Strong contracts", "review": "Long-standing clients and quality operations." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Scalable", "review": "Capacity expansion potential is clear." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A contract-backed manufacturing business with stable demand." }, { "id": 2, "type": "text", "content": "Includes SOPs, trained operators, and supplier relationships." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Built for buyers seeking operational depth and scale." } ]
+}

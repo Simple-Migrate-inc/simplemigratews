@@ -33,11 +33,11 @@ const Footer01 = ({ mode }: TProps) => {
                     />
                 </div>
                 <p className="copyright tw-text-center tw-text-md tw-text-gray-400 tw-mt-5">
-                    &copy; {new Date().getFullYear()} Maxcoach.{" "}
+                    &copy; {new Date().getFullYear()} Simple Migrate Inc.{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://themeforest.net/user/bootxperts/portfolio"
+                        href="https://simplemigrate.com"
                     >
                         All Rights Reserved
                     </a>

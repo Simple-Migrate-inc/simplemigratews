@@ -2,9 +2,7 @@ import { TabContainer, TabNav, TabPane, TabList, TabContent } from "@ui/tab";
 import { ICourse, ICurriculum, IInstructor } from "@utils/types";
 import CourseInfo from "@widgets/course-info";
 import OverviewPanel from "./overview-panel";
-import CurriculamPanel from "./curriculam-panel";
 import InstructorPanel from "./instructor-panel";
-import ReviewPanel from "./review-panel";
 
 type TProps = {
     data: {

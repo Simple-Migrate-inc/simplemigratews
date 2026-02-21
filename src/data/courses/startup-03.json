@@ -1,0 +1,19 @@
+{
+    "id": 603,
+    "title": "Marketplace Platform Startup with B2B Demand",
+    "thumbnail": { "src": "/images/courses/370/course-19.jpg" },
+    "published_at": "2024-05-01T00:00:00.000Z",
+    "category": "Startups",
+    "price": 209.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "62 hours",
+    "total_lectures": 41,
+    "total_students": 126,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Platform startup with active supply-demand participants and clear monetization path.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.8, "count": 2, "rating_details": { "5": 2, "4": 0, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 5.0, "title": "Strong dynamics", "review": "Healthy marketplace engagement metrics." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.7, "title": "Great framework", "review": "Monetization plan is clearly defined." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A growth-stage startup with active ecosystem demand." }, { "id": 2, "type": "text", "content": "Includes product stack, GTM model, and operational baseline." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Suitable for operators focused on scale and execution." } ]
+}

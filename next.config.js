@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const runtimeCaching = require("next-pwa/cache");
 const withPWA = require("next-pwa")({
-    disable: process.env.NODE_ENV === "development",
+    disable:
+        process.env.NODE_ENV === "development" ||
+        process.env.npm_lifecycle_event === "export",
     dest: "public",
     register: true,
     runtimeCaching,
@@ -22,6 +24,9 @@ const withReactSvg = require("next-react-svg")({
 module.exports = withPWA(
     withReactSvg({
         reactStrictMode: false,
+        experimental: {
+            esmExternals: false,
+        },
         images: {
             unoptimized: true,
         },

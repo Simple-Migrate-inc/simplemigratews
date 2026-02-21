@@ -1,0 +1,19 @@
+{
+    "id": 742,
+    "title": "Senior Companionship and Daily Support Franchise",
+    "thumbnail": { "src": "/images/courses/370/course-11.jpg" },
+    "published_at": "2024-10-29T00:00:00.000Z",
+    "category": "Senior & Home Care Services",
+    "price": 229.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "59 hours",
+    "total_lectures": 39,
+    "total_students": 90,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Companionship-led care model with recurring service needs and community demand.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": { "average": 4.7, "count": 2, "rating_details": { "5": 1, "4": 1, "3": 0, "2": 0, "1": 0 }, "items": [ { "id": 1, "user": { "name": "Edna Watson", "avatar": { "src": "/images/review-author/author1.jpeg" } }, "rating": 4.9, "title": "Strong mission", "review": "Clients value continuity and trust." }, { "id": 2, "user": { "name": "Owen Christ", "avatar": { "src": "/images/review-author/author2.jpeg" } }, "rating": 4.5, "title": "Solid operations", "review": "Good scheduling and staff model." } ] },
+    "description": [ { "id": 1, "type": "text", "content": "A service-first care business with essential recurring demand." }, { "id": 2, "type": "text", "content": "Includes caregiver scheduling and quality assurance playbooks." }, { "id": 3, "type": "heading", "content": "A Short Description" }, { "id": 4, "type": "text", "content": "Suitable for operators focused on dependable local demand." } ]
+}

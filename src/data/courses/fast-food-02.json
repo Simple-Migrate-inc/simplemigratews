@@ -1,0 +1,78 @@
+{
+    "id": 202,
+    "title": "Drive-Thru Chicken Restaurant with Strong Local Brand",
+    "thumbnail": {
+        "src": "/images/courses/370/course-6.jpg"
+    },
+    "published_at": "2023-10-20T00:00:00.000Z",
+    "category": "Fast Food Restaurants",
+    "price": 179.00,
+    "currency": "$",
+    "language": "english",
+    "instructor": 1,
+    "duration": "44 hours",
+    "total_lectures": 31,
+    "total_students": 142,
+    "membership": ["silver", "gold", "diamond"],
+    "excerpt": "Well-known neighborhood chicken concept with drive-thru revenue and digital ordering growth.",
+    "curriculum": ["chapter-01", "chapter-02", "chapter-03", "chapter-04", "chapter-05"],
+    "reviews": {
+        "average": 4.7,
+        "count": 2,
+        "rating_details": {
+            "5": 1,
+            "4": 1,
+            "3": 0,
+            "2": 0,
+            "1": 0
+        },
+        "items": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Edna Watson",
+                    "avatar": {
+                        "src": "/images/review-author/author1.jpeg"
+                    }
+                },
+                "rating": 5.0,
+                "title": "Great throughput",
+                "review": "Efficient kitchen line and reliable lunch rush demand."
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Owen Christ",
+                    "avatar": {
+                        "src": "/images/review-author/author2.jpeg"
+                    }
+                },
+                "rating": 4.5,
+                "title": "Strong concept",
+                "review": "Brand presence and menu mix support healthy sales."
+            }
+        ]
+    },
+    "description": [
+        {
+            "id": 1,
+            "type": "text",
+            "content": "Fast-casual chicken business with consistent footfall and repeat buyers."
+        },
+        {
+            "id": 2,
+            "type": "text",
+            "content": "Includes trained crew, standardized prep, and integrated delivery platforms."
+        },
+        {
+            "id": 3,
+            "type": "heading",
+            "content": "A Short Description"
+        },
+        {
+            "id": 4,
+            "type": "text",
+            "content": "A strong pick for buyers seeking immediate operational continuity."
+        }
+    ]
+}
