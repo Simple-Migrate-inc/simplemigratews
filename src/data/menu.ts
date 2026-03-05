@@ -99,64 +99,7 @@ export default [
     {
         id: 2,
         label: "Setup Business",
-        path: "#!",
-        submenu: [
-            {
-                id: 21,
-                label: "Restaurant QSR",
-                path: "/start-here",
-            },
-            {
-                id: 22,
-                label: "Day Care Services",
-                path: "/success-story",
-            },
-            {
-                id: 23,
-                label: "Services",
-                path: "/about-me",
-            },
-            {
-                id: 24,
-                label: "Convinience Store",
-                path: "/about-us-01",
-            },
-            {
-                id: 25,
-                label: "Salon",
-                path: "/about-us-02",
-            },
-            {
-                id: 26,
-                label: "Wellness Center",
-                path: "/about-us-03",
-            },
-            {
-                id: 27,
-                label: "Beauty Spa",
-                path: "/contact-me",
-            },
-            {
-                id: 28,
-                label: "Pizza Restaurant",
-                path: "/contact-us",
-            },
-            {
-                id: 29,
-                label: "Home Painting Company",
-                path: "/purchase-guide",
-            },
-            {
-                id: 30,
-                label: "Motel Business",
-                path: "/privacy-policy",
-            },
-            {
-                id: 31,
-                label: "Furniture Business",
-                path: "/terms-of-service",
-            },
-        ],
+        path: "/setup-business",
     },
     {
         id: 3,
@@ -183,16 +126,16 @@ export default [
                 label: "UAE ",
                 path: "/uae-immigration",
             },
-            {
-                id: 35,
-                label: "Denmark",
-                path: "/denmark-immigration",
-            },
-            {
-                id: 36,
-                label: "United Kingdom",
-                path: "/united-kingdom-immigration",
-            },
+            // {
+            //     id: 35,
+            //     label: "Denmark",
+            //     path: "/denmark-immigration",
+            // },
+            // {
+            //     id: 36,
+            //     label: "United Kingdom",
+            //     path: "/united-kingdom-immigration",
+            // },
         ],
     },
     {
@@ -239,60 +182,60 @@ export default [
     //         },
     //     ],
     // },
-    {
-        id: 6,
-        label: "Funding",
-        path: "#!",
-        submenu: [
-            {
-                id: 51,
-                label: "Blog Grid",
-                path: "/blogs/blog-grid",
-            },
-            {
-                id: 52,
-                label: "Blog Grid Sidebar",
-                path: "/blogs/blog-grid-sidebar",
-            },
-            {
-                id: 53,
-                label: "Blog Classic",
-                path: "/blogs/blog-classic",
-            },
-            {
-                id: 54,
-                label: "Blog List",
-                path: "/blogs/blog-list",
-            },
-        ],
-    },
-    {
-        id: 7,
-        label: "Blog",
-        path: "#!",
-        submenu: [
-            {
-                id: 51,
-                label: "Blog Grid",
-                path: "/blogs/blog-grid",
-            },
-            {
-                id: 52,
-                label: "Blog Grid Sidebar",
-                path: "/blogs/blog-grid-sidebar",
-            },
-            {
-                id: 53,
-                label: "Blog Classic",
-                path: "/blogs/blog-classic",
-            },
-            {
-                id: 54,
-                label: "Blog List",
-                path: "/blogs/blog-list",
-            },
-        ],
-    },
+    // {
+    //     id: 6,
+    //     label: "Funding",
+    //     path: "#!",
+    //     submenu: [
+    //         {
+    //             id: 51,
+    //             label: "Blog Grid",
+    //             path: "/blogs/blog-grid",
+    //         },
+    //         {
+    //             id: 52,
+    //             label: "Blog Grid Sidebar",
+    //             path: "/blogs/blog-grid-sidebar",
+    //         },
+    //         {
+    //             id: 53,
+    //             label: "Blog Classic",
+    //             path: "/blogs/blog-classic",
+    //         },
+    //         {
+    //             id: 54,
+    //             label: "Blog List",
+    //             path: "/blogs/blog-list",
+    //         },
+    //     ],
+    // },
+    // {
+    //     id: 7,
+    //     label: "Blog",
+    //     path: "#!",
+    //     submenu: [
+    //         {
+    //             id: 51,
+    //             label: "Blog Grid",
+    //             path: "/blogs/blog-grid",
+    //         },
+    //         {
+    //             id: 52,
+    //             label: "Blog Grid Sidebar",
+    //             path: "/blogs/blog-grid-sidebar",
+    //         },
+    //         {
+    //             id: 53,
+    //             label: "Blog Classic",
+    //             path: "/blogs/blog-classic",
+    //         },
+    //         {
+    //             id: 54,
+    //             label: "Blog List",
+    //             path: "/blogs/blog-list",
+    //         },
+    //     ],
+    // },
     // {
     //     id: 8,
     //     label: "Contact Us",

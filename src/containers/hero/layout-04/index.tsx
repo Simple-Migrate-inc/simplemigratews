@@ -1,22 +1,18 @@
 import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 import { AnimatePresence, motion } from "framer-motion";
-import dynamic from "next/dynamic";
 import { Typewriter } from "react-simple-typewriter";
 import Button from "@ui/button";
 import BottomShape from "@components/ui/bottom-shape/shape-02";
+import ScheduleCallModal from "@components/modals/schedule-call-modal";
+import EnquiryModal from "@components/modals/enquiry-modal";
 import {
     ButtonType,
     HeadingType,
     ImageType,
     TextType,
-    VideoType,
 } from "@utils/types";
 import { scrollUpVariants } from "@utils/variants";
-
-const ModalVideo = dynamic(() => import("../../../components/ui/video-modal"), {
-    ssr: false,
-});
 
 type TProps = {
     data: {
@@ -24,14 +20,14 @@ type TProps = {
         headings?: HeadingType[];
         texts?: TextType[];
         buttons?: ButtonType[];
-        video?: VideoType; // still used for the modal
     };
 };
 
 const HeroArea = ({
-    data: { images, headings, texts, buttons, video },
+    data: { images, headings, texts, buttons },
 }: TProps) => {
-    const [isOpen, setOpen] = useState(false);
+    const [showScheduleModal, setShowScheduleModal] = useState(false);
+    const [showEnquiryModal, setShowEnquiryModal] = useState(false);
 
     // Typewriter words (everything after the first heading)
     const words =
@@ -138,7 +134,12 @@ const HeroArea = ({
 
                     <div className="tw-flex tw-items-center tw-justify-center tw-flex-wrap">
                         {buttons?.[0] && (
-                            <Button {...buttons[0]} className="tw-m-2.5">
+                            <Button
+                                {...buttons[0]}
+                                path={undefined}
+                                className="tw-m-2.5"
+                                onClick={() => setShowScheduleModal(true)}
+                            >
                                 {buttons[0].content}
                             </Button>
                         )}
@@ -146,8 +147,9 @@ const HeroArea = ({
                         {buttons?.[1] && (
                             <Button
                                 {...buttons[1]}
+                                path={undefined}
                                 className="tw-m-2.5"
-                                onClick={() => setOpen(true)}
+                                onClick={() => setShowEnquiryModal(true)}
                             >
                                 <i
                                     className={clsx(
@@ -163,15 +165,14 @@ const HeroArea = ({
 
                 <BottomShape color="tw-fill-light-100" />
             </div>
-
-            {/* Modal video still works as before */}
-            {video && (
-                <ModalVideo
-                    show={isOpen}
-                    videoId={video.videoId}
-                    onClose={() => setOpen(false)}
-                />
-            )}
+            <ScheduleCallModal
+                show={showScheduleModal}
+                onClose={() => setShowScheduleModal(false)}
+            />
+            <EnquiryModal
+                show={showEnquiryModal}
+                onClose={() => setShowEnquiryModal(false)}
+            />
         </>
     );
 };

@@ -31,7 +31,11 @@ const UaeImmigration: PageProps = ({ data }) => {
         <>
             <SEO title="UAE Immigration" />
             <h1 className="tw-sr-only">UAE Immigration</h1>
-            <HeroArea data={content?.["hero-area"]} textColor="black" />
+            <HeroArea
+                data={content?.["hero-area"]}
+                textColor="black"
+                textBackground="white"
+            />
             <TimelineArea data={content?.["timeline-area"]} />
             <CtaArea
                 data={content?.["cta-area"]}

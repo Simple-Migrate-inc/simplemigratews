@@ -1,0 +1,367 @@
+{
+    "name": "setup-business",
+    "content": [
+        {
+            "section": "hero-area",
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/business-setup/business-setup.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Set Up the Right Business. Build With Confidence."
+                        },
+                        {
+                            "id": 2,
+                            "content": "Setup Business"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "From concept to launch, we help you choose the right model, structure operations, and set up a business that is built to grow."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "/images/business-setup/business-owner.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Industry-Focused Setup Pathways for Founders and Investors."
+                        },
+                        {
+                            "id": 2,
+                            "content": "Business Strategy"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Explore the setup categories below and choose the path that matches your capital, market demand, and long-term growth goals."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "timeline-area",
+            "section_title": {
+                "title": "Setup Business Categories",
+                "subtitle": "Use these categories as your business setup roadmap"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/fast-food-restaurant.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Restaurant QSR"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Quick service model with high daily volume potential"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Launch a high-demand quick-service restaurant with support on location strategy, operations planning, staffing, and unit economics."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/day-care-kid.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Day Care Services"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Regulated service business with recurring local demand"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Set up a daycare business with guidance on licensing, capacity planning, operations design, and compliance requirements."
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/startup-team.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Services"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Flexible service setup across local and B2B markets"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Build a service-based company with clear positioning, pricing structure, delivery systems, and growth milestones."
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/convinience-store.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Convinience Store"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Neighborhood retail model with daily repeat traffic"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Launch a convenience store with support on product mix, location viability, supplier planning, and opening strategy."
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/spa.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Salon"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Beauty-services setup with strong repeat-customer potential"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Set up a salon business with guidance on service design, staffing model, operational flow, and local market positioning."
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/spa.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Wellness Center"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Health and lifestyle concept for premium client segments"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Build a wellness center with a clear service strategy, customer journey design, and operations framework built for retention."
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/spa.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Beauty Spa"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Experience-led personal care model with premium margins"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Launch a beauty spa with support on concept development, treatment menu strategy, staffing, and brand positioning."
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/fast-food-restaurant.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Pizza Restaurant"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Food-service setup with delivery and dine-in growth options"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Set up a pizza concept with operational planning for kitchen flow, menu engineering, delivery economics, and customer acquisition."
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/daycare.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Home Painting Company"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Service business with project-based revenue and repeat referrals"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Build a home painting company with frameworks for service packaging, team setup, job execution quality, and local lead generation."
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/Hotels.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Motel Business"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Hospitality model focused on occupancy and operational consistency"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Set up a motel business with guidance on property readiness, operating model, guest experience standards, and revenue strategy."
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "images": [
+                        {
+                            "src": "/images/business-buy/manufacturing-business.png"
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "id": 1,
+                            "content": "Furniture Business"
+                        },
+                        {
+                            "id": 2,
+                            "content": "Product-driven business with wholesale and retail channel potential"
+                        }
+                    ],
+                    "texts": [
+                        {
+                            "id": 1,
+                            "content": "Launch a furniture business with support on sourcing, product mix, pricing strategy, fulfillment setup, and market positioning."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "cta-area",
+            "section_title": {
+                "title": "Ready to Set Up Your Business?",
+                "subtitle": "Book a strategy call and choose the right category before you invest."
+            }
+        },
+        {
+            "section": "faq-area",
+            "section_title": {
+                "title": "Setup Business FAQs",
+                "subtitle": "Answers before you choose your category"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "How do I choose the right business category?",
+                    "description": "We map your budget, experience, and goals to the category with the best balance of demand, risk profile, and operational fit."
+                },
+                {
+                    "id": 2,
+                    "title": "Do you help with setup planning before launch?",
+                    "description": "Yes. We support planning from business model selection and market positioning to operations structure and launch readiness."
+                },
+                {
+                    "id": 3,
+                    "title": "Can I start with no prior industry experience?",
+                    "description": "In many categories, yes. The setup approach changes based on your background, so we define a practical entry plan and support model."
+                },
+                {
+                    "id": 4,
+                    "title": "What is included in your setup guidance?",
+                    "description": "Our process covers category fit, business structure, operational framework, and action steps to move from planning to execution."
+                }
+            ]
+        }
+    ]
+}
