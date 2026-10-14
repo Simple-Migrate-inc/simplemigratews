@@ -1,7 +1,16 @@
 /* eslint-disable global-require */
 /* eslint-disable import/no-extraneous-dependencies */
 module.exports = {
-    content: ["./src/**/*.tsx"],
+    // Dashboard code is excluded so it can never change the public site's CSS;
+    // it is styled by tailwind.dashboard.config.js (which uses this as a preset).
+    content: [
+        "./src/pages/**/*.tsx",
+        "./src/containers/**/*.tsx",
+        "./src/contexts/**/*.tsx",
+        "./src/layouts/**/*.tsx",
+        "./src/components/*.tsx",
+        "./src/components/!(dashboard)/**/*.tsx",
+    ],
     prefix: "tw-",
     theme: {
         extend: {
