@@ -241,6 +241,11 @@ export default [
     //     label: "Contact Us",
     //     path: "/contact-us",
     // },
+    {
+        id: 9,
+        label: "Client login",
+        path: "/app",
+    },
 ];
 
 // export default [

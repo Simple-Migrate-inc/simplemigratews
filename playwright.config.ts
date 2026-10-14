@@ -13,16 +13,27 @@ export default defineConfig({
         trace: "retain-on-failure",
     },
     expect: {
-        toHaveScreenshot: { maxDiffPixelRatio: 0.01, animations: "disabled" },
+        toHaveScreenshot: { maxDiffPixels: 0, animations: "disabled" },
     },
     projects: [
         { name: "desktop", use: { ...devices["Desktop Chrome"] } },
-        { name: "mobile", use: { ...devices["Pixel 5"] } },
+        // Dashboard flows mutate the test DB, so they run once (desktop) plus a
+        // read-only mobile layout check.
+        { name: "mobile", use: { ...devices["Pixel 5"] }, testMatch: /(public-visual|dashboard-mobile)\.spec\.ts/ },
     ],
+    globalSetup: "./e2e/global-setup.ts",
     webServer: {
         command: `npx next start -p ${PORT}`,
+        env: {
+            DATABASE_URL: process.env.E2E_DATABASE_URL || "postgres://localhost:5432/simplemigrate_test",
+            APP_BASE_URL: `http://localhost:${PORT}`,
+            // The suite signs in many times a minute from one IP.
+            AUTH_SIGNIN_RATE_LIMIT: "200",
+            EMAIL_DRIVER: "log",
+        },
         port: PORT,
-        reuseExistingServer: !process.env.CI,
+        // Always start fresh so the server uses the test database.
+        reuseExistingServer: false,
         timeout: 120_000,
     },
 });
