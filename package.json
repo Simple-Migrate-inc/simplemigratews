@@ -16,7 +16,8 @@
     "prepare": "husky install",
     "postbuild": "next-sitemap",
     "test:visual": "playwright test e2e/public-visual.spec.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.35",
@@ -29,7 +30,7 @@
     "gray-matter": "^4.0.3",
     "loading-attribute-polyfill": "^2.1.0",
     "marked": "^4.2.2",
-    "next": "^13.0.3",
+    "next": "14.2",
     "next-pwa": "^5.6.0",
     "next-react-svg": "https://github.com/hasanm95/next-react-svg",
     "next-seo": "^5.14.1",
@@ -56,7 +57,7 @@
     "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "^13.0.3",
+    "eslint-config-next": "14.2",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
@@ -69,7 +70,8 @@
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "tailwindcss": "^3.2.4",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "vitest": "^3.2.7"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
