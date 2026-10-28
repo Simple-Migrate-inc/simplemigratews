@@ -227,7 +227,8 @@
                     "id": 1,
                     "images": [
                         {
-                            "src": "/images/brand/client-logo-01.png"
+                            "src": "/images/brand/sectors/daycare.png",
+                            "alt": "Daycare businesses"
                         }
                     ]
                 },
@@ -235,7 +236,8 @@
                     "id": 2,
                     "images": [
                         {
-                            "src": "/images/brand/client-logo-02.png"
+                            "src": "/images/brand/sectors/senior-care.png",
+                            "alt": "Senior Care businesses"
                         }
                     ]
                 },
@@ -243,7 +245,8 @@
                     "id": 3,
                     "images": [
                         {
-                            "src": "/images/brand/client-logo-03.png"
+                            "src": "/images/brand/sectors/wellness.png",
+                            "alt": "Wellness businesses"
                         }
                     ]
                 },
@@ -251,7 +254,8 @@
                     "id": 4,
                     "images": [
                         {
-                            "src": "/images/brand/client-logo-04.png"
+                            "src": "/images/brand/sectors/hotels.png",
+                            "alt": "Hotel businesses"
                         }
                     ]
                 },
@@ -259,7 +263,8 @@
                     "id": 5,
                     "images": [
                         {
-                            "src": "/images/brand/client-logo-05.png"
+                            "src": "/images/brand/sectors/franchises.png",
+                            "alt": "Franchise businesses"
                         }
                     ]
                 },
@@ -267,7 +272,8 @@
                     "id": 6,
                     "images": [
                         {
-                            "src": "/images/brand/client-logo-01.png"
+                            "src": "/images/brand/sectors/hospitality.png",
+                            "alt": "Hospitality businesses"
                         }
                     ]
                 }
