@@ -15,6 +15,7 @@ import postgres from "postgres";
 import { hashPassword } from "better-auth/crypto";
 import * as s from "../../src/lib/dashboard/db/schema";
 import { REQUIRED_CONSENTS } from "../../src/lib/dashboard/auth/legal";
+import { directDatabaseUrl } from "../../src/lib/dashboard/db/url";
 
 config({ path: [".env.local", ".env"] });
 
@@ -24,8 +25,8 @@ const REVERIFY = "Seeded 2026-10-14 from the official source. Must be re-verifie
 
 async function main() {
     if (process.env.NODE_ENV === "production") throw new Error("Refusing to seed in production.");
-    const url = process.env.DATABASE_URL;
-    if (!url) throw new Error("DATABASE_URL is not set");
+    const url = directDatabaseUrl();
+    if (!url) throw new Error("DATABASE_URL (or POSTGRES_URL) is not set");
 
     const client = postgres(url, { max: 1 });
     const db = drizzle(client, { schema: s });
