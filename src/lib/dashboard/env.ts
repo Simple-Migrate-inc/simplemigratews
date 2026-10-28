@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { appDatabaseUrl } from "./db/url";
 
 // Server-only environment for the dashboard. Parsed lazily so public pages
 // never depend on dashboard configuration at build time.
@@ -13,6 +14,7 @@ const schema = z.object({
     NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
     DATABASE_URL: z.string().url(),
     AUTH_SECRET: z.string().min(32, "AUTH_SECRET must be at least 32 characters"),
+    // Public origin of the app. Optional on Vercel: see resolveBaseUrl().
     APP_BASE_URL: z.string().url().default("http://localhost:3000"),
 
     // Email: "resend" sends via Resend; "log" only prints to the server log
@@ -47,11 +49,38 @@ const schema = z.object({
 
 export type DashboardEnv = z.infer<typeof schema>;
 
+/**
+ * On Vercel, derive the app origin when APP_BASE_URL isn't set: previews use
+ * their branch URL, production uses the project's production domain (which
+ * becomes the custom domain automatically once one is assigned).
+ */
+function resolveBaseUrl(e: NodeJS.ProcessEnv): string | undefined {
+    if (e.APP_BASE_URL) return e.APP_BASE_URL;
+    if (e.VERCEL_ENV === "production" && e.VERCEL_PROJECT_PRODUCTION_URL) {
+        return `https://${e.VERCEL_PROJECT_PRODUCTION_URL}`;
+    }
+    const host = e.VERCEL_BRANCH_URL || e.VERCEL_URL;
+    return host ? `https://${host}` : undefined;
+}
+
+/** Every origin this deployment may legitimately be reached on (for CSRF checks). */
+export function trustedOrigins(): string[] {
+    const e = process.env;
+    const hosts = [e.VERCEL_URL, e.VERCEL_BRANCH_URL, e.VERCEL_PROJECT_PRODUCTION_URL].filter(
+        (h): h is string => !!h
+    );
+    return Array.from(new Set([env().APP_BASE_URL, ...hosts.map((h) => `https://${h}`)]));
+}
+
 let cached: DashboardEnv | undefined;
 
 export function env(): DashboardEnv {
     if (!cached) {
-        const parsed = schema.safeParse(process.env);
+        const parsed = schema.safeParse({
+            ...process.env,
+            DATABASE_URL: appDatabaseUrl(),
+            APP_BASE_URL: resolveBaseUrl(process.env),
+        });
         if (!parsed.success) {
             const issues = parsed.error.issues
                 .map((i) => `  ${i.path.join(".")}: ${i.message}`)

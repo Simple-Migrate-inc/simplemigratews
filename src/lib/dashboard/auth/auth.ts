@@ -5,7 +5,7 @@ import { nextCookies } from "better-auth/next-js";
 import { magicLink, twoFactor } from "better-auth/plugins";
 import { and, eq, gt, isNull } from "drizzle-orm";
 import { db, schema } from "../db";
-import { env } from "../env";
+import { env, trustedOrigins } from "../env";
 import { sendEmail } from "../email";
 
 function createAuth() {
@@ -14,6 +14,7 @@ function createAuth() {
         appName: "Simple Migrate",
         baseURL: e.APP_BASE_URL,
         basePath: "/api/auth",
+        trustedOrigins: trustedOrigins(),
         secret: e.AUTH_SECRET,
         database: drizzleAdapter(db(), {
             provider: "pg",
