@@ -7,7 +7,7 @@ import HeroArea from "@containers/hero/layout-04";
 import ServiceArea from "@containers/service/layout-03";
 import FunfactArea from "@containers/funfact/layout-04";
 // import VideoArea from "@containers/video/layout-04";
-import CourseArea from "@containers/course/layout-05";
+import SignatureBusinessArea from "@containers/signature-businesses";
 // import TestimonialArea from "@containers/testimonial/layout-04";
 import EventArea from "@containers/event/layout-02";
 import BlogArea from "@containers/blog/layout-03";
@@ -15,11 +15,11 @@ import BrandArea from "@containers/brand/layout-01";
 import NewsletterArea from "@containers/newsletter/layout-02";
 
 import { normalizedData } from "@utils/methods";
-import { IBlog, ICourse, IEvent } from "@utils/types";
+import { IBlog, IEvent } from "@utils/types";
+import signatureBusinesses from "@data/signature-businesses";
 
 import { getPageData } from "../lib/page";
 import { getAllBlogs } from "../lib/blog";
-import { getallCourses } from "../lib/course";
 import { getallEvents } from "../lib/event";
 
 interface PageContent {
@@ -31,7 +31,6 @@ type TProps = {
         page: {
             content: PageContent[];
         };
-        courses: ICourse[];
         events: IEvent[];
         blogs: IBlog[];
     };
@@ -56,8 +55,8 @@ const Home: PageProps = ({ data }) => {
                 />
                 {/* <VideoArea data={content?.["video-area"]} space="top" /> */}
             </Wrapper>
-            <CourseArea
-                data={{ ...content?.["course-area"], courses: data.courses }}
+            <SignatureBusinessArea
+                data={{ ...content?.["course-area"], businesses: signatureBusinesses }}
                 titleSize="large"
             />
             {/* <TestimonialArea
@@ -82,18 +81,6 @@ Home.Layout = Layout;
 
 export const getStaticProps: GetStaticProps = () => {
     const page = getPageData("home", "index-04");
-    const courses = getallCourses(
-        [
-            "title",
-            "thumbnail",
-            "price",
-            "currency",
-            "total_lectures",
-            "total_students",
-        ],
-        0,
-        6
-    );
     const events = getallEvents(
         ["title", "thumbnail", "start_date", "location"],
         0,
@@ -108,7 +95,6 @@ export const getStaticProps: GetStaticProps = () => {
         props: {
             data: {
                 page,
-                courses,
                 events,
                 blogs,
             },
