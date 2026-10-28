@@ -38,6 +38,14 @@ module.exports = {
                   "@fullhuman/postcss-purgecss",
                   {
                       content: ["./src/**/*.tsx"],
+                      // Dashboard sources must not influence the public CSS;
+                      // dashboard stylesheets opt out via ignore comments.
+                      skippedContentGlobs: [
+                          "./src/app/**",
+                          "./src/components/dashboard/**",
+                          "src/app/**",
+                          "src/components/dashboard/**",
+                      ],
                       defaultExtractor: (content) =>
                           content.match(/[\w-/:]+(?<!:)/g) || [],
                       safelist: {

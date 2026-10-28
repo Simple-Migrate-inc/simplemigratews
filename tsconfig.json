@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -21,18 +25,61 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./src",
     "paths": {
-      "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"],
-      "@containers/*": ["containers/*"],
-      "@contexts/*": ["contexts/*"],
-      "@data/*": ["data/*"],
-      "@hooks": ["hooks"],
-      "@layout/*": ["layouts/*"],
-      "@ui/*": ["components/ui/*"],
-      "@utils/*": ["utils/*"],
-      "@widgets/*": ["components/widgets/*"],
-    }
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@containers/*": [
+        "containers/*"
+      ],
+      "@contexts/*": [
+        "contexts/*"
+      ],
+      "@data/*": [
+        "data/*"
+      ],
+      "@hooks": [
+        "hooks"
+      ],
+      "@layout/*": [
+        "layouts/*"
+      ],
+      "@ui/*": [
+        "components/ui/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@widgets/*": [
+        "components/widgets/*"
+      ],
+      "@dashboard/*": [
+        "lib/dashboard/*"
+      ],
+      "@dashboard-ui/*": [
+        "components/dashboard/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "next.config.js", "src/**/*.ts", "src/**/*.tsx", "tailwind.config.js", "postcss.config.js", "next-sitemap.config.js"],
-  "exclude": ["node_modules", "public"]
+  "include": [
+    "next-env.d.ts",
+    "next.config.js",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "tailwind.config.js",
+    "postcss.config.js",
+    "next-sitemap.config.js",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "public"
+  ]
 }

@@ -10,3 +10,20 @@ yarn-error.log*
 pnpm-debug.log*
 .vercel
 .DS_Store
+
+# next-pwa build output (regenerated on every build)
+public/sw.js
+public/sw.js.map
+public/workbox-*.js
+public/workbox-*.js.map
+public/fallback-*.js
+
+# Playwright
+test-results/
+playwright-report/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Dashboard CSS is compiled from src/app/styles/dashboard.src.css
+src/app/styles/dashboard.generated.css
