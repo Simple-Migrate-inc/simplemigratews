@@ -9,18 +9,16 @@ import FunfactArea from "@containers/funfact/layout-04";
 // import VideoArea from "@containers/video/layout-04";
 import SignatureBusinessArea from "@containers/signature-businesses";
 // import TestimonialArea from "@containers/testimonial/layout-04";
-import EventArea from "@containers/event/layout-02";
 import BlogArea from "@containers/blog/layout-03";
 import BrandArea from "@containers/brand/layout-01";
 import NewsletterArea from "@containers/newsletter/layout-02";
 
 import { normalizedData } from "@utils/methods";
-import { IBlog, IEvent } from "@utils/types";
+import { IBlog } from "@utils/types";
 import signatureBusinesses from "@data/signature-businesses";
 
 import { getPageData } from "../lib/page";
 import { getAllBlogs } from "../lib/blog";
-import { getallEvents } from "../lib/event";
 
 interface PageContent {
     section: string;
@@ -31,7 +29,6 @@ type TProps = {
         page: {
             content: PageContent[];
         };
-        events: IEvent[];
         blogs: IBlog[];
     };
 };
@@ -63,10 +60,6 @@ const Home: PageProps = ({ data }) => {
                 data={content?.["testimonial-area"]}
                 titleSize="large"
             /> */}
-            <EventArea
-                data={{ ...content?.["event-area"], events: data.events }}
-                titleSize="large"
-            />
             <BlogArea
                 data={{ ...content?.["blog-area"], blogs: data.blogs }}
                 titleSize="large"
@@ -81,11 +74,6 @@ Home.Layout = Layout;
 
 export const getStaticProps: GetStaticProps = () => {
     const page = getPageData("home", "index-04");
-    const events = getallEvents(
-        ["title", "thumbnail", "start_date", "location"],
-        0,
-        6
-    );
     const { blogs } = getAllBlogs(
         ["title", "image", "category", "postedAt", "views"],
         0,
@@ -95,7 +83,6 @@ export const getStaticProps: GetStaticProps = () => {
         props: {
             data: {
                 page,
-                events,
                 blogs,
             },
             layout: {

@@ -214,18 +214,6 @@
             }
         }, 
         {
-            "section": "event-area",
-            "section_title": {
-                "title": "Business Delegations <span>& Global Events </span>",
-                "subtitle": "Join and participate in high-impact global business events"
-            },
-            "motto": {
-                "text": "We love to see you at our events.​",
-                "path": "/events",
-                "pathText": "Check out events"
-            }
-        },
-        {
             "section": "blog-area",
             "section_title": {
                 "title": "Trending on <span>Our Blogs</span>",
