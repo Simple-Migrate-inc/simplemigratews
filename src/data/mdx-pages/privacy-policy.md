@@ -1,10 +1,10 @@
-**Effective date: [DATE]**
+**Effective date: October 29, 2026**
 
-This Privacy Policy explains how [LEGAL BUSINESS NAME] ("Simple Migrate", "we", "us") collects, uses, shares and protects personal information when you visit simplemigrate.com, contact us, or use the Simple Migrate client dashboard. We follow Canadian privacy law, including the _Personal Information Protection and Electronic Documents Act_ (PIPEDA) and applicable provincial laws such as British Columbia's _Personal Information Protection Act_ and Quebec's _Act respecting the protection of personal information in the private sector_.
+This Privacy Policy explains how Simplemigrate Inc. ("Simple Migrate", "we", "us") collects, uses, shares and protects personal information when you visit simplemigrate.com, contact us, or use the Simple Migrate client dashboard. We follow Canadian privacy law, including the _Personal Information Protection and Electronic Documents Act_ (PIPEDA) and applicable provincial laws such as British Columbia's _Personal Information Protection Act_ and Quebec's _Act respecting the protection of personal information in the private sector_.
 
 ### Who is responsible
 
-Our Privacy Officer is responsible for how we handle personal information. You can contact them at **[PRIVACY EMAIL]** or by mail at **[BUSINESS ADDRESS]**.
+Our Privacy Officer is responsible for how we handle personal information. You can contact them at **[simplemigratecom@gmail.com](mailto:simplemigratecom@gmail.com)** or by mail at **1055 W Georgia St, Vancouver, BC V6E 3P2**.
 
 ### Information we collect
 
@@ -97,7 +97,8 @@ We may update this Privacy Policy from time to time. The effective date at the t
 
 ### Contact us
 
-[LEGAL BUSINESS NAME]
-Attn: Privacy Officer
-[BUSINESS ADDRESS]
-Email: [PRIVACY EMAIL]
+Simplemigrate Inc.  
+Attn: Privacy Officer  
+1055 W Georgia St  
+Vancouver, BC V6E 3P2  
+Email: [simplemigratecom@gmail.com](mailto:simplemigratecom@gmail.com)
