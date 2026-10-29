@@ -23,6 +23,20 @@ for (const path of PAGES) {
         await page.waitForTimeout(1500);
         await page.evaluate(() => window.scrollTo(0, 0));
         await page.waitForTimeout(500);
+        // Background videos change frame by frame; freeze them on frame 0.
+        await page.evaluate(() =>
+            Promise.all(
+                Array.from(document.querySelectorAll("video")).map(
+                    (v) =>
+                        new Promise<void>((resolve) => {
+                            v.pause();
+                            if (v.currentTime === 0) return resolve();
+                            v.addEventListener("seeked", () => resolve(), { once: true });
+                            v.currentTime = 0;
+                        })
+                )
+            )
+        );
         // Some existing sections overflow horizontally on mobile by a varying
         // amount, so clip to the viewport width.
         const width = page.viewportSize()?.width ?? 1280;
