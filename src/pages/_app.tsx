@@ -4,6 +4,7 @@ import type { AppProps } from "next/app";
 import SEO from "@components/seo/deafult-seo";
 import FallbackLayout from "@layout/fallback";
 import Analytics from "@components/analytics";
+import CookieConsent from "@components/cookie-consent";
 
 import "@assets/css/font-awesome.min.css";
 import "@assets/css/font-linea.css";
@@ -44,6 +45,7 @@ const MyApp = ({ Component, pageProps }: CustomAppProps) => {
                     <SEO />
                     <Analytics />
                     <Component {...pageProps} />
+                    <CookieConsent />
                 </Layout>
             </UserProvider>
         </UIProvider>

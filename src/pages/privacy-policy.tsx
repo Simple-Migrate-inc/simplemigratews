@@ -4,6 +4,7 @@ import Layout from "@layout/layout-01";
 import Breadcrumb from "@components/breadcrumb";
 import PageSidebar from "@containers/page-sidebar";
 import MarkdownRenderer from "@components/markdown-renderer";
+import { CookiePreferencesButton } from "@components/cookie-consent";
 
 import { ICourse } from "@utils/types";
 
@@ -35,6 +36,7 @@ const PrivacyPolicy: PageProps = ({ data }) => {
                 </div>
                 <div className="tw-col-span-full tw-order-1 lg:tw-order-2 lg:tw-col-[2/-1]">
                     <MarkdownRenderer content={data.page} />
+                    <CookiePreferencesButton className="tw-mt-7.5" />
                 </div>
             </div>
         </>

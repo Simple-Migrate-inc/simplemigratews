@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { useConsent } from "@components/cookie-consent";
 
 /**
  * Google Analytics 4 + Microsoft Clarity for the public marketing site.
@@ -7,6 +8,8 @@ import Script from "next/script";
  *   preview deployments never send data.
  * - Rendered from pages/_app.tsx only, so the authenticated dashboard (/app,
  *   App Router) is never tracked or session-recorded.
+ * - Nothing loads until the visitor accepts the cookie banner ("basic"
+ *   consent mode), so no data is sent before consent.
  * - Loaded after the page is interactive (doesn't block rendering).
  * - Page views on client-side navigation are captured by GA4 Enhanced
  *   Measurement ("page changes based on browser history events"), so no
@@ -15,7 +18,12 @@ import Script from "next/script";
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID;
 
-const Analytics = () => (
+export const ANALYTICS_CONFIGURED = Boolean(GA_ID || CLARITY_ID);
+
+const Analytics = () => {
+    const consent = useConsent();
+    if (consent !== "granted") return null;
+    return (
     <>
         {GA_ID && (
             <>
@@ -28,6 +36,7 @@ const Analytics = () => (
                     {`
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
+// Loaded only after the visitor accepted analytics cookies.
 // Consent Mode v2: analytics only; no advertising storage or signals.
 gtag('consent', 'default', {
   ad_storage: 'denied',
@@ -53,6 +62,7 @@ gtag('config', '${GA_ID}', { allow_google_signals: false, allow_ad_personalizati
             </Script>
         )}
     </>
-);
+    );
+};
 
 export default Analytics;
