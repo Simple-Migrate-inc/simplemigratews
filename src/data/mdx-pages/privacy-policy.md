@@ -63,9 +63,15 @@ Client dashboard data, including uploaded documents, is stored in Canada (Montr√
 
 These tools only load after you click **Accept** in our cookie banner. We have turned off advertising features: we do not use this data for advertising or ad personalization, and Google signals are disabled.
 
-**Changing your choice.** You can accept or decline analytics cookies at any time using the **Cookie preferences** button on this page. If you decline, we remove the analytics cookies set on this site. You can also block cookies in your browser settings, or install the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
+**Changing your choice.** You can accept or decline analytics cookies at any time using the **Cookie preferences** button on this page. If you decline, Google Analytics and Microsoft Clarity stop loading on our site and we delete the analytics cookies stored under our domain. Cookies that Microsoft stores under its own domains (such as `clarity.ms` and `bing.com`) can only be removed through your browser settings; they are not used by our site after you decline. You can also block cookies in your browser settings, or install the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
 
 To learn more, see [how Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites) and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+
+**Embedded content from other services.** Some pages include content provided by other companies, which they may use to collect information and set cookies under their own privacy policies, independently of your choice above:
+
+- Our **newsletter sign-up form** is provided by [beehiiv](https://www.beehiiv.com/privacy), which uses its own analytics and bot-protection tools inside the form.
+- **Videos** are hosted by YouTube and only load when you choose to play one. We use YouTube's privacy-enhanced mode.
+- **Meeting booking** is provided by [HubSpot](https://legal.hubspot.com/privacy-policy) when you choose to schedule a call.
 
 ### How long we keep information
 
