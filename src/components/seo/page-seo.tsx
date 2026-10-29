@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import { NextSeo, NextSeoProps, ArticleJsonLd, CourseJsonLd } from "next-seo";
 import siteConfig from "@data/site-config";
 
@@ -28,23 +28,26 @@ const PageSeo = ({
     image,
     instructor,
 }: SeoProps) => {
-    const [href, setHref] = useState("");
-    useEffect(() => {
-        setHref(window.location.href);
-    }, []);
+    // Server-rendered so crawlers see each page's own URL (not the home page).
+    const { asPath } = useRouter();
+    const path = asPath.split(/[?#]/)[0];
+    const href = `${siteConfig.url}${path === "/" ? "/" : path}`;
+
+    // Preview crawlers need absolute image URLs.
+    const imageUrl = image?.startsWith("/") ? `${siteConfig.url}${image}` : image;
 
     const articleMeta = jsonLdType === "article" && {
         type: "article",
         ...article,
         images: [
             {
-                url: image as string,
+                url: imageUrl as string,
                 width: 800,
                 height: 600,
                 alt: title,
             },
             {
-                url: image as string,
+                url: imageUrl as string,
                 width: 900,
                 height: 800,
                 alt: title,
@@ -62,6 +65,7 @@ const PageSeo = ({
                         : siteConfig.titleTemplate
                 }
                 description={description}
+                canonical={href}
                 openGraph={{
                     url: href,
                     title,
@@ -75,7 +79,7 @@ const PageSeo = ({
                     type="Blog"
                     url={href}
                     title={title as string}
-                    images={[image as string]}
+                    images={[imageUrl as string]}
                     datePublished={article.publishedTime}
                     dateModified={article.modifiedTime}
                     authorName={article.authors[0]}

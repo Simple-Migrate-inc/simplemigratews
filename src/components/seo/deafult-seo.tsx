@@ -8,33 +8,29 @@ const SEO = () => {
             titleTemplate={`%s - ${siteConfig.titleTemplate}`}
             defaultTitle={siteConfig.name}
             description={siteConfig.description}
-            canonical="https://simplemigrate.com/"
+            canonical={`${siteConfig.url}/`}
             openGraph={{
                 type: "website",
-                locale: "en_IE",
+                locale: "en_CA",
+                url: `${siteConfig.url}/`,
                 site_name: siteConfig.name,
+                title: siteConfig.titleTemplate,
+                description: siteConfig.description,
+                // Link-preview apps (WhatsApp, LinkedIn, iMessage) need an
+                // absolute URL with no redirect, and WhatsApp ignores images
+                // over ~300 KB — keep this file small.
                 images: [
                     {
-                        url: "https://simplemigrate.com/images/seo/simplemigrate.png",
-                        width: 800,
-                        height: 600,
-                        alt: "Simple Migrate",
-                    },
-                    {
-                        url: "https://simplemigrate.com/images/seo/simplemigrate.png",
-                        width: 900,
+                        url: `${siteConfig.url}/images/seo/simplemigrate-og.jpg`,
+                        width: 1200,
                         height: 800,
-                        alt: "Simple Migrate",
+                        alt: "Simple Migrate — Global Business Buy & Sell and Immigration Experts",
+                        type: "image/jpeg",
                     },
                 ],
             }}
             twitter={{
-                handle: "@handle",
-                site: "@site",
                 cardType: "summary_large_image",
-            }}
-            facebook={{
-                appId: "1234567890",
             }}
             additionalMetaTags={[
                 {

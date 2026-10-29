@@ -8,7 +8,6 @@ import BlogNavLinks from "@containers/blog-details/nav-links";
 import DisqusComment from "@components/disqus-comment";
 import BlogSidebar from "@containers/blog-details/blog-sidebar";
 import { BlogMetaType, IBlog, IInstructor } from "@utils/types";
-import { toCapitalize } from "@utils/methods";
 import {
     getPostBySlug,
     getAllBlogs,
@@ -33,14 +32,22 @@ type PageProps = NextPage<TProps> & {
     Layout: typeof Layout01;
 };
 
+// Markdown excerpt -> plain text for meta descriptions.
+const plainExcerpt = (md?: string) =>
+    (md ?? "")
+        .replace(/!?\[([^\]]*)\]\([^)]*\)/g, "$1")
+        .replace(/[#*_>`|]/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+
 const BlogDetails: PageProps = ({
     data: { blog, prevAndNextPost, recentPosts, tags },
 }) => {
     return (
         <>
             <SEO
-                title={toCapitalize(blog.title)}
-                description="This is a mighty good description of this blog."
+                title={blog.title}
+                description={plainExcerpt(blog.excerpt)}
                 jsonLdType="article"
                 article={{
                     publishedTime: blog.postedAt,
@@ -48,7 +55,7 @@ const BlogDetails: PageProps = ({
                     authors: [blog.author.name],
                     tags: tags.map((tag) => tag.title),
                 }}
-                image={`https://maxcoach-react.pages.dev${blog.image.src}`}
+                image={blog.image.src}
             />
             <Breadcrumb
                 pages={[
