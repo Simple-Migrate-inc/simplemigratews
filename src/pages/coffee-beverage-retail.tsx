@@ -4,12 +4,11 @@ import Layout01 from "@layout/layout-01";
 import Breadcrumb from "@components/breadcrumb";
 import HeroArea from "@containers/hero/layout-08";
 import AboutArea from "@containers/about/layout-02";
-import CourseArea from "@containers/course-full/layout-01";
-import { ICourse } from "@utils/types";
+import BusinessListingsArea from "@containers/business-listings";
 import { normalizedData } from "@utils/methods";
 
 import { getPageData } from "../lib/page";
-import { getFilteredCourses } from "../lib/course";
+import { INDUSTRIES, listingsForIndustry } from "@data/business-listings";
 
 interface PageContent {
     section: string;
@@ -20,7 +19,6 @@ type TProps = {
         page: {
             content: PageContent[];
         };
-        courses: ICourse[];
     };
 };
 
@@ -30,11 +28,10 @@ type PageProps = NextPage<TProps> & {
 
 const CoffeeBeverageRetailPage: PageProps = ({ data }) => {
     const content = normalizedData<PageContent>(data.page?.content, "section");
-    const courses = data?.courses ?? [];
     const heroData = {
         images: [
             {
-                src: "/images/business-buy/daycare.png",
+                src: "/images/business-buy/coffee-retail-banner.jpg",
                 alt: "Coffee & Beverage Retail",
             },
         ],
@@ -64,7 +61,10 @@ const CoffeeBeverageRetailPage: PageProps = ({ data }) => {
                 pages={[{ path: "/", label: "home" }]}
                 currentPage="Coffee & Beverage Retail"
             />
-            <CourseArea data={{ courses }} />
+            <BusinessListingsArea
+                listings={listingsForIndustry("coffee-beverage-retail")}
+                industryLabel={INDUSTRIES["coffee-beverage-retail"].label}
+            />
         </>
     );
 };
@@ -73,26 +73,10 @@ CoffeeBeverageRetailPage.Layout = Layout01;
 
 export const getStaticProps: GetStaticProps = () => {
     const page = getPageData("inner", "coffee-beverage-retail");
-    const courses = getFilteredCourses(
-        [
-            "slug",
-            "title",
-            "thumbnail",
-            "price",
-            "currency",
-            "total_lectures",
-            "total_students",
-            "published_at",
-            "category",
-        ],
-        "category",
-        "Coffee & Beverage Retail"
-    ).slice(0, 3);
     return {
         props: {
             data: {
                 page,
-                courses,
             },
             layout: {
                 headerShadow: true,
