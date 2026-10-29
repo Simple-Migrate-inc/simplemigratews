@@ -11,6 +11,7 @@ import { requireUser } from "@dashboard/auth/session";
 import { stageLabel } from "@dashboard/cases";
 import { db, schema } from "@dashboard/db";
 import { fmtDate } from "@dashboard/format";
+import { mfaBypassedInProduction } from "@dashboard/env";
 import { assignConsultantAction } from "./actions";
 
 export const metadata: Metadata = { title: "Admin" };
@@ -45,6 +46,13 @@ export default async function AdminHome() {
     return (
         <>
             <PageHeader title="Admin overview" description="Pilot cohort at a glance." />
+            {mfaBypassedInProduction() && (
+                <p role="alert" className="tw-bg-danger/10 tw-text-danger tw-border tw-border-danger/30 tw-rounded tw-px-4 tw-py-3 tw-text-md tw-mb-6">
+                    <strong>Two-step verification is switched off</strong> for staff, partner and agent accounts
+                    (DASH_ALLOW_NO_MFA_IN_PRODUCTION). Turn it back on in Vercel before any real client files are
+                    stored.
+                </p>
+            )}
             <div className="tw-grid tw-grid-cols-2 md:tw-grid-cols-5 tw-gap-4 tw-mb-7.5">
                 {ROLES.map((r) => (
                     <div key={r} className="tw-bg-white tw-border tw-border-gray-500 tw-rounded-lg tw-p-4">

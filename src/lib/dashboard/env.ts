@@ -45,6 +45,11 @@ const schema = z.object({
 
     // Development convenience only; ignored when NODE_ENV=production.
     DASH_DEV_SKIP_MFA: bool(false),
+
+    // TEMPORARY production override: lets staff/partner/agent accounts use
+    // the dashboard without enrolling in two-step verification. Only for
+    // demos with sample data — turn off before real client files are stored.
+    DASH_ALLOW_NO_MFA_IN_PRODUCTION: bool(false),
 });
 
 export type DashboardEnv = z.infer<typeof schema>;
@@ -104,5 +109,12 @@ export function emailDriver(): "resend" | "log" {
 
 export function mfaRequiredInThisEnv(): boolean {
     const e = env();
-    return e.NODE_ENV === "production" || !e.DASH_DEV_SKIP_MFA;
+    if (e.NODE_ENV === "production") return !e.DASH_ALLOW_NO_MFA_IN_PRODUCTION;
+    return !e.DASH_DEV_SKIP_MFA;
+}
+
+/** True while two-step enrolment is switched off in production (shown to admins). */
+export function mfaBypassedInProduction(): boolean {
+    const e = env();
+    return e.NODE_ENV === "production" && e.DASH_ALLOW_NO_MFA_IN_PRODUCTION;
 }
