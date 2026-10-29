@@ -9,6 +9,7 @@ import "./styles/dashboard.generated.css";
 export const metadata: Metadata = {
     title: { default: "Dashboard | Simple Migrate", template: "%s | Simple Migrate" },
     robots: { index: false, follow: false },
+    icons: { icon: "/favicon.ico", apple: "/icons/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = {

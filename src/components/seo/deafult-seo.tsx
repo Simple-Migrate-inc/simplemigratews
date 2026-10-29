@@ -53,8 +53,13 @@ const SEO = () => {
             ]}
             additionalLinkTags={[
                 {
+                    rel: "icon",
+                    href: "/favicon.ico",
+                    sizes: "any",
+                },
+                {
                     rel: "apple-touch-icon",
-                    href: "/icons/icon-192x192.png",
+                    href: "/icons/apple-touch-icon.png",
                 },
                 {
                     rel: "manifest",
