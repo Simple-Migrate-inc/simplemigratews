@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import type { AppProps } from "next/app";
 import SEO from "@components/seo/deafult-seo";
 import FallbackLayout from "@layout/fallback";
+import Analytics from "@components/analytics";
 
 import "@assets/css/font-awesome.min.css";
 import "@assets/css/font-linea.css";
@@ -41,6 +42,7 @@ const MyApp = ({ Component, pageProps }: CustomAppProps) => {
             <UserProvider>
                 <Layout {...layoutProps}>
                     <SEO />
+                    <Analytics />
                     <Component {...pageProps} />
                 </Layout>
             </UserProvider>
