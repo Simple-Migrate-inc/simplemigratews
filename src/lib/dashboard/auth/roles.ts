@@ -6,10 +6,17 @@ export const ROLES: readonly UserRole[] = [
     "admin",
     "partner",
     "agent",
+    "superuser",
 ] as const;
 
 /** Roles that must use TOTP MFA (everyone except candidates). */
-export const MFA_ROLES: readonly UserRole[] = ["consultant", "admin", "partner", "agent"];
+export const MFA_ROLES: readonly UserRole[] = [
+    "consultant",
+    "admin",
+    "partner",
+    "agent",
+    "superuser",
+];
 
 export const ROLE_HOME: Record<UserRole, string> = {
     candidate: "/app",
@@ -17,6 +24,7 @@ export const ROLE_HOME: Record<UserRole, string> = {
     admin: "/app/admin",
     partner: "/app/partner",
     agent: "/app/agent",
+    superuser: "/app/superuser",
 };
 
 export const ROLE_LABEL: Record<UserRole, string> = {
@@ -25,6 +33,7 @@ export const ROLE_LABEL: Record<UserRole, string> = {
     admin: "Admin",
     partner: "Partner",
     agent: "Real estate agent",
+    superuser: "Superuser",
 };
 
 export function requiresMfa(role: UserRole): boolean {
@@ -36,10 +45,9 @@ export function isRole(value: unknown): value is UserRole {
 }
 
 /**
- * Which role areas a role may open. Admins can open every area; everyone else
- * only their own. Fine-grained object access is checked separately (see
- * ./access.ts) on every request.
+ * Which role areas a role may open. Admins and superusers can open every area;
+ * everyone else only their own.
  */
 export function canEnterArea(role: UserRole, area: UserRole): boolean {
-    return role === "admin" || role === area;
+    return role === "admin" || role === "superuser" || role === area;
 }

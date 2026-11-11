@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { eq } from "drizzle-orm";
 import Card from "@dashboard-ui/card";
@@ -9,7 +10,8 @@ import { ROLE_HOME } from "@dashboard/auth/roles";
 import { requireUser } from "@dashboard/auth/session";
 import { openCase } from "@dashboard/auth/case-access";
 import { STAGES } from "@dashboard/cases";
-import { db, schema } from "@dashboard/db";
+import { db, schema, bcpnpSchema } from "@dashboard/db";
+import { isBcpnpEnabled } from "@dashboard/bcpnp/feature-flag";
 
 export const metadata: Metadata = { title: "Home" };
 export const dynamic = "force-dynamic";
@@ -18,12 +20,24 @@ export default async function CandidateHome() {
     const user = await requireUser();
     if (user.role !== "candidate") redirect(ROLE_HOME[user.role]);
 
-    const [row] = await db()
-        .select({ id: schema.dashCase.id })
-        .from(schema.dashCase)
-        .where(eq(schema.dashCase.candidateId, user.id))
-        .limit(1);
+    const [[row], bcpnpEnabled] = await Promise.all([
+        db()
+            .select({ id: schema.dashCase.id })
+            .from(schema.dashCase)
+            .where(eq(schema.dashCase.candidateId, user.id))
+            .limit(1),
+        isBcpnpEnabled(),
+    ]);
     const opened = row ? await openCase(user, row.id) : null;
+
+    const bcpnpCase = bcpnpEnabled
+        ? await db()
+              .select({ id: bcpnpSchema.bcpnpCase.id, stage: bcpnpSchema.bcpnpCase.stage, stream: bcpnpSchema.bcpnpCase.stream })
+              .from(bcpnpSchema.bcpnpCase)
+              .where(eq(bcpnpSchema.bcpnpCase.applicantId, user.id))
+              .limit(1)
+              .then((r) => r[0] ?? null)
+        : null;
 
     const consultant = opened?.case.consultantId
         ? (
@@ -68,6 +82,27 @@ export default async function CandidateHome() {
                             </p>
                         </Card>
                     </div>
+                    {bcpnpCase && (
+                        <Card title="BC PNP Entrepreneur">
+                            <p className="tw-text-md tw-mb-3">
+                                <span className="tw-capitalize tw-font-medium tw-text-heading">
+                                    {bcpnpCase.stream ?? "Stream"} stream
+                                </span>
+                                <span className="tw-text-body tw-ml-2">· {bcpnpCase.stage?.replace(/_/g, " ")}</span>
+                            </p>
+                            <div className="tw-flex tw-flex-wrap tw-gap-3">
+                                <Link href={`/app/bcpnp/${bcpnpCase.id}`} className="tw-text-primary hover:tw-underline tw-text-md">
+                                    View case
+                                </Link>
+                                <Link href={`/app/bcpnp/${bcpnpCase.id}/deadlines`} className="tw-text-primary hover:tw-underline tw-text-md">
+                                    Deadlines
+                                </Link>
+                                <Link href={`/app/bcpnp/${bcpnpCase.id}/documents`} className="tw-text-primary hover:tw-underline tw-text-md">
+                                    Documents
+                                </Link>
+                            </div>
+                        </Card>
+                    )}
                     <InfoNotice />
                 </div>
             )}

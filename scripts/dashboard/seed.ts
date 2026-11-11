@@ -14,8 +14,10 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import { hashPassword } from "better-auth/crypto";
 import * as s from "../../src/lib/dashboard/db/schema";
+import * as bs from "../../src/lib/dashboard/db/bcpnp-schema";
 import { REQUIRED_CONSENTS } from "../../src/lib/dashboard/auth/legal";
 import { directDatabaseUrl } from "../../src/lib/dashboard/db/url";
+import { GUIDE_EDITION, RULES } from "../../src/lib/dashboard/bcpnp/seed-rules";
 
 config({ path: [".env.local", ".env"] });
 
@@ -29,7 +31,8 @@ async function main() {
     if (!url) throw new Error("DATABASE_URL (or POSTGRES_URL) is not set");
 
     const client = postgres(url, { max: 1 });
-    const db = drizzle(client, { schema: s });
+    const allSchema = { ...s, ...bs };
+    const db = drizzle(client, { schema: allSchema });
 
     const existing = await db.select({ id: s.user.id }).from(s.user).limit(1);
     if (existing.length) {
@@ -277,12 +280,103 @@ async function main() {
         base(8, { listingAgentId: agentR.id, propertyType: "residential", transaction: "lease", leaseRate: "CAD 2,650/month", province: "BC", municipality: "Golden", cmaName: null, addressDisplayLevel: "area", lat: 51.2975, lng: -116.9631, sizeSqft: 1100, units: 1, zoning: "R1", title: "3-bed rental townhouse" }),
     ]);
 
+    // ── BC PNP feature flag (off by default) ───────────────────────────────
+    await db
+        .insert(s.featureFlag)
+        .values({ key: "bcpnp_cases", enabled: false, updatedBy: ids.admin })
+        .onConflictDoNothing();
+
+    // ── Superuser seed user ────────────────────────────────────────────────
+    const superuserId = randomUUID();
+    ids["superuser"] = superuserId;
+    await db.insert(s.user).values({
+        id: superuserId,
+        name: "Super User",
+        email: "superuser@example.com",
+        role: "superuser",
+        emailVerified: true,
+    });
+    await db.insert(s.account).values({
+        id: randomUUID(),
+        userId: superuserId,
+        accountId: superuserId,
+        providerId: "credential",
+        password: hash,
+    });
+    await db.insert(s.consentRecord).values(
+        REQUIRED_CONSENTS.map((c) => ({
+            userId: superuserId,
+            kind: c.kind,
+            version: c.version,
+            wording: c.wording,
+        }))
+    );
+
+    // ── BC PNP guide edition + rule library ───────────────────────────────
+    const [edition] = await db
+        .insert(bs.bcpnpGuideEdition)
+        .values(GUIDE_EDITION)
+        .returning();
+
+    await db.insert(bs.bcpnpRule).values(
+        RULES.map((r) => ({
+            editionId: edition.id,
+            stream: r.stream ?? null,
+            key: r.key,
+            valueNum: r.valueNum !== undefined ? String(r.valueNum) : null,
+            valueText: r.valueText ?? null,
+            valueJson: r.valueJson ?? null,
+            unit: r.unit ?? null,
+            description: r.description,
+            sourceRef: "BC PNP Entrepreneur Immigration Guide, May 27, 2024",
+            verified: false,
+        }))
+    );
+
+    // ── Sample BC PNP case (bcpnp_cases flag must be enabled to see it) ───
+    const bcpnpCaseRow = await db
+        .insert(bs.bcpnpCase)
+        .values({
+            applicantId: ids.candidate,
+            superuserId: ids.superuser,
+            consultantId: ids.consultant,
+            guideEditionId: edition.id,
+            stream: "base",
+            stage: "intake_eligibility",
+            status: "active",
+            notes: "Sample BC PNP case — fictional data only",
+        })
+        .returning();
+
+    await db.insert(bs.bcpnpApplicantProfile).values({
+        caseId: bcpnpCaseRow[0].id,
+        netWorthCadCents: 75_000_000, // $750,000
+        proposedInvestmentCadCents: 25_000_000, // $250,000
+        proposedOwnershipPct: "51",
+        ownerManagerMonths: 48,
+        seniorManagerMonths: 0,
+        ownerManagerPct: "51",
+        seniorManagerDirectReports: 0,
+        hasPostSecondary: true,
+        languageTestType: "celpip",
+        languageScores: { listening: 7, reading: 7, writing: 7, speaking: 7 },
+        businessType: "new",
+        residenceWithinKm: true,
+        noLongFerry: true,
+    });
+
     await client.end();
     console.log("\nSeeded the dashboard with sample data. Sign in at http://localhost:3000/app/login");
     console.log(`Password for every seeded account: ${PASSWORD}\n`);
     for (const p of people) console.log(`  ${p.role.padEnd(10)} ${p.email}`);
+    console.log(`  ${"superuser".padEnd(10)} superuser@example.com`);
+    console.log(`  BC PNP guide edition seeded: ${edition.code} (${RULES.length} rules, all verified=false)`);
+    console.log(`  BC PNP sample case id: ${bcpnpCaseRow[0].id}`);
     console.log("\nStaff, partner and agent accounts must set up an authenticator app on first sign-in");
     console.log("(set DASH_DEV_SKIP_MFA=true in .env.local to skip that locally).");
+    console.log("\nBC PNP is disabled by default. Enable it in the admin panel or:");
+    console.log(`  psql $DATABASE_URL -c "UPDATE dashboard.feature_flag SET enabled=true WHERE key='bcpnp_cases';"`);
+    console.log("  or via /app/admin once signed in as admin/superuser.");
 }
 
 main().catch((e) => {

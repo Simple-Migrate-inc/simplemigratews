@@ -27,4 +27,11 @@ export const NAV: Record<UserRole, NavItem[]> = {
         { href: "/app/agent", label: "Home", icon: "fa-home", exact: true },
         { href: "/app/account", label: "Account", icon: "fa-user-circle" },
     ],
+    superuser: [
+        { href: "/app/superuser", label: "Overview", icon: "fa-chart-bar", exact: true },
+        { href: "/app/superuser/bcpnp", label: "BC PNP Pipeline", icon: "fa-briefcase" },
+        { href: "/app/superuser/bcpnp/communities", label: "Communities", icon: "fa-map-marker-alt" },
+        { href: "/app/superuser/bcpnp/rules", label: "Rule Library", icon: "fa-book" },
+        { href: "/app/account", label: "Account", icon: "fa-user-circle" },
+    ],
 };
