@@ -13,7 +13,8 @@ config({ path: [".env.local", ".env"] });
 async function main() {
     const url = directDatabaseUrl();
     if (!url) throw new Error("DATABASE_URL (or POSTGRES_URL) is not set");
-    const client = postgres(url, { max: 1 });
+    // prepare: false required for Supabase pooler (both transaction and session modes)
+    const client = postgres(url, { max: 1, prepare: false });
     await migrate(drizzle(client), {
         migrationsFolder: "src/lib/dashboard/db/migrations",
         migrationsSchema: "dashboard",
