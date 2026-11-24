@@ -100,6 +100,27 @@ export const bcpnpJobStatus = dashboard.enum("bcpnp_job_status", [
     "terminated",
 ]);
 
+/**
+ * Sub-tier for partner users (all share user_role='partner').
+ * Stored on bcpnp_partner_member, not on the user row.
+ */
+export const bcpnpPartnerTier = dashboard.enum("bcpnp_partner_tier", [
+    "org_admin",
+    "l3",   // Licensed representative (RCIC / immigration lawyer)
+    "l2",   // Advisor (accountant, business-plan writer)
+    "l1",   // Referral (realtor, banker, community contact)
+    "mk",   // Marketing partner
+]);
+
+/** Workbook preparation lifecycle — separate from bcpnp_case_stage (BC PNP process). */
+export const bcpnpWorkbookStatus = dashboard.enum("bcpnp_workbook_status", [
+    "draft",
+    "ready_to_register",
+    "registered",
+    "invited",
+    "closed",
+]);
+
 // ─── Rule library ──────────────────────────────────────────────────────────────
 
 /** Named guide edition. Cases are pinned to the edition in force at registration. */
@@ -150,6 +171,8 @@ export const bcpnpCommunity = dashboard.table("bcpnp_community", {
     id: id(),
     name: text("name").notNull(),
     region: text("region"),
+    economicRegion: text("economic_region"),
+    regionalDistrict: text("regional_district"),
     population: integer("population"),
     naicsPriorities: text("naics_priorities")
         .array()
@@ -159,6 +182,10 @@ export const bcpnpCommunity = dashboard.table("bcpnp_community", {
     communityContactEmail: text("community_contact_email"),
     communityContactUrl: text("community_contact_url"),
     active: boolean("active").notNull().default(true),
+    // Null = intake open. Set when BC PNP pauses intake for this community.
+    pauseUntil: ts("pause_until"),
+    // Date the community data was last verified against the BC PNP website.
+    sourceUpdatedAt: date("source_updated_at"),
     createdAt: createdAt(),
     updatedAt: updatedAt(),
 });
@@ -178,6 +205,8 @@ export const bcpnpCase = dashboard.table(
         stream: bcpnpStream("stream"),
         stage: bcpnpCaseStage("stage").notNull().default("intake_eligibility"),
         status: bcpnpCaseStatus("status").notNull().default("active"),
+        // Workbook preparation lifecycle (separate from stage/status which track the BC PNP process).
+        workbookStatus: bcpnpWorkbookStatus("workbook_status").notNull().default("draft"),
         displayTz: text("display_tz").notNull().default("America/Vancouver"),
         communityId: uuid("community_id").references(() => bcpnpCommunity.id),
         // Self-reference for Base co-registrant: set on the second applicant's case.
@@ -185,6 +214,8 @@ export const bcpnpCase = dashboard.table(
             (): AnyPgColumn => bcpnpCase.id
         ),
         coRegistrantWindowExpiresAt: ts("co_registrant_window_expires_at"),
+        // Marketing attribution — set on creation; only Superuser may change.
+        campaignCode: text("campaign_code"),
         notes: text("notes"),
         openedAt: ts("opened_at").notNull().defaultNow(),
         closedAt: ts("closed_at"),
@@ -196,6 +227,7 @@ export const bcpnpCase = dashboard.table(
         index("bcpnp_case_applicant_idx").on(t.applicantId),
         index("bcpnp_case_superuser_idx").on(t.superuserId),
         index("bcpnp_case_stage_status_idx").on(t.stage, t.status),
+        index("bcpnp_case_workbook_status_idx").on(t.workbookStatus),
     ]
 );
 
@@ -514,6 +546,155 @@ export const bcpnpEngagement = dashboard.table(
     ]
 );
 
+// ─── Partner organisations ────────────────────────────────────────────────────
+
+/**
+ * A firm that holds one or more workbook partner users.
+ * RCICs and immigration lawyers are verified manually by Superuser.
+ */
+export const bcpnpPartnerOrg = dashboard.table("bcpnp_partner_org", {
+    id: id(),
+    name: text("name").notNull(),
+    // rcic_firm | law_firm | accounting_firm | realtor_firm | marketing | other
+    type: text("type").notNull(),
+    country: text("country").notNull().default("CA"),
+    licenceNo: text("licence_no"),
+    licenceVerifiedAt: ts("licence_verified_at"),
+    verifiedBy: text("verified_by").references(() => user.id),
+    active: boolean("active").notNull().default(true),
+    notes: text("notes"),
+    createdAt: createdAt(),
+    updatedAt: updatedAt(),
+});
+
+/** A user's membership in a partner org, with a tier that controls what they can do. */
+export const bcpnpPartnerMember = dashboard.table(
+    "bcpnp_partner_member",
+    {
+        id: id(),
+        orgId: uuid("org_id")
+            .notNull()
+            .references(() => bcpnpPartnerOrg.id),
+        userId: text("user_id")
+            .notNull()
+            .references(() => user.id),
+        tier: bcpnpPartnerTier("tier").notNull(),
+        active: boolean("active").notNull().default(true),
+        createdAt: createdAt(),
+        updatedAt: updatedAt(),
+    },
+    (t) => [
+        uniqueIndex("bcpnp_partner_member_org_user_uq").on(t.orgId, t.userId),
+        index("bcpnp_partner_member_user_idx").on(t.userId),
+        index("bcpnp_partner_member_org_idx").on(t.orgId),
+    ]
+);
+
+/**
+ * Assignment of a partner member to a specific workbook file, with
+ * optional section-level grants (array of section_key strings).
+ * Empty array = no section access; use tier defaults.
+ */
+export const bcpnpAssignment = dashboard.table(
+    "bcpnp_assignment",
+    {
+        id: id(),
+        fileId: uuid("file_id")
+            .notNull()
+            .references(() => bcpnpCase.id),
+        memberId: uuid("member_id")
+            .notNull()
+            .references(() => bcpnpPartnerMember.id),
+        // Which sections this member may access on this file. Null = use tier defaults.
+        sectionGrants: text("section_grants").array(),
+        expiresAt: ts("expires_at"),
+        grantedBy: text("granted_by")
+            .notNull()
+            .references(() => user.id),
+        revokedAt: ts("revoked_at"),
+        revokedBy: text("revoked_by").references(() => user.id),
+        createdAt: createdAt(),
+        updatedAt: updatedAt(),
+    },
+    (t) => [
+        index("bcpnp_assignment_file_idx").on(t.fileId),
+        index("bcpnp_assignment_member_idx").on(t.memberId),
+    ]
+);
+
+/**
+ * Applicant's consent for a partner org to access their file.
+ * Required before any partner can be assigned to a file.
+ */
+export const bcpnpConsent = dashboard.table(
+    "bcpnp_consent",
+    {
+        id: id(),
+        fileId: uuid("file_id")
+            .notNull()
+            .references(() => bcpnpCase.id),
+        orgId: uuid("org_id")
+            .notNull()
+            .references(() => bcpnpPartnerOrg.id),
+        // "full_file" | "summary_only"
+        scope: text("scope").notNull().default("full_file"),
+        givenAt: ts("given_at").notNull().defaultNow(),
+        withdrawnAt: ts("withdrawn_at"),
+        createdAt: createdAt(),
+        updatedAt: updatedAt(),
+    },
+    (t) => [
+        uniqueIndex("bcpnp_consent_file_org_uq").on(t.fileId, t.orgId),
+        index("bcpnp_consent_file_idx").on(t.fileId),
+    ]
+);
+
+/**
+ * Marketing campaign codes created by MK-tier partner members.
+ * code is unique and used as ?ref= / ?utm_campaign= in referral links.
+ */
+export const bcpnpCampaign = dashboard.table(
+    "bcpnp_campaign",
+    {
+        id: id(),
+        memberId: uuid("member_id")
+            .notNull()
+            .references(() => bcpnpPartnerMember.id),
+        code: text("code").notNull().unique(),
+        name: text("name").notNull(),
+        active: boolean("active").notNull().default(true),
+        createdAt: createdAt(),
+        updatedAt: updatedAt(),
+    },
+    (t) => [index("bcpnp_campaign_member_idx").on(t.memberId)]
+);
+
+/**
+ * Append-only workbook status transition log.
+ * Only L3 and Superuser may advance the status.
+ */
+export const bcpnpStatusEvent = dashboard.table(
+    "bcpnp_status_event",
+    {
+        id: id(),
+        fileId: uuid("file_id")
+            .notNull()
+            .references(() => bcpnpCase.id),
+        fromStatus: bcpnpWorkbookStatus("from_status"),
+        toStatus: bcpnpWorkbookStatus("to_status").notNull(),
+        actorId: text("actor_id")
+            .notNull()
+            .references(() => user.id),
+        // { bcpnp_file_no, registration_date, invitation_date, reason }
+        payload: jsonb("payload"),
+        at: ts("at").notNull().defaultNow(),
+    },
+    (t) => [
+        index("bcpnp_status_event_file_idx").on(t.fileId),
+        index("bcpnp_status_event_at_idx").on(t.at),
+    ]
+);
+
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 export type BcpnpStream = (typeof bcpnpStream.enumValues)[number];
@@ -523,3 +704,5 @@ export type BcpnpDeadlineStatus = (typeof bcpnpDeadlineStatus.enumValues)[number
 export type BcpnpDocCategory = (typeof bcpnpDocCategory.enumValues)[number];
 export type BcpnpInvCategory = (typeof bcpnpInvCategory.enumValues)[number];
 export type BcpnpPartnerType = (typeof bcpnpPartnerType.enumValues)[number];
+export type BcpnpPartnerTier = (typeof bcpnpPartnerTier.enumValues)[number];
+export type BcpnpWorkbookStatus = (typeof bcpnpWorkbookStatus.enumValues)[number];

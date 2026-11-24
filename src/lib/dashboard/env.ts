@@ -31,6 +31,7 @@ const schema = z.object({
     S3_SECRET_ACCESS_KEY: z.string().optional(),
 
     ANTHROPIC_API_KEY: z.string().optional(),
+    ANTHROPIC_MODEL: z.string().default("claude-sonnet-4-6"),
     CRON_SECRET: z.string().optional(),
     DDF_USERNAME: z.string().optional(),
     DDF_PASSWORD: z.string().optional(),

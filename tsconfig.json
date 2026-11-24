@@ -60,6 +60,9 @@
       ],
       "@dashboard-ui/*": [
         "components/dashboard/*"
+      ],
+      "@pnp/*": [
+        "lib/pnp/*"
       ]
     },
     "plugins": [
