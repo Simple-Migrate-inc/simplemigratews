@@ -1,0 +1,1 @@
+ALTER TYPE "dashboard"."user_role" ADD VALUE 'partner_manager' BEFORE 'partner';

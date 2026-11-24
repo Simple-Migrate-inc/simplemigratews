@@ -37,6 +37,7 @@ export const userRole = dashboard.enum("user_role", [
     "candidate",
     "consultant",
     "admin",
+    "partner_manager",
     "partner",
     "agent",
     "superuser",

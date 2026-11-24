@@ -4,8 +4,9 @@ import postgres from "postgres";
 import { env } from "../env";
 import * as schema from "./schema";
 import * as bcpnpSchema from "./bcpnp-schema";
+import * as gpSchema from "./gp-schema";
 
-const allSchema = { ...schema, ...bcpnpSchema };
+const allSchema = { ...schema, ...bcpnpSchema, ...gpSchema };
 type Db = ReturnType<typeof drizzle<typeof allSchema>>;
 
 const globalForDb = globalThis as unknown as { dashDb?: Db };
@@ -20,4 +21,4 @@ export function db(): Db {
     return globalForDb.dashDb;
 }
 
-export { schema, bcpnpSchema };
+export { schema, bcpnpSchema, gpSchema };

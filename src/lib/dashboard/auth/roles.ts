@@ -4,6 +4,7 @@ export const ROLES: readonly UserRole[] = [
     "candidate",
     "consultant",
     "admin",
+    "partner_manager",
     "partner",
     "agent",
     "superuser",
@@ -13,6 +14,7 @@ export const ROLES: readonly UserRole[] = [
 export const MFA_ROLES: readonly UserRole[] = [
     "consultant",
     "admin",
+    "partner_manager",
     "partner",
     "agent",
     "superuser",
@@ -22,6 +24,7 @@ export const ROLE_HOME: Record<UserRole, string> = {
     candidate: "/app",
     consultant: "/app/consultant",
     admin: "/app/admin",
+    partner_manager: "/app/admin/partners",
     partner: "/app/partner",
     agent: "/app/agent",
     superuser: "/app/superuser",
@@ -31,6 +34,7 @@ export const ROLE_LABEL: Record<UserRole, string> = {
     candidate: "Candidate",
     consultant: "Consultant",
     admin: "Admin",
+    partner_manager: "Partner Manager",
     partner: "Partner",
     agent: "Real estate agent",
     superuser: "Superuser",
@@ -45,9 +49,11 @@ export function isRole(value: unknown): value is UserRole {
 }
 
 /**
- * Which role areas a role may open. Admins and superusers can open every area;
- * everyone else only their own.
+ * Which role areas a role may open. Admins, superusers and partner_managers
+ * can open the admin area; everyone else only their own.
  */
 export function canEnterArea(role: UserRole, area: UserRole): boolean {
-    return role === "admin" || role === "superuser" || role === area;
+    if (role === "admin" || role === "superuser") return true;
+    if (role === "partner_manager" && area === "admin") return true;
+    return role === area;
 }

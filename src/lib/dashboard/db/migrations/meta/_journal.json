@@ -29,6 +29,20 @@
       "when": 1795494423151,
       "tag": "0003_pnp_access_foundation",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1795501837174,
+      "tag": "0004_gp_partner_program",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1795538018259,
+      "tag": "0005_gp_tables",
+      "breakpoints": true
     }
   ]
 }

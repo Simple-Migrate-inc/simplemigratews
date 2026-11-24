@@ -246,6 +246,11 @@ export default [
         label: "Client login",
         path: "/app",
     },
+    {
+        id: 10,
+        label: "Partners",
+        path: "/partners",
+    },
 ];
 
 // export default [

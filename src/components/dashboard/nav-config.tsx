@@ -17,6 +17,12 @@ export const NAV: Record<UserRole, NavItem[]> = {
     admin: [
         { href: "/app/admin", label: "Overview", icon: "fa-chart-bar", exact: true },
         { href: "/app/admin/users", label: "Users & invites", icon: "fa-users" },
+        { href: "/app/admin/partners", label: "Partners", icon: "fa-handshake" },
+        { href: "/app/account", label: "Account", icon: "fa-user-circle" },
+    ],
+    partner_manager: [
+        { href: "/app/admin/partners/applications", label: "Applications", icon: "fa-handshake", exact: true },
+        { href: "/app/admin/partners/orgs", label: "Partners", icon: "fa-building" },
         { href: "/app/account", label: "Account", icon: "fa-user-circle" },
     ],
     partner: [

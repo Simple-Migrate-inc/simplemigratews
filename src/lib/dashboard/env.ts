@@ -33,6 +33,12 @@ const schema = z.object({
     ANTHROPIC_API_KEY: z.string().optional(),
     ANTHROPIC_MODEL: z.string().default("claude-sonnet-4-6"),
     CRON_SECRET: z.string().optional(),
+
+    // Global Partner Program
+    NEXT_PUBLIC_PARTNER_MEETING_URL: z.string().url().optional(),
+    HUBSPOT_PORTAL_ID: z.string().optional(),
+    HUBSPOT_PIPELINE_ID: z.string().optional(),
+    PARTNER_WEBHOOK_SECRET: z.string().optional(),
     DDF_USERNAME: z.string().optional(),
     DDF_PASSWORD: z.string().optional(),
     MAPBOX_TOKEN: z.string().optional(),
@@ -75,7 +81,16 @@ export function trustedOrigins(): string[] {
     const hosts = [e.VERCEL_URL, e.VERCEL_BRANCH_URL, e.VERCEL_PROJECT_PRODUCTION_URL].filter(
         (h): h is string => !!h
     );
-    return Array.from(new Set([env().APP_BASE_URL, ...hosts.map((h) => `https://${h}`)]));
+    const origins = [env().APP_BASE_URL, ...hosts.map((h) => `https://${h}`)];
+    // In local development, Next.js may start on any port (3000-3010) depending
+    // on what's already in use. Trust all localhost ports so the auth origin check
+    // never blocks a shifted port.
+    if (e.NODE_ENV !== "production") {
+        for (let port = 3000; port <= 3010; port++) {
+            origins.push(`http://localhost:${port}`);
+        }
+    }
+    return Array.from(new Set(origins));
 }
 
 let cached: DashboardEnv | undefined;

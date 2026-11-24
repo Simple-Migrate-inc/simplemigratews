@@ -15,6 +15,7 @@ import postgres from "postgres";
 import { hashPassword } from "better-auth/crypto";
 import * as s from "../../src/lib/dashboard/db/schema";
 import * as bs from "../../src/lib/dashboard/db/bcpnp-schema";
+import * as gp from "../../src/lib/dashboard/db/gp-schema";
 import { REQUIRED_CONSENTS } from "../../src/lib/dashboard/auth/legal";
 import { directDatabaseUrl } from "../../src/lib/dashboard/db/url";
 import { GUIDE_EDITION, RULES } from "../../src/lib/dashboard/bcpnp/seed-rules";
@@ -31,7 +32,7 @@ async function main() {
     if (!url) throw new Error("DATABASE_URL (or POSTGRES_URL) is not set");
 
     const client = postgres(url, { max: 1 });
-    const allSchema = { ...s, ...bs };
+    const allSchema = { ...s, ...bs, ...gp };
     const db = drizzle(client, { schema: allSchema });
 
     const existing = await db.select({ id: s.user.id }).from(s.user).limit(1);
@@ -364,6 +365,41 @@ async function main() {
         residenceWithinKm: true,
         noLongFerry: true,
     });
+
+    // ── GP tier rules ──────────────────────────────────────────────────────
+    // Rate in basis points (bps): 100 bps = 1 %. All CAD, integer minor units.
+    await db.insert(gp.gpTierRule).values([
+        { tier: "registered", minPaidClients: 0,  minSourcedRevenueMinor: 0,          currency: "CAD", rateBps: 500,  perks: { badge: false, priority_support: false }, active: true },
+        { tier: "silver",     minPaidClients: 3,  minSourcedRevenueMinor: 1_500_000,  currency: "CAD", rateBps: 650,  perks: { badge: true,  priority_support: false }, active: true },
+        { tier: "gold",       minPaidClients: 10, minSourcedRevenueMinor: 5_000_000,  currency: "CAD", rateBps: 800,  perks: { badge: true,  priority_support: true  }, active: true },
+        { tier: "platinum",   minPaidClients: 25, minSourcedRevenueMinor: 15_000_000, currency: "CAD", rateBps: 1000, perks: { badge: true,  priority_support: true, dedicated_manager: true }, active: true },
+    ]).onConflictDoNothing();
+
+    // ── GP service codes ───────────────────────────────────────────────────
+    // Non-commissionable lines (rule §4): govt fees, representation fees, pass-through costs, taxes.
+    await db.insert(gp.gpServiceCode).values([
+        { code: "CONCIERGE_RETAINER", name: "Concierge Retainer",            commissionable: true,  category: "concierge" },
+        { code: "PATHWAY_REPORT",     name: "Pathway Report",                commissionable: true,  category: "concierge" },
+        { code: "DOCUMENT_REVIEW",    name: "Document Review",               commissionable: true,  category: "concierge" },
+        { code: "GOVT_FEE",           name: "Government Fee (pass-through)", commissionable: false, category: "government" },
+        { code: "RCIC_FEE",           name: "RCIC Representation Fee",       commissionable: false, category: "representation" },
+        { code: "LAWYER_FEE",         name: "Lawyer Representation Fee",     commissionable: false, category: "representation" },
+        { code: "PASS_THROUGH_COST",  name: "Pass-Through Cost",             commissionable: false, category: "pass_through" },
+        { code: "TAX_LINE",           name: "Tax",                           commissionable: false, category: "tax" },
+    ]).onConflictDoNothing();
+
+    // ── GP stage definitions ───────────────────────────────────────────────
+    // Partner-visible labels only — never expose internal case details to partners.
+    await db.insert(gp.gpStageDefinition).values([
+        { stageKey: "gp_inquiry",        internalLabel: "Lead / inquiry received",          partnerLabel: "Introductory call requested",     sortOrder: 1,  isCommissionEvent: false },
+        { stageKey: "gp_intake",         internalLabel: "Intake in progress",               partnerLabel: "Initial assessment underway",      sortOrder: 2,  isCommissionEvent: false },
+        { stageKey: "gp_pathway_review", internalLabel: "Pathway analysis",                 partnerLabel: "Options being reviewed",           sortOrder: 3,  isCommissionEvent: false },
+        { stageKey: "gp_engaged",        internalLabel: "Client signed concierge agreement", partnerLabel: "Engaged",                         sortOrder: 4,  isCommissionEvent: true  },
+        { stageKey: "gp_docs",           internalLabel: "Document collection",              partnerLabel: "Documents being prepared",         sortOrder: 5,  isCommissionEvent: false },
+        { stageKey: "gp_submitted",      internalLabel: "Application submitted",            partnerLabel: "Application submitted",            sortOrder: 6,  isCommissionEvent: false },
+        { stageKey: "gp_decision",       internalLabel: "Decision received",                partnerLabel: "Decision received",                sortOrder: 7,  isCommissionEvent: false },
+        { stageKey: "gp_outcome",        internalLabel: "File closed — positive outcome",   partnerLabel: "Successful outcome",               sortOrder: 8,  isCommissionEvent: true  },
+    ]).onConflictDoNothing();
 
     await client.end();
     console.log("\nSeeded the dashboard with sample data. Sign in at http://localhost:3000/app/login");
