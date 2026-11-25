@@ -34,7 +34,7 @@ const bodySchema = z.object({
     website:              z.string().url().optional().or(z.literal("")),
     country:              z.string().min(2).max(100),
     city:                 z.string().min(1).max(100),
-    type:                 z.enum(["marketing", "professional", "licensed_immigration", "strategic", "ambassador"], { errorMap: () => ({ message: "Please select a partner type." }) }),
+    type:                 z.enum(["marketing", "professional", "licensed_immigration", "strategic", "ambassador"], { message: "Please select a partner type." }),
     segments:             z.array(z.string().max(100)).max(20).default([]),
     estReferralsPerQtr:   z.coerce.number().int().min(0).max(1000).default(0),
     licenceNo:            z.string().max(100).optional().or(z.literal("")),
